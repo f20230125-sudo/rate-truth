@@ -3,7 +3,9 @@
 import re
 from decimal import Decimal
 
-NUMBER = r"-?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?![\d.])"
+# A full stop after an amount ends the sentence ("AED 1686.44."), so only a following
+# digit or ".digit" means the match stopped inside a longer number.
+NUMBER = r"-?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?!\d)(?!\.\d)"
 MENTION = re.compile(
     rf"\bAED\s*(?P<a>{NUMBER})(?:\s*(?:[-–—]|to)\s*(?:AED\s*)?(?P<b>{NUMBER}))?"
     rf"|(?P<c>{NUMBER})(?:\s*(?:[-–—]|to)\s*(?P<d>{NUMBER}))?\s*AED\b",
