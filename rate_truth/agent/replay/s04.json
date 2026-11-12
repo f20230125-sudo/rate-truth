@@ -1,0 +1,16 @@
+{
+  "provenance": "scripted_offline_demo_not_live_recording",
+  "message": "Recommend a quiet hotel close to the beach for a family of four, 4 nights from 20 February 2027.",
+  "plan": [
+    {
+      "tool": "recommend_hotels",
+      "args": {
+        "checkin": "2027-02-20",
+        "nights": 4,
+        "guests": 4,
+        "room": "family",
+        "query": "beach"
+      }
+    }
+  ]
+}

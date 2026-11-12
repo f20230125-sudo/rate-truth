@@ -1,0 +1,13 @@
+[out:json][timeout:180][maxsize:134217728];
+area["boundary"="administrative"]["ISO3166-2"="AE-DU"]->.dubai;
+(
+  nwr["tourism"="hotel"](area.dubai);
+  nwr["railway"="station"]["station"="subway"](area.dubai);
+  nwr["railway"="station"]["subway"="yes"](area.dubai);
+  nwr["public_transport"="station"]["subway"="yes"](area.dubai);
+  nwr["natural"="beach"](area.dubai);
+  nwr["aeroway"="aerodrome"]["iata"~"^(DXB|DWC)$"](area.dubai);
+  nwr["name"~"Dubai Mall|Burj Khalifa|Expo City|Expo 2020|Dubai Marina|Dubai Museum|Al Fahidi|Al Shindagha|Gold Sou[qk]|Spice Sou[qk]|Bastakiya|Bur Dubai|Deira",i](area.dubai);
+  nwr["name:en"~"Dubai Mall|Burj Khalifa|Expo City|Expo 2020|Dubai Marina|Dubai Museum|Al Fahidi|Al Shindagha|Gold Sou[qk]|Spice Sou[qk]|Bastakiya|Bur Dubai|Deira",i](area.dubai);
+);
+out center tags;

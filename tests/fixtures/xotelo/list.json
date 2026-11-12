@@ -1,0 +1,17 @@
+{
+  "timestamp": 1794398400,
+  "error": null,
+  "result": {
+    "total_count": 1,
+    "list": [
+      {
+        "name": "Example Marina Hotel",
+        "key": "g295424-d1631237",
+        "accommodation_type": "Hotel",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g295424-d1631237.html",
+        "review_summary": {"rating": 4.5, "count": 100},
+        "geo": {"latitude": 25.2, "longitude": 55.28}
+      }
+    ]
+  }
+}

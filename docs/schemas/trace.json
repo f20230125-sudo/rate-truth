@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "step": {
+      "minimum": 0,
+      "title": "Step",
+      "type": "integer"
+    },
+    "tool": {
+      "title": "Tool",
+      "type": "string"
+    },
+    "args": {
+      "additionalProperties": true,
+      "title": "Args",
+      "type": "object"
+    },
+    "started_ms": {
+      "minimum": 0,
+      "title": "Started Ms",
+      "type": "integer"
+    },
+    "duration_ms": {
+      "minimum": 0,
+      "title": "Duration Ms",
+      "type": "integer"
+    },
+    "ok": {
+      "title": "Ok",
+      "type": "boolean"
+    },
+    "summary": {
+      "title": "Summary",
+      "type": "string"
+    },
+    "rate_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Rate Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "step",
+    "tool",
+    "args",
+    "started_ms",
+    "duration_ms",
+    "ok",
+    "summary",
+    "rate_ids"
+  ],
+  "title": "Trace",
+  "type": "object"
+}

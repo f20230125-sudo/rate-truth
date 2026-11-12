@@ -1,0 +1,15 @@
+{
+  "provenance": "scripted_offline_demo_not_live_recording",
+  "message": "I have AED 900 all-in for 2 nights from 18 December 2026. What can I get within 1 km of a metro?",
+  "plan": [
+    {
+      "tool": "search_hotels",
+      "args": {
+        "checkin": "2026-12-18",
+        "nights": 2,
+        "max_total": "900.00",
+        "limit": 2
+      }
+    }
+  ]
+}

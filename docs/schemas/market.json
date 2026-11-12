@@ -1,0 +1,482 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "MarketObservation": {
+      "properties": {
+        "provider": {
+          "enum": [
+            "Booking sites via TripAdvisor (Xotelo)",
+            "Google Hotels (via SerpApi)"
+          ],
+          "title": "Provider",
+          "type": "string"
+        },
+        "hotel_key": {
+          "title": "Hotel Key",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lon": {
+          "title": "Lon",
+          "type": "number"
+        },
+        "checkin": {
+          "format": "date",
+          "title": "Checkin",
+          "type": "string"
+        },
+        "checkout": {
+          "format": "date",
+          "title": "Checkout",
+          "type": "string"
+        },
+        "currency_original": {
+          "enum": [
+            "USD",
+            "AED"
+          ],
+          "title": "Currency Original",
+          "type": "string"
+        },
+        "amount_original": {
+          "title": "Amount Original",
+          "type": "string"
+        },
+        "amount_aed": {
+          "pattern": "^-?\\d+\\.\\d{2}$",
+          "title": "Amount Aed",
+          "type": "string"
+        },
+        "aed_conversion": {
+          "additionalProperties": true,
+          "title": "Aed Conversion",
+          "type": "object"
+        },
+        "taxes_included": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Taxes Included"
+        },
+        "tax_label": {
+          "title": "Tax Label",
+          "type": "string"
+        },
+        "before_tax_aed": {
+          "anyOf": [
+            {
+              "pattern": "^-?\\d+\\.\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Before Tax Aed"
+        },
+        "lowest_all_in_aed": {
+          "anyOf": [
+            {
+              "pattern": "^-?\\d+\\.\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Lowest All In Aed"
+        },
+        "total_all_in_aed": {
+          "anyOf": [
+            {
+              "pattern": "^-?\\d+\\.\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Total All In Aed"
+        },
+        "per_source": {
+          "items": {
+            "$ref": "#/$defs/MarketSource"
+          },
+          "title": "Per Source",
+          "type": "array"
+        },
+        "fetched_at": {
+          "format": "date-time",
+          "title": "Fetched At",
+          "type": "string"
+        },
+        "query": {
+          "title": "Query",
+          "type": "string"
+        },
+        "age_hours": {
+          "title": "Age Hours",
+          "type": "number"
+        },
+        "match_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Match Score"
+        },
+        "property_token": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Property Token"
+        },
+        "link": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Link"
+        },
+        "hotel_class": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Hotel Class"
+        },
+        "evidence": {
+          "additionalProperties": true,
+          "title": "Evidence",
+          "type": "object"
+        },
+        "disclosure": {
+          "const": "observed price, not a quote",
+          "title": "Disclosure",
+          "type": "string"
+        }
+      },
+      "required": [
+        "provider",
+        "hotel_key",
+        "name",
+        "lat",
+        "lon",
+        "checkin",
+        "checkout",
+        "currency_original",
+        "amount_original",
+        "amount_aed",
+        "aed_conversion",
+        "taxes_included",
+        "tax_label",
+        "before_tax_aed",
+        "lowest_all_in_aed",
+        "total_all_in_aed",
+        "per_source",
+        "fetched_at",
+        "query",
+        "age_hours",
+        "match_score",
+        "property_token",
+        "link",
+        "hotel_class",
+        "evidence",
+        "disclosure"
+      ],
+      "title": "MarketObservation",
+      "type": "object"
+    },
+    "MarketProvider": {
+      "properties": {
+        "provider": {
+          "enum": [
+            "Booking sites via TripAdvisor (Xotelo)",
+            "Google Hotels (via SerpApi)"
+          ],
+          "title": "Provider",
+          "type": "string"
+        },
+        "observation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MarketObservation"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "parity": {
+          "anyOf": [
+            {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parity"
+        },
+        "message": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Message"
+        },
+        "error": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/StreamError"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "provider",
+        "observation"
+      ],
+      "title": "MarketProvider",
+      "type": "object"
+    },
+    "MarketSource": {
+      "properties": {
+        "site": {
+          "title": "Site",
+          "type": "string"
+        },
+        "amount": {
+          "pattern": "^-?\\d+\\.\\d{2}$",
+          "title": "Amount",
+          "type": "string"
+        },
+        "currency": {
+          "const": "AED",
+          "title": "Currency",
+          "type": "string"
+        },
+        "amount_original": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Amount Original"
+        },
+        "currency_original": {
+          "anyOf": [
+            {
+              "const": "USD",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Currency Original"
+        },
+        "tax_original": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Tax Original"
+        },
+        "before_tax": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Before Tax"
+        },
+        "after_tax": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "After Tax"
+        }
+      },
+      "required": [
+        "site",
+        "amount",
+        "currency"
+      ],
+      "title": "MarketSource",
+      "type": "object"
+    },
+    "StreamError": {
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "message": {
+          "title": "Message",
+          "type": "string"
+        },
+        "retry_after_s": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Retry After S"
+        },
+        "field": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Field"
+        },
+        "rule": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rule"
+        }
+      },
+      "required": [
+        "code",
+        "message"
+      ],
+      "title": "StreamError",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "hotel_id": {
+      "title": "Hotel Id",
+      "type": "string"
+    },
+    "checkin": {
+      "format": "date",
+      "title": "Checkin",
+      "type": "string"
+    },
+    "nights": {
+      "maximum": 30,
+      "minimum": 1,
+      "title": "Nights",
+      "type": "integer"
+    },
+    "currency": {
+      "const": "AED",
+      "title": "Currency",
+      "type": "string"
+    },
+    "live_requested": {
+      "title": "Live Requested",
+      "type": "boolean"
+    },
+    "providers": {
+      "items": {
+        "$ref": "#/$defs/MarketProvider"
+      },
+      "title": "Providers",
+      "type": "array"
+    },
+    "supplier_quote": {
+      "additionalProperties": true,
+      "title": "Supplier Quote",
+      "type": "object"
+    },
+    "disclosure": {
+      "const": "observed price, not a quote",
+      "title": "Disclosure",
+      "type": "string"
+    }
+  },
+  "required": [
+    "hotel_id",
+    "checkin",
+    "nights",
+    "currency",
+    "live_requested",
+    "providers",
+    "supplier_quote",
+    "disclosure"
+  ],
+  "title": "MarketCheck",
+  "type": "object"
+}

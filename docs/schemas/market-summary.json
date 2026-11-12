@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "MarketBudget": {
+      "properties": {
+        "month": {
+          "title": "Month",
+          "type": "string"
+        },
+        "used": {
+          "minimum": 0,
+          "title": "Used",
+          "type": "integer"
+        },
+        "cap": {
+          "const": 220,
+          "title": "Cap",
+          "type": "integer"
+        },
+        "remaining": {
+          "minimum": 0,
+          "title": "Remaining",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "month",
+        "used",
+        "cap",
+        "remaining"
+      ],
+      "title": "MarketBudget",
+      "type": "object"
+    },
+    "ProviderSummary": {
+      "properties": {
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "matched_hotels": {
+          "minimum": 0,
+          "title": "Matched Hotels",
+          "type": "integer"
+        },
+        "observations": {
+          "minimum": 0,
+          "title": "Observations",
+          "type": "integer"
+        },
+        "enabled": {
+          "title": "Enabled",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "provider",
+        "matched_hotels",
+        "observations",
+        "enabled"
+      ],
+      "title": "ProviderSummary",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "snapshot_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Snapshot Date"
+    },
+    "observations": {
+      "minimum": 0,
+      "title": "Observations",
+      "type": "integer"
+    },
+    "matched_hotels": {
+      "minimum": 0,
+      "title": "Matched Hotels",
+      "type": "integer"
+    },
+    "hotels_with_observations": {
+      "minimum": 0,
+      "title": "Hotels With Observations",
+      "type": "integer"
+    },
+    "providers": {
+      "items": {
+        "$ref": "#/$defs/ProviderSummary"
+      },
+      "title": "Providers",
+      "type": "array"
+    },
+    "budget": {
+      "$ref": "#/$defs/MarketBudget"
+    },
+    "disclosure": {
+      "const": "observed price, not a quote",
+      "title": "Disclosure",
+      "type": "string"
+    }
+  },
+  "required": [
+    "snapshot_date",
+    "observations",
+    "matched_hotels",
+    "hotels_with_observations",
+    "providers",
+    "budget",
+    "disclosure"
+  ],
+  "title": "MarketSummary",
+  "type": "object"
+}

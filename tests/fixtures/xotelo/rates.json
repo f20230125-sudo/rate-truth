@@ -1,0 +1,11 @@
+{
+  "timestamp": 1794398400,
+  "error": null,
+  "result": {
+    "rates": [
+      {"code": "BookingCom", "name": "Booking.com", "rate": 100, "tax": null},
+      {"code": "Agoda", "name": "Agoda", "rate": 120, "tax": null},
+      {"code": "HotelsCom", "name": "Hotels.com", "rate": 110, "tax": null}
+    ]
+  }
+}

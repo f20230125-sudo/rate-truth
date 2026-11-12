@@ -1,0 +1,4524 @@
+{
+  "node/1569377659": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1631237",
+        "name": "Premier Inn Dubai International Airport",
+        "geo": {
+          "latitude": 25.243082,
+          "longitude": 55.358597
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 55.84
+    }
+  },
+  "way/385761096": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d614923",
+        "name": "Arabian Park Dubai, An Edge by Rotana Hotel",
+        "geo": {
+          "latitude": 25.220648,
+          "longitude": 55.327774
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.39
+    }
+  },
+  "way/742204402": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d20326652",
+        "name": "Centara Mirage Beach Resort Dubai",
+        "geo": {
+          "latitude": 25.30066,
+          "longitude": 55.30423
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 48.2
+    }
+  },
+  "way/700366396": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d24851391",
+        "name": "Hilton Dubai Palm Jumeirah",
+        "geo": {
+          "latitude": 25.105793,
+          "longitude": 55.147003
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.99
+    }
+  },
+  "way/668538615": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19175168",
+        "name": "C Central Resort The Palm",
+        "geo": {
+          "latitude": 25.13921,
+          "longitude": 55.141476
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.46
+    }
+  },
+  "way/196071047": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12497599",
+        "name": "Mercure Dubai Barsha Heights Hotel Suites And Apartments",
+        "geo": {
+          "latitude": 25.100962,
+          "longitude": 55.173183
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.12
+    }
+  },
+  "way/1323490094": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23798830",
+        "name": "Premier Inn Dubai Barsha Heights Hotel",
+        "geo": {
+          "latitude": 25.097574,
+          "longitude": 55.180103
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.21
+    }
+  },
+  "way/684999802": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15016790",
+        "name": "W Dubai - The Palm",
+        "geo": {
+          "latitude": 25.106339,
+          "longitude": 55.11117
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 71.48
+    }
+  },
+  "way/532793722": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12525526",
+        "name": "TRYP by Wyndham Dubai",
+        "geo": {
+          "latitude": 25.097288,
+          "longitude": 55.17468
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 37.13
+    }
+  },
+  "way/1465036747": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25249570",
+        "name": "Atlantis The Royal",
+        "geo": {
+          "latitude": 25.138645,
+          "longitude": 55.127827
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 95.44
+    }
+  },
+  "way/64890199": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1657537",
+        "name": "Rose Rayhaan By Rotana",
+        "geo": {
+          "latitude": 25.211796,
+          "longitude": 55.276466
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 18.85
+    }
+  },
+  "way/700366397": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23650180",
+        "name": "Marriott Resort Palm Jumeirah, Dubai",
+        "geo": {
+          "latitude": 25.106962,
+          "longitude": 55.145744
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 59.04
+    }
+  },
+  "way/327379135": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1456254",
+        "name": "Conrad Dubai",
+        "geo": {
+          "latitude": 25.22569,
+          "longitude": 55.28409
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 83.74
+    }
+  },
+  "way/420272527": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8776975",
+        "name": "Atana Hotel",
+        "geo": {
+          "latitude": 25.102121,
+          "longitude": 55.178528
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.19
+    }
+  },
+  "node/1155036334": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1503664",
+        "name": "Mövenpick Hotel Jumeirah Beach",
+        "geo": {
+          "latitude": 25.080149,
+          "longitude": 55.13688
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.45
+    }
+  },
+  "way/10316322": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d302462",
+        "name": "Jumeirah Beach Hotel",
+        "geo": {
+          "latitude": 25.141588,
+          "longitude": 55.19128
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 62.93
+    }
+  },
+  "node/10769935505": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15518197",
+        "name": "Leva Hotel Mazaya Centre",
+        "geo": {
+          "latitude": 25.19832,
+          "longitude": 55.26514
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.93
+    }
+  },
+  "way/98642884": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306684",
+        "name": "Hyatt Regency Dubai",
+        "geo": {
+          "latitude": 25.278898,
+          "longitude": 55.304455
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.96
+    }
+  },
+  "way/894441736": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d568574",
+        "name": "Arabian Courtyard Hotel & Spa",
+        "geo": {
+          "latitude": 25.262623,
+          "longitude": 55.297504
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.14
+    }
+  },
+  "way/399869762": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d7309237",
+        "name": "Taj Dubai",
+        "geo": {
+          "latitude": 25.19246,
+          "longitude": 55.267296
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.01
+    }
+  },
+  "way/668538614": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12859376",
+        "name": "The Retreat Palm Dubai MGallery By Sofitel",
+        "geo": {
+          "latitude": 25.139227,
+          "longitude": 55.142464
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.94
+    }
+  },
+  "way/1112493211": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21511241",
+        "name": "Avani+ Palm View Dubai Hotel & Suites",
+        "geo": {
+          "latitude": 25.09845,
+          "longitude": 55.1569
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 40.04
+    }
+  },
+  "way/532855115": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5415101",
+        "name": "Hotel Sofitel Dubai Downtown",
+        "geo": {
+          "latitude": 25.20013,
+          "longitude": 55.26921
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 64.78
+    }
+  },
+  "way/126601134": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d674456",
+        "name": "Palace Downtown",
+        "geo": {
+          "latitude": 25.193491,
+          "longitude": 55.27582
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.51
+    }
+  },
+  "way/1022722697": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21121518",
+        "name": "LEGOLAND  Hotel",
+        "geo": {
+          "latitude": 24.917562,
+          "longitude": 55.00942
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.66
+    }
+  },
+  "way/196651506": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1527302",
+        "name": "Social Hotel",
+        "geo": {
+          "latitude": 25.097372,
+          "longitude": 55.17377
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 30.21
+    }
+  },
+  "node/12480115864": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301584",
+        "name": "Le Royal Méridien Beach Resort & Spa",
+        "geo": {
+          "latitude": 25.0838,
+          "longitude": 55.1409
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 71.8
+    }
+  },
+  "way/1084655122": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21321279",
+        "name": "Sofitel Dubai The Obelisk",
+        "geo": {
+          "latitude": 25.231083,
+          "longitude": 55.31865
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 25.01
+    }
+  },
+  "way/532610117": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15326643",
+        "name": "Stella Di Mare Dubai Marina",
+        "geo": {
+          "latitude": 25.068739,
+          "longitude": 55.134117
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.36
+    }
+  },
+  "way/47808238": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1397867",
+        "name": "Sofitel Dubai Jumeirah Beach",
+        "geo": {
+          "latitude": 25.075209,
+          "longitude": 55.132168
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.69
+    }
+  },
+  "way/141041881": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d302206",
+        "name": "The Ritz-Carlton, Dubai",
+        "geo": {
+          "latitude": 25.082335,
+          "longitude": 55.137955
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 60.68
+    }
+  },
+  "way/643306145": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15119156",
+        "name": "DoubleTree by Hilton Dubai Al Jadaf",
+        "geo": {
+          "latitude": 25.222378,
+          "longitude": 55.33173
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 3.3
+    }
+  },
+  "relation/9035485": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301562",
+        "name": "Le Méridien Dubai Hotel & Conference Centre",
+        "geo": {
+          "latitude": 25.248882,
+          "longitude": 55.347523
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.6
+    }
+  },
+  "way/934822377": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d18717692",
+        "name": "FIVE Jumeirah Village Hotel",
+        "geo": {
+          "latitude": 25.053967,
+          "longitude": 55.20719
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 50.14
+    }
+  },
+  "way/199500497": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3704416",
+        "name": "Fairmont The Palm",
+        "geo": {
+          "latitude": 25.109928,
+          "longitude": 55.14101
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.16
+    }
+  },
+  "way/532610110": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9704275",
+        "name": "The First Collection Marina, Dubai, A Tribute Portfolio Hotel",
+        "geo": {
+          "latitude": 25.069187,
+          "longitude": 55.128555
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 30.71
+    }
+  },
+  "way/200615949": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1630522",
+        "name": "Anantara Dubai The Palm Resort & Spa",
+        "geo": {
+          "latitude": 25.129253,
+          "longitude": 55.15365
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 126.31
+    }
+  },
+  "node/12180422773": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23579558",
+        "name": "Al Khoory Sky Garden Hotel",
+        "geo": {
+          "latitude": 25.257532,
+          "longitude": 55.33546
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.91
+    }
+  },
+  "way/386161424": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d7768334",
+        "name": "Palazzo Versace Dubai",
+        "geo": {
+          "latitude": 25.2271,
+          "longitude": 55.341938
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 37.82
+    }
+  },
+  "way/256973516": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2407420",
+        "name": "The Tower Plaza Hotel Dubai",
+        "geo": {
+          "latitude": 25.217575,
+          "longitude": 55.278538
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.02
+    }
+  },
+  "node/3832524388": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9783346",
+        "name": "Al Manar Grand Hotel Apartment",
+        "geo": {
+          "latitude": 25.248604,
+          "longitude": 55.2969
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.75
+    }
+  },
+  "node/2057599651": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5667617",
+        "name": "Mövenpick Jumeirah Lakes Towers",
+        "geo": {
+          "latitude": 25.065832,
+          "longitude": 55.138103
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.35
+    }
+  },
+  "way/47499184": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d304493",
+        "name": "Sheraton Jumeirah Beach Resort",
+        "geo": {
+          "latitude": 25.073055,
+          "longitude": 55.128887
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.67
+    }
+  },
+  "way/244918607": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1936989",
+        "name": "Park Regis Kris Kin Hotel",
+        "geo": {
+          "latitude": 25.249163,
+          "longitude": 55.301388
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 17.65
+    }
+  },
+  "way/591560667": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5890945",
+        "name": "Waldorf Astoria Dubai Palm Jumeirah",
+        "geo": {
+          "latitude": 25.134512,
+          "longitude": 55.151127
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 68.64
+    }
+  },
+  "way/382096530": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15146950",
+        "name": "Mövenpick Hotel Apartments Downtown Dubai",
+        "geo": {
+          "latitude": 25.194304,
+          "longitude": 55.2836
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.99
+    }
+  },
+  "node/8883912944": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12301346",
+        "name": "Dukes The Palm Dubai Hotel",
+        "geo": {
+          "latitude": 25.112518,
+          "longitude": 55.138012
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 25.99
+    }
+  },
+  "node/11756429333": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23624061",
+        "name": "Rove City Walk",
+        "geo": {
+          "latitude": 25.205114,
+          "longitude": 55.267666
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 49.89
+    }
+  },
+  "way/532610125": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d17323259",
+        "name": "Millennium Place Marina",
+        "geo": {
+          "latitude": 25.071074,
+          "longitude": 55.136665
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.02
+    }
+  },
+  "node/12201452948": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26626566",
+        "name": "The First Collection Waterfront, Dubai, a Tribute Portfolio Hotel",
+        "geo": {
+          "latitude": 25.182941,
+          "longitude": 55.283215
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.74
+    }
+  },
+  "way/908050753": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d14196392",
+        "name": "Royal Central Hotel – The Palm",
+        "geo": {
+          "latitude": 25.1259,
+          "longitude": 55.15305
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.13
+    }
+  },
+  "way/230622943": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306758",
+        "name": "Fairmont Dubai",
+        "geo": {
+          "latitude": 25.226423,
+          "longitude": 55.284397
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 26.3
+    }
+  },
+  "way/532829008": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23189335",
+        "name": "Pullman Dubai Downtown",
+        "geo": {
+          "latitude": 25.186872,
+          "longitude": 55.27165
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 18.08
+    }
+  },
+  "way/1112521298": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d24951491",
+        "name": "Radisson Beach Resort Palm Jumeirah",
+        "geo": {
+          "latitude": 25.108168,
+          "longitude": 55.14247
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.24
+    }
+  },
+  "way/244907685": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3523033",
+        "name": "Savoy Central Hotel Apartments",
+        "geo": {
+          "latitude": 25.257254,
+          "longitude": 55.289318
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.08
+    }
+  },
+  "way/554488167": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9762610",
+        "name": "Hilton Dubai Al Habtoor City",
+        "geo": {
+          "latitude": 25.184544,
+          "longitude": 55.25526
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 18.27
+    }
+  },
+  "way/504027089": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d11667487",
+        "name": "Rove City Centre",
+        "geo": {
+          "latitude": 25.25588,
+          "longitude": 55.33254
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 26.59
+    }
+  },
+  "way/532833847": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d642623",
+        "name": "Hotel Boulevard, Autograph Collection",
+        "geo": {
+          "latitude": 25.190134,
+          "longitude": 55.27454
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 2.92
+    }
+  },
+  "node/7011003685": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5504441",
+        "name": "Ramada Hotel & Suites by Wyndham Dubai JBR",
+        "geo": {
+          "latitude": 25.072254,
+          "longitude": 55.129753
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.98
+    }
+  },
+  "way/1450343538": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d27139845",
+        "name": "Marriott Marquis Dubai Creek",
+        "geo": {
+          "latitude": 25.250883,
+          "longitude": 55.326805
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.96
+    }
+  },
+  "way/196657219": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d17839666",
+        "name": "Sheraton The Walk, Dubai",
+        "geo": {
+          "latitude": 25.077784,
+          "longitude": 55.13608
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.25
+    }
+  },
+  "way/259738495": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d625760",
+        "name": "Majestic City Retreat Hotel",
+        "geo": {
+          "latitude": 25.253744,
+          "longitude": 55.293453
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.12
+    }
+  },
+  "way/399874888": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d4114901",
+        "name": "Anantara Downtown Dubai",
+        "geo": {
+          "latitude": 25.186096,
+          "longitude": 55.26318
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 60.94
+    }
+  },
+  "way/764131759": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19770277",
+        "name": "ibis Styles Dubai Airport",
+        "geo": {
+          "latitude": 25.250412,
+          "longitude": 55.344364
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 20.58
+    }
+  },
+  "node/11413394669": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25146491",
+        "name": "Nh Collection Dubai The Palm",
+        "geo": {
+          "latitude": 25.111532,
+          "longitude": 55.138584
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.74
+    }
+  },
+  "way/479429859": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306762",
+        "name": "Towers Rotana",
+        "geo": {
+          "latitude": 25.213041,
+          "longitude": 55.275055
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.65
+    }
+  },
+  "node/6149663008": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15872094",
+        "name": "Waldorf Astoria Dubai International Financial Centre",
+        "geo": {
+          "latitude": 25.211216,
+          "longitude": 55.281696
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 73.82
+    }
+  },
+  "way/433008770": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301681",
+        "name": "Millennium Airport Hotel Dubai",
+        "geo": {
+          "latitude": 25.24844,
+          "longitude": 55.343876
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 60.52
+    }
+  },
+  "way/339300030": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2082869",
+        "name": "Grand Central Hotel",
+        "geo": {
+          "latitude": 25.263783,
+          "longitude": 55.326782
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.79
+    }
+  },
+  "way/238284905": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3447941",
+        "name": "JW Marriott Marquis Hotel Dubai",
+        "geo": {
+          "latitude": 25.185623,
+          "longitude": 55.258213
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.3
+    }
+  },
+  "node/11335525869": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25180578",
+        "name": "Wescott Hotel",
+        "geo": {
+          "latitude": 25.263325,
+          "longitude": 55.289604
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 20.29
+    }
+  },
+  "way/125029561": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301379",
+        "name": "Dusit  Thani Dubai",
+        "geo": {
+          "latitude": 25.205978,
+          "longitude": 55.27319
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 34.87
+    }
+  },
+  "way/709674070": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19493242",
+        "name": "Taj Jumeirah Lakes Towers, Dubai",
+        "geo": {
+          "latitude": 25.080635,
+          "longitude": 55.154152
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.19
+    }
+  },
+  "way/457680276": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23654742",
+        "name": "The Dubai EDITION",
+        "geo": {
+          "latitude": 25.192167,
+          "longitude": 55.280735
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.85
+    }
+  },
+  "way/956007649": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d17659979",
+        "name": "JA Lake View Hotel",
+        "geo": {
+          "latitude": 24.980467,
+          "longitude": 55.02616
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 59.24
+    }
+  },
+  "way/1083733029": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15244079",
+        "name": "Mandarin Oriental Jumeira, Dubai",
+        "geo": {
+          "latitude": 25.217043,
+          "longitude": 55.251072
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 48.27
+    }
+  },
+  "way/885108374": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21501240",
+        "name": "DoubleTree by Hilton Dubai M square Hotel & Residences",
+        "geo": {
+          "latitude": 25.250679,
+          "longitude": 55.300755
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 45.94
+    }
+  },
+  "way/126601133": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d644534",
+        "name": "The Heritage Hotel, Autograph Collection",
+        "geo": {
+          "latitude": 25.191113,
+          "longitude": 55.277657
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.99
+    }
+  },
+  "node/5543614221": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12831800",
+        "name": "Radisson Blu Hotel, Dubai Waterfront",
+        "geo": {
+          "latitude": 25.186441,
+          "longitude": 55.268047
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 36.94
+    }
+  },
+  "node/6904869385": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19113231",
+        "name": "Park Regis Business Bay Hotel",
+        "geo": {
+          "latitude": 25.185343,
+          "longitude": 55.261734
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 61.32
+    }
+  },
+  "way/245436302": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1879023",
+        "name": "TIME Grand Plaza Hotel",
+        "geo": {
+          "latitude": 25.270752,
+          "longitude": 55.380264
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 37.22
+    }
+  },
+  "way/169356183": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1905654",
+        "name": "One&Only The Palm",
+        "geo": {
+          "latitude": 25.0995,
+          "longitude": 55.13347
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 27.98
+    }
+  },
+  "way/532818899": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9453713",
+        "name": "Hilton Garden Inn Dubai, Mall Avenue",
+        "geo": {
+          "latitude": 25.116009,
+          "longitude": 55.196495
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.12
+    }
+  },
+  "way/139639810": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d299239",
+        "name": "Radisson Blu Hotel, Dubai Deira Creek",
+        "geo": {
+          "latitude": 25.264816,
+          "longitude": 55.310905
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.14
+    }
+  },
+  "relation/14604314": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23706906",
+        "name": "25hours Hotel Dubai One Central",
+        "geo": {
+          "latitude": 25.219501,
+          "longitude": 55.28448
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.53
+    }
+  },
+  "way/257414073": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1990762",
+        "name": "Voco Dubai",
+        "geo": {
+          "latitude": 25.223412,
+          "longitude": 55.282433
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 18.73
+    }
+  },
+  "way/514827143": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12269090",
+        "name": "DoubleTree by Hilton Dubai Business Bay",
+        "geo": {
+          "latitude": 25.186577,
+          "longitude": 55.28048
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.82
+    }
+  },
+  "way/1109599712": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23845669",
+        "name": "W Dubai – Mina Seyahi",
+        "geo": {
+          "latitude": 25.091516,
+          "longitude": 55.14663
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.59
+    }
+  },
+  "way/610627924": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d10259104",
+        "name": "City Seasons Towers",
+        "geo": {
+          "latitude": 25.252808,
+          "longitude": 55.30263
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 3.83
+    }
+  },
+  "relation/15418629": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d17724456",
+        "name": "Millennium Al Barsha",
+        "geo": {
+          "latitude": 25.114683,
+          "longitude": 55.196407
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.16
+    }
+  },
+  "way/300989979": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1020535",
+        "name": "Star Metro Deira Hotel Apartments",
+        "geo": {
+          "latitude": 25.270748,
+          "longitude": 55.322685
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.01
+    }
+  },
+  "way/922154145": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19253952",
+        "name": "Avani Ibn Battuta Dubai Hotel",
+        "geo": {
+          "latitude": 25.045734,
+          "longitude": 55.118225
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 34.95
+    }
+  },
+  "way/709280405": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d16735585",
+        "name": "Rove at The Park",
+        "geo": {
+          "latitude": 24.910582,
+          "longitude": 55.01385
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.32
+    }
+  },
+  "way/259738503": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301525",
+        "name": "Regent Palace Hotel, Dubai",
+        "geo": {
+          "latitude": 25.25338,
+          "longitude": 55.30383
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.1
+    }
+  },
+  "way/532793715": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1214465",
+        "name": "TIME Oak Hotel & Suites",
+        "geo": {
+          "latitude": 25.096525,
+          "longitude": 55.17275
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.13
+    }
+  },
+  "relation/7679977": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1654977",
+        "name": "Premier Inn Dubai Silicon Oasis Hotel",
+        "geo": {
+          "latitude": 25.122828,
+          "longitude": 55.374474
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 20.97
+    }
+  },
+  "node/5359176521": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2416579",
+        "name": "Landmark Grand Hotel",
+        "geo": {
+          "latitude": 25.265282,
+          "longitude": 55.317123
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.67
+    }
+  },
+  "node/4778124107": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d11955409",
+        "name": "Best Western Plus Pearl Creek",
+        "geo": {
+          "latitude": 25.267801,
+          "longitude": 55.30471
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.88
+    }
+  },
+  "way/723546898": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21275006",
+        "name": "Al Jaddaf Rotana Suite Hotel",
+        "geo": {
+          "latitude": 25.220968,
+          "longitude": 55.329636
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 60.52
+    }
+  },
+  "way/618247811": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9762100",
+        "name": "V Hotel Dubai, Curio Collection By Hilton",
+        "geo": {
+          "latitude": 25.18446,
+          "longitude": 55.25437
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 34.8
+    }
+  },
+  "way/259724739": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d653850",
+        "name": "Astoria Hotel",
+        "geo": {
+          "latitude": 25.26215,
+          "longitude": 55.2921
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.77
+    }
+  },
+  "way/532574148": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5294361",
+        "name": "DoubleTree by Hilton Dubai - Jumeirah Beach",
+        "geo": {
+          "latitude": 25.072105,
+          "longitude": 55.128147
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 48.05
+    }
+  },
+  "way/1208562102": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23691627",
+        "name": "Hyatt Centric Jumeirah Dubai",
+        "geo": {
+          "latitude": 25.23426,
+          "longitude": 55.26075
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 52.84
+    }
+  },
+  "node/14175518401": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12553755",
+        "name": "The St. Regis Downtown Dubai",
+        "geo": {
+          "latitude": 25.185858,
+          "longitude": 55.27361
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.01
+    }
+  },
+  "node/5517934022": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12008928",
+        "name": "Al Habtoor Polo Resort",
+        "geo": {
+          "latitude": 25.079985,
+          "longitude": 55.367546
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 80.03
+    }
+  },
+  "way/304391125": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2222787",
+        "name": "Asiana Hotel",
+        "geo": {
+          "latitude": 25.269749,
+          "longitude": 55.325073
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.93
+    }
+  },
+  "way/1529316678": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d14141555",
+        "name": "Grand Mercure Business Bay",
+        "geo": {
+          "latitude": 25.182335,
+          "longitude": 55.274853
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.99
+    }
+  },
+  "way/1337992386": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d31915789",
+        "name": "Holiday Inn Dubai Jumeirah Village Circle By IHG",
+        "geo": {
+          "latitude": 25.053785,
+          "longitude": 55.210682
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.42
+    }
+  },
+  "way/721802993": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d17840494",
+        "name": "Hampton By Hilton Dubai Al Barsha",
+        "geo": {
+          "latitude": 25.113756,
+          "longitude": 55.193302
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.09
+    }
+  },
+  "way/116828759": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1961531",
+        "name": "Two Seasons Hotel & Apartments",
+        "geo": {
+          "latitude": 25.102922,
+          "longitude": 55.172283
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 0.99
+    }
+  },
+  "node/4216799690": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1016546",
+        "name": "Copthorne Hotel Dubai",
+        "geo": {
+          "latitude": 25.254673,
+          "longitude": 55.327927
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.25
+    }
+  },
+  "way/532853094": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19236109",
+        "name": "Radisson Blu Hotel, Dubai Canal View",
+        "geo": {
+          "latitude": 25.19111,
+          "longitude": 55.290558
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 47.88
+    }
+  },
+  "way/1110195507": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306727",
+        "name": "Khalidia Palace Hotel Dubai",
+        "geo": {
+          "latitude": 25.261274,
+          "longitude": 55.320457
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 26.02
+    }
+  },
+  "way/436229907": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1490970",
+        "name": "Avenue Hotel",
+        "geo": {
+          "latitude": 25.262642,
+          "longitude": 55.32615
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.96
+    }
+  },
+  "node/4889565597": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8417468",
+        "name": "Hilton Garden Inn Dubai Deira",
+        "geo": {
+          "latitude": 25.265123,
+          "longitude": 55.32979
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 1.87
+    }
+  },
+  "node/11515560669": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26532915",
+        "name": "VOGO Grand Hotel Dubai",
+        "geo": {
+          "latitude": 25.127827,
+          "longitude": 55.423244
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 36.35
+    }
+  },
+  "node/8122217046": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23274894",
+        "name": "The St. Regis Dubai, The Palm",
+        "geo": {
+          "latitude": 25.1142,
+          "longitude": 55.139812
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 42.24
+    }
+  },
+  "way/389709570": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301867",
+        "name": "Sheraton Dubai Creek Hotel & Towers",
+        "geo": {
+          "latitude": 25.261522,
+          "longitude": 55.31381
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 18.62
+    }
+  },
+  "node/5860522220": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d14053402",
+        "name": "Hampton by Hilton Dubai Airport",
+        "geo": {
+          "latitude": 25.272455,
+          "longitude": 55.38056
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 18.15
+    }
+  },
+  "way/196071175": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2092499",
+        "name": "Golden Tulip Media Hotel",
+        "geo": {
+          "latitude": 25.099886,
+          "longitude": 55.179047
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 35.77
+    }
+  },
+  "way/196071189": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5503828",
+        "name": "Grand Heights Dubai Hotel Apartments",
+        "geo": {
+          "latitude": 25.097815,
+          "longitude": 55.178818
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.88
+    }
+  },
+  "way/1083733024": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23610170",
+        "name": "Courtyard by Marriott World Trade Centre, Dubai",
+        "geo": {
+          "latitude": 25.228056,
+          "longitude": 55.283054
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.21
+    }
+  },
+  "node/4732225325": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d674660",
+        "name": "The H Dubai",
+        "geo": {
+          "latitude": 25.230265,
+          "longitude": 55.28713
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 17.14
+    }
+  },
+  "node/10154825332": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d11444513",
+        "name": "Metropolitan Hotel Dubai",
+        "geo": {
+          "latitude": 25.132963,
+          "longitude": 55.21299
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.78
+    }
+  },
+  "relation/6176368": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d302099",
+        "name": "Ramada Plaza by Wyndham Dubai Deira",
+        "geo": {
+          "latitude": 25.270247,
+          "longitude": 55.33091
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.75
+    }
+  },
+  "way/671673312": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d13554517",
+        "name": "Canopy By Hilton Dubai Al Seef",
+        "geo": {
+          "latitude": 25.25603,
+          "longitude": 55.311863
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 32.86
+    }
+  },
+  "way/196657171": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d6921013",
+        "name": "City Première Marina Hotel Apartments",
+        "geo": {
+          "latitude": 25.07932,
+          "longitude": 55.143154
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.78
+    }
+  },
+  "node/6327114534": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12223092",
+        "name": "Roda Beach Resort",
+        "geo": {
+          "latitude": 25.183641,
+          "longitude": 55.22446
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 124.94
+    }
+  },
+  "way/28743683": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d299707",
+        "name": "ibis World Trade Centre Dubai",
+        "geo": {
+          "latitude": 25.222788,
+          "longitude": 55.285675
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 27.11
+    }
+  },
+  "way/301469647": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d304492",
+        "name": "Grand Excelsior Hotel Deira",
+        "geo": {
+          "latitude": 25.274853,
+          "longitude": 55.32763
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.11
+    }
+  },
+  "way/154127712": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2414037",
+        "name": "First Central Hotel Suites",
+        "geo": {
+          "latitude": 25.097723,
+          "longitude": 55.17459
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.72
+    }
+  },
+  "way/436399908": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306689",
+        "name": "Jumeira Rotana",
+        "geo": {
+          "latitude": 25.237232,
+          "longitude": 55.274223
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.32
+    }
+  },
+  "node/12299353871": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26784917",
+        "name": "Embassy Suites By Hilton Dubai Business Bay",
+        "geo": {
+          "latitude": 25.180738,
+          "longitude": 55.277824
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.34
+    }
+  },
+  "way/196817242": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3291088",
+        "name": "Citadines Metro Central Dubai",
+        "geo": {
+          "latitude": 25.099419,
+          "longitude": 55.173164
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.82
+    }
+  },
+  "relation/4009236": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d27956267",
+        "name": "Golden Sands 10 Hotel Apartments",
+        "geo": {
+          "latitude": 25.250607,
+          "longitude": 55.29874
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.38
+    }
+  },
+  "node/4215471099": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9018401",
+        "name": "ibis Styles Dragon Mart Dubai",
+        "geo": {
+          "latitude": 25.17437,
+          "longitude": 55.41963
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.24
+    }
+  },
+  "way/436226419": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306751",
+        "name": "J5 Rimal",
+        "geo": {
+          "latitude": 25.264147,
+          "longitude": 55.32711
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.14
+    }
+  },
+  "way/498406099": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d10803505",
+        "name": "Al Khoory Atrium",
+        "geo": {
+          "latitude": 25.111256,
+          "longitude": 55.196125
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 26.68
+    }
+  },
+  "way/762884083": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d14989724",
+        "name": "Al Seef Heritage Hotel Dubai, Curio Collection by Hilton",
+        "geo": {
+          "latitude": 25.26385,
+          "longitude": 55.305202
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 34.25
+    }
+  },
+  "way/723548016": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d17567393",
+        "name": "Barceló Al Jaddaf, Dubai",
+        "geo": {
+          "latitude": 25.217697,
+          "longitude": 55.321896
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 126.68
+    }
+  },
+  "way/436232537": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d20318849",
+        "name": "Landmark Premier Hotel",
+        "geo": {
+          "latitude": 25.262281,
+          "longitude": 55.320232
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 41.45
+    }
+  },
+  "way/1086452250": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23803707",
+        "name": "Millennium Place Mirdif Hotel",
+        "geo": {
+          "latitude": 25.22237,
+          "longitude": 55.44187
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.78
+    }
+  },
+  "way/1529316677": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d28283331",
+        "name": "Renaissance Business Bay Hotel, Dubai",
+        "geo": {
+          "latitude": 25.182993,
+          "longitude": 55.274216
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.32
+    }
+  },
+  "node/2130527272": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3249050",
+        "name": "Elite Byblos Hotel",
+        "geo": {
+          "latitude": 25.113811,
+          "longitude": 55.20017
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.69
+    }
+  },
+  "way/110407479": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d636140",
+        "name": "Dubai Marriott Harbour Hotel & Suites",
+        "geo": {
+          "latitude": 25.08786,
+          "longitude": 55.146435
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 45.07
+    }
+  },
+  "way/91402258": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1231330",
+        "name": "Al Khoory Hotel Apartments",
+        "geo": {
+          "latitude": 25.112719,
+          "longitude": 55.19319
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.7
+    }
+  },
+  "way/483146952": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21503311",
+        "name": "Suha Creek Hotel Apartments",
+        "geo": {
+          "latitude": 25.22887,
+          "longitude": 55.33637
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.62
+    }
+  },
+  "node/4119466500": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1478334",
+        "name": "Mercure Gold Hotel Al Mina Road Dubai",
+        "geo": {
+          "latitude": 25.242903,
+          "longitude": 55.275772
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.73
+    }
+  },
+  "way/125848293": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d652998",
+        "name": "Number One Tower Suites",
+        "geo": {
+          "latitude": 25.210443,
+          "longitude": 55.273525
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.13
+    }
+  },
+  "way/1071485032": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26988020",
+        "name": "Hilton Dubai Creek Hotel & Residences",
+        "geo": {
+          "latitude": 25.251774,
+          "longitude": 55.32438
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.16
+    }
+  },
+  "way/1529347730": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23209473",
+        "name": "Barceló Business Bay Dubai",
+        "geo": {
+          "latitude": 25.179386,
+          "longitude": 55.27159
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.74
+    }
+  },
+  "node/10752563005": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23968360",
+        "name": "ibis Styles Dubai Deira",
+        "geo": {
+          "latitude": 25.274073,
+          "longitude": 55.297573
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.2
+    }
+  },
+  "way/797707530": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d32853340",
+        "name": "Cheval Maison - Expo City Dubai",
+        "geo": {
+          "latitude": 24.96212,
+          "longitude": 55.150486
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 61.48
+    }
+  },
+  "way/245436304": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3155460",
+        "name": "Fortune Plaza Hotel",
+        "geo": {
+          "latitude": 25.267067,
+          "longitude": 55.380875
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 29.63
+    }
+  },
+  "way/1124227999": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21246143",
+        "name": "Royal Continental Suites",
+        "geo": {
+          "latitude": 25.18299,
+          "longitude": 55.283455
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 39.4
+    }
+  },
+  "way/921472027": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19893051",
+        "name": "JA The Manor Hotel",
+        "geo": {
+          "latitude": 25.018518,
+          "longitude": 55.142223
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.93
+    }
+  },
+  "way/207011275": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1661298",
+        "name": "Address Montgomerie",
+        "geo": {
+          "latitude": 25.067463,
+          "longitude": 55.164387
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 2.28
+    }
+  },
+  "way/1127432702": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26285742",
+        "name": "Jood Hotel Apartments",
+        "geo": {
+          "latitude": 25.257502,
+          "longitude": 55.334644
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.39
+    }
+  },
+  "way/436229927": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1742736",
+        "name": "ibis Dubai Al Rigga.",
+        "geo": {
+          "latitude": 25.265038,
+          "longitude": 55.321217
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 34.07
+    }
+  },
+  "way/1246862874": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19650536",
+        "name": "Premier Inn Dubai Dragon Mart",
+        "geo": {
+          "latitude": 25.174847,
+          "longitude": 55.417347
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 53.67
+    }
+  },
+  "way/196071136": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1935307",
+        "name": "Ramee Rose Hotel",
+        "geo": {
+          "latitude": 25.09815,
+          "longitude": 55.17966
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.21
+    }
+  },
+  "node/12483747948": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d858495",
+        "name": "Amwaj Rotana, Jumeirah Beach - Dubai",
+        "geo": {
+          "latitude": 25.073702,
+          "longitude": 55.130455
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 34.67
+    }
+  },
+  "way/306997711": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1390312",
+        "name": "DoubleTree by Hilton Dubai Port Saeed",
+        "geo": {
+          "latitude": 25.25656,
+          "longitude": 55.33495
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 17.39
+    }
+  },
+  "node/12301324523": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26785007",
+        "name": "Hilton Garden Inn Dubai Business Bay",
+        "geo": {
+          "latitude": 25.180817,
+          "longitude": 55.277905
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 73.16
+    }
+  },
+  "way/386252974": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8544529",
+        "name": "Ibis Styles Dubai Jumeira",
+        "geo": {
+          "latitude": 25.240326,
+          "longitude": 55.273216
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.08
+    }
+  },
+  "way/259708738": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d301868",
+        "name": "Majestic Premier Hotel",
+        "geo": {
+          "latitude": 25.257551,
+          "longitude": 55.299454
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 29.69
+    }
+  },
+  "way/412943019": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d299705",
+        "name": "Novotel World Trade Centre Dubai",
+        "geo": {
+          "latitude": 25.22153,
+          "longitude": 55.2883
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.08
+    }
+  },
+  "node/2673145417": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1514326",
+        "name": "Chelsea Gardens Hotel Apartment",
+        "geo": {
+          "latitude": 25.04817,
+          "longitude": 55.130672
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.26
+    }
+  },
+  "way/401812837": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8871800",
+        "name": "Ramada by Wyndham Dubai Barsha Heights",
+        "geo": {
+          "latitude": 25.094635,
+          "longitude": 55.177063
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.13
+    }
+  },
+  "way/175842528": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3528995",
+        "name": "Novotel Dubai Al Barsha",
+        "geo": {
+          "latitude": 25.112453,
+          "longitude": 55.188786
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.81
+    }
+  },
+  "way/437963103": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d32722345",
+        "name": "Majestic Cove Hotel",
+        "geo": {
+          "latitude": 25.247887,
+          "longitude": 55.33781
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 35.22
+    }
+  },
+  "way/536065296": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d32231647",
+        "name": "Tumbi Hotel Dubai The Palm, Tapestry Collection by Hilton",
+        "geo": {
+          "latitude": 25.107954,
+          "longitude": 55.1438
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.2
+    }
+  },
+  "node/3755781034": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8075193",
+        "name": "Hilton Garden Inn Dubai Jumeirah",
+        "geo": {
+          "latitude": 25.247833,
+          "longitude": 55.278564
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 33.47
+    }
+  },
+  "node/11327532271": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25244031",
+        "name": "Cheval Maison - The Palm Dubai",
+        "geo": {
+          "latitude": 25.112635,
+          "longitude": 55.13969
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.79
+    }
+  },
+  "way/385764390": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d6163701",
+        "name": "Marriott Executive Apartments Al Jaddaf, Dubai",
+        "geo": {
+          "latitude": 25.211212,
+          "longitude": 55.315964
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 50.66
+    }
+  },
+  "way/716752143": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d20028959",
+        "name": "Staybridge Suites Dubai Al-Maktoum Airport by IHG",
+        "geo": {
+          "latitude": 24.868284,
+          "longitude": 55.14594
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.8
+    }
+  },
+  "way/300990969": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1540976",
+        "name": "Landmark Hotel Riqqa",
+        "geo": {
+          "latitude": 25.26706,
+          "longitude": 55.32029
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 26.16
+    }
+  },
+  "way/767521824": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d13549113",
+        "name": "Hampton by Hilton Dubai Al Seef",
+        "geo": {
+          "latitude": 25.255707,
+          "longitude": 55.311035
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.11
+    }
+  },
+  "way/175842525": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1687451",
+        "name": "Centro Barsha",
+        "geo": {
+          "latitude": 25.113043,
+          "longitude": 55.19511
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 3.64
+    }
+  },
+  "way/89705867": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d582461",
+        "name": "Donatello Hotel",
+        "geo": {
+          "latitude": 25.115547,
+          "longitude": 55.193886
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.67
+    }
+  },
+  "way/169356188": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1949597",
+        "name": "Jumeirah Zabeel Saray",
+        "geo": {
+          "latitude": 25.098555,
+          "longitude": 55.12354
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.3
+    }
+  },
+  "way/256407625": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d20972602",
+        "name": "Golden Sands 3 Hotel Apartments",
+        "geo": {
+          "latitude": 25.251766,
+          "longitude": 55.29499
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 36.21
+    }
+  },
+  "node/11406040670": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3580895",
+        "name": "Ramada by Wyndham Dubai Deira",
+        "geo": {
+          "latitude": 25.270645,
+          "longitude": 55.32179
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 17.97
+    }
+  },
+  "node/13324901394": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d32767349",
+        "name": "La Zona Continental Hotel",
+        "geo": {
+          "latitude": 25.276093,
+          "longitude": 55.34857
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.78
+    }
+  },
+  "way/377464370": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d939897",
+        "name": "Emirates Stars Hotel Apartments Dubai",
+        "geo": {
+          "latitude": 25.288824,
+          "longitude": 55.368935
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 46.07
+    }
+  },
+  "way/98551752": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d455422",
+        "name": "Riviera Hotel Dubai",
+        "geo": {
+          "latitude": 25.267342,
+          "longitude": 55.30662
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 17.54
+    }
+  },
+  "node/1982736076": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1158696",
+        "name": "Oaks Liwa Heights",
+        "geo": {
+          "latitude": 25.076807,
+          "longitude": 55.15015
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 55.34
+    }
+  },
+  "node/5154973021": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d629175",
+        "name": "XVA Art Hotel",
+        "geo": {
+          "latitude": 25.263966,
+          "longitude": 55.29971
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 17.42
+    }
+  },
+  "way/89701630": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d7891379",
+        "name": "MENA ApartHotel",
+        "geo": {
+          "latitude": 25.117111,
+          "longitude": 55.195942
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 35.29
+    }
+  },
+  "node/7113672985": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d18852324",
+        "name": "Le Wana Hotel",
+        "geo": {
+          "latitude": 25.267725,
+          "longitude": 55.31539
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.81
+    }
+  },
+  "node/2430382401": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d4881176",
+        "name": "Mark Inn Hotel Deira",
+        "geo": {
+          "latitude": 25.27066,
+          "longitude": 55.31003
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 33.1
+    }
+  },
+  "way/91402242": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23326647",
+        "name": "Skylark Hotel Apartments",
+        "geo": {
+          "latitude": 25.114355,
+          "longitude": 55.19152
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 26.26
+    }
+  },
+  "node/3464842723": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2532220",
+        "name": "Icon Hotel Apartments",
+        "geo": {
+          "latitude": 25.272858,
+          "longitude": 55.317177
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.83
+    }
+  },
+  "way/175843549": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d6002497",
+        "name": "Ivory Grand Hotel Apartments",
+        "geo": {
+          "latitude": 25.114445,
+          "longitude": 55.20147
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.41
+    }
+  },
+  "way/196071080": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2180257",
+        "name": "Gulf Oasis Hotel Apartments",
+        "geo": {
+          "latitude": 25.093985,
+          "longitude": 55.17707
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.59
+    }
+  },
+  "way/436231394": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d497635",
+        "name": "Nihal Hotel",
+        "geo": {
+          "latitude": 25.260323,
+          "longitude": 55.324482
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 3.31
+    }
+  },
+  "way/436229966": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3333932",
+        "name": "Saffron Hotel",
+        "geo": {
+          "latitude": 25.26132,
+          "longitude": 55.325413
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.73
+    }
+  },
+  "way/386234177": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d306743",
+        "name": "Palm Beach Hotel",
+        "geo": {
+          "latitude": 25.259375,
+          "longitude": 55.28749
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.65
+    }
+  },
+  "way/437789975": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3569911",
+        "name": "Fortune Pearl Hotel",
+        "geo": {
+          "latitude": 25.278608,
+          "longitude": 55.313873
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.83
+    }
+  },
+  "way/436233468": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d309653",
+        "name": "Comfort Inn Hotel Dubai",
+        "geo": {
+          "latitude": 25.265198,
+          "longitude": 55.316803
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 12.84
+    }
+  },
+  "relation/7764734": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d15187235",
+        "name": "Maisan Hotel",
+        "geo": {
+          "latitude": 25.00822,
+          "longitude": 55.15668
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 118.49
+    }
+  },
+  "node/4373534400": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d455095",
+        "name": "Panorama Grand",
+        "geo": {
+          "latitude": 25.25933,
+          "longitude": 55.288998
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 25.87
+    }
+  },
+  "way/317173847": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d582840",
+        "name": "Pearl City Suites",
+        "geo": {
+          "latitude": 25.254185,
+          "longitude": 55.332043
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.74
+    }
+  },
+  "relation/15063804": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12255053",
+        "name": "Telal Hotel Apartments",
+        "geo": {
+          "latitude": 25.281656,
+          "longitude": 55.347897
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 12.58
+    }
+  },
+  "way/165024268": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d497636",
+        "name": "Imperial Suites Hotel",
+        "geo": {
+          "latitude": 25.2568,
+          "longitude": 55.29315
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.94
+    }
+  },
+  "node/4931155066": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3437620",
+        "name": "Index Hotel",
+        "geo": {
+          "latitude": 25.27201,
+          "longitude": 55.30232
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.35
+    }
+  },
+  "node/4444485262": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d803492",
+        "name": "Lotus Grand Hotel Apartments",
+        "geo": {
+          "latitude": 25.277864,
+          "longitude": 55.34895
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 38.79
+    }
+  },
+  "node/4929606248": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3825325",
+        "name": "Hafez Hotel Apartment",
+        "geo": {
+          "latitude": 25.26744,
+          "longitude": 55.294186
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 29.19
+    }
+  },
+  "node/4939186147": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2138047",
+        "name": "Zagy Hotel",
+        "geo": {
+          "latitude": 25.27137,
+          "longitude": 55.310425
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.34
+    }
+  },
+  "node/4931303239": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3574139",
+        "name": "White Fort Hotel",
+        "geo": {
+          "latitude": 25.268864,
+          "longitude": 55.30582
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 32.29
+    }
+  },
+  "node/11341456693": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25222462",
+        "name": "Mra Grand Hotel",
+        "geo": {
+          "latitude": 25.25697,
+          "longitude": 55.28728
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.37
+    }
+  },
+  "way/301667130": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1176255",
+        "name": "Welcome Hotel Apartments 1",
+        "geo": {
+          "latitude": 25.24878,
+          "longitude": 55.29784
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 27.64
+    }
+  },
+  "way/436233456": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1120857",
+        "name": "Zain International Hotel",
+        "geo": {
+          "latitude": 25.264383,
+          "longitude": 55.317757
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.78
+    }
+  },
+  "node/4932624547": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3833120",
+        "name": "Maaeen Hotel",
+        "geo": {
+          "latitude": 25.269339,
+          "longitude": 55.300175
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 1.42
+    }
+  },
+  "way/436229982": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d455104",
+        "name": "Orchid Hotel",
+        "geo": {
+          "latitude": 25.26052,
+          "longitude": 55.32464
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.73
+    }
+  },
+  "node/3903209470": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d571104",
+        "name": "York International Hotel",
+        "geo": {
+          "latitude": 25.258736,
+          "longitude": 55.297
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 30.11
+    }
+  },
+  "node/4942486011": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d681327",
+        "name": "Tulip Creek Hotel Apartments",
+        "geo": {
+          "latitude": 25.256344,
+          "longitude": 55.325954
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 43.22
+    }
+  },
+  "node/3464842724": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23612140",
+        "name": "Burj Nahar Hotel",
+        "geo": {
+          "latitude": 25.271872,
+          "longitude": 55.31542
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.22
+    }
+  },
+  "node/4938819053": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3832555",
+        "name": "West Hotel",
+        "geo": {
+          "latitude": 25.274446,
+          "longitude": 55.30752
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.17
+    }
+  },
+  "way/436231413": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d497309",
+        "name": "Broadway Hotel",
+        "geo": {
+          "latitude": 25.261028,
+          "longitude": 55.322235
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.46
+    }
+  },
+  "way/244768979": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d668133",
+        "name": "Manhattan Avenue Hotel",
+        "geo": {
+          "latitude": 25.25154,
+          "longitude": 55.29084
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 12.76
+    }
+  },
+  "node/4114309893": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1122104",
+        "name": "Royalton Hotel",
+        "geo": {
+          "latitude": 25.26899,
+          "longitude": 55.31375
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.2
+    }
+  },
+  "node/4932575063": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3583667",
+        "name": "Golden Star Hotel",
+        "geo": {
+          "latitude": 25.270952,
+          "longitude": 55.297367
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.36
+    }
+  },
+  "node/12180426387": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34304343",
+        "name": "Aura Suites Downtown",
+        "geo": {
+          "latitude": 25.188679,
+          "longitude": 55.270428
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 30.89
+    }
+  },
+  "node/4933268829": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d24131652",
+        "name": "Al Farej Hotel",
+        "geo": {
+          "latitude": 25.2762,
+          "longitude": 55.3103
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.18
+    }
+  },
+  "node/4932511026": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d12833826",
+        "name": "AL Shamal Hotel",
+        "geo": {
+          "latitude": 25.27173,
+          "longitude": 55.29919
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.33
+    }
+  },
+  "way/317173860": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23509145",
+        "name": "Al Jawhara Gardens Hotel",
+        "geo": {
+          "latitude": 25.2548,
+          "longitude": 55.3352
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.81
+    }
+  },
+  "node/4939238531": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3812438",
+        "name": "Karoon Hotel",
+        "geo": {
+          "latitude": 25.270908,
+          "longitude": 55.309574
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.75
+    }
+  },
+  "way/259918962": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d19894945",
+        "name": "Green House Hotel Apartment",
+        "geo": {
+          "latitude": 25.251204,
+          "longitude": 55.29153
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 224.8
+    }
+  },
+  "way/262217752": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23909525",
+        "name": "Vista City Hotel",
+        "geo": {
+          "latitude": 25.257645,
+          "longitude": 55.29927
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.1
+    }
+  },
+  "node/4373621889": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d566083",
+        "name": "The Country Club Hotel",
+        "geo": {
+          "latitude": 25.249208,
+          "longitude": 55.282963
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 22.55
+    }
+  },
+  "relation/5829240": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d573855",
+        "name": "Park Hyatt Dubai",
+        "geo": {
+          "latitude": 25.244307,
+          "longitude": 55.3337
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 93.4
+    }
+  },
+  "node/2246385172": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1777624",
+        "name": "Armani Hotel",
+        "geo": {
+          "latitude": 25.196737,
+          "longitude": 55.274338
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 89.54
+    }
+  },
+  "way/658797158": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26552552",
+        "name": "Hotel Riu Dubai",
+        "geo": {
+          "latitude": 25.300415,
+          "longitude": 55.3065
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.48
+    }
+  },
+  "node/2536831662": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d597862",
+        "name": "Villa Rotana",
+        "geo": {
+          "latitude": 25.194473,
+          "longitude": 55.261517
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.91
+    }
+  },
+  "way/175842551": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3195003",
+        "name": "Cosmopolitan Hotel",
+        "geo": {
+          "latitude": 25.112764,
+          "longitude": 55.190372
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.38
+    }
+  },
+  "way/700403043": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23583463",
+        "name": "HE Hotel Apartments",
+        "geo": {
+          "latitude": 25.06008,
+          "longitude": 55.216904
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.79
+    }
+  },
+  "way/759851021": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2360806",
+        "name": "Marina View",
+        "geo": {
+          "latitude": 25.079369,
+          "longitude": 55.14417
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 1.56
+    }
+  },
+  "node/4940598678": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2509554",
+        "name": "Grand Square Hotel",
+        "geo": {
+          "latitude": 25.27037,
+          "longitude": 55.312126
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 38.72
+    }
+  },
+  "node/4927256326": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3831026",
+        "name": "Al Jazeera Hotel",
+        "geo": {
+          "latitude": 25.26923,
+          "longitude": 55.295284
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.36
+    }
+  },
+  "node/4932685441": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3831116",
+        "name": "DEIRA PALACE HOTEL",
+        "geo": {
+          "latitude": 25.27048,
+          "longitude": 55.300453
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.93
+    }
+  },
+  "way/501783791": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d27731223",
+        "name": "Copthorne Airport Hotel Dubai",
+        "geo": {
+          "latitude": 25.247692,
+          "longitude": 55.343224
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.54
+    }
+  },
+  "node/4919712319": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2628486",
+        "name": "Deira Suites Hotel Apartment",
+        "geo": {
+          "latitude": 25.260496,
+          "longitude": 55.320213
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.15
+    }
+  },
+  "way/317173842": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1227161",
+        "name": "Al Jawhara Hotel Apartments",
+        "geo": {
+          "latitude": 25.25481,
+          "longitude": 55.33489
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 52.28
+    }
+  },
+  "way/219185894": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1508373",
+        "name": "ZiQoo Hotel Apartments Dubai",
+        "geo": {
+          "latitude": 25.049103,
+          "longitude": 55.130623
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.08
+    }
+  },
+  "node/4036154581": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1078457",
+        "name": "ABC Arabian Suites",
+        "geo": {
+          "latitude": 25.2504,
+          "longitude": 55.2862
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 32.05
+    }
+  },
+  "node/4932466529": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2614680",
+        "name": "Grand Hotel",
+        "geo": {
+          "latitude": 25.274267,
+          "longitude": 55.300503
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.94
+    }
+  },
+  "way/256495770": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1200088",
+        "name": "Desert Rose Hotel Apartments",
+        "geo": {
+          "latitude": 25.25548,
+          "longitude": 55.29619
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.43
+    }
+  },
+  "node/4939077855": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8725992",
+        "name": "Al Noor Hotel",
+        "geo": {
+          "latitude": 25.27697,
+          "longitude": 55.30836
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.19
+    }
+  },
+  "way/437552721": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3825365",
+        "name": "Spectrum Hotel",
+        "geo": {
+          "latitude": 25.269,
+          "longitude": 55.3155
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.49
+    }
+  },
+  "node/4932462415": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3832775",
+        "name": "Golden Palace Hotel",
+        "geo": {
+          "latitude": 25.27475,
+          "longitude": 55.301422
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.23
+    }
+  },
+  "way/437412399": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d506985",
+        "name": "Oriental Palace Hotel Apartment",
+        "geo": {
+          "latitude": 25.270653,
+          "longitude": 55.315895
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 2.99
+    }
+  },
+  "node/2488004002": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d497630",
+        "name": "Dubai Nova Hotel",
+        "geo": {
+          "latitude": 25.262453,
+          "longitude": 55.295834
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.7
+    }
+  },
+  "node/4939174798": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3830351",
+        "name": "Sweet Palace Hotel",
+        "geo": {
+          "latitude": 25.270811,
+          "longitude": 55.30934
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.45
+    }
+  },
+  "node/4929444774": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8711240",
+        "name": "Golden Pearl Hotel",
+        "geo": {
+          "latitude": 25.272173,
+          "longitude": 55.30346
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.97
+    }
+  },
+  "node/4940839025": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3809960",
+        "name": "Fal Hotel",
+        "geo": {
+          "latitude": 25.270737,
+          "longitude": 55.309845
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 13.89
+    }
+  },
+  "relation/3336312": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23611933",
+        "name": "Summit Hotel",
+        "geo": {
+          "latitude": 25.264463,
+          "longitude": 55.319675
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.01
+    }
+  },
+  "node/1061786473": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1006218",
+        "name": "Seven Sands Hotel Apartments",
+        "geo": {
+          "latitude": 25.115171,
+          "longitude": 55.194168
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 119.18
+    }
+  },
+  "node/4919595134": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d633008",
+        "name": "Sadaf Hotel",
+        "geo": {
+          "latitude": 25.269121,
+          "longitude": 55.314285
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.79
+    }
+  },
+  "way/491372970": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8656799",
+        "name": "Grand Midwest View Hotel Apartments",
+        "geo": {
+          "latitude": 25.111639,
+          "longitude": 55.1873
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 20.84
+    }
+  },
+  "node/4938638524": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3836138",
+        "name": "Al Rabia Hotel",
+        "geo": {
+          "latitude": 25.275244,
+          "longitude": 55.306713
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.58
+    }
+  },
+  "node/4939200451": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21027422",
+        "name": "Tara Hotel",
+        "geo": {
+          "latitude": 25.270388,
+          "longitude": 55.30771
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.83
+    }
+  },
+  "way/521896921": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34217691",
+        "name": "Class Hotel Apartments",
+        "geo": {
+          "latitude": 25.100737,
+          "longitude": 55.176617
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 11.55
+    }
+  },
+  "node/4932466528": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3823262",
+        "name": "Blue Diamond Hotel",
+        "geo": {
+          "latitude": 25.274302,
+          "longitude": 55.300766
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.27
+    }
+  },
+  "node/4927394317": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8721583",
+        "name": "Relax Hotel",
+        "geo": {
+          "latitude": 25.274822,
+          "longitude": 55.3019
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.84
+    }
+  },
+  "node/4931461690": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3810386",
+        "name": "Al Hashemi Hotel",
+        "geo": {
+          "latitude": 25.271212,
+          "longitude": 55.30355
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.91
+    }
+  },
+  "way/256495756": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26525853",
+        "name": "Fortune Hotel Apartments",
+        "geo": {
+          "latitude": 25.256083,
+          "longitude": 55.299644
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.2
+    }
+  },
+  "node/4941080412": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3811981",
+        "name": "Maknas Hotel Apartments",
+        "geo": {
+          "latitude": 25.273895,
+          "longitude": 55.3114
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.71
+    }
+  },
+  "node/4939161270": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8710964",
+        "name": "Al Dar Hotel",
+        "geo": {
+          "latitude": 25.271936,
+          "longitude": 55.307476
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.07
+    }
+  },
+  "node/4940829834": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3830616",
+        "name": "Deira Park",
+        "geo": {
+          "latitude": 25.271257,
+          "longitude": 55.310246
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 7.07
+    }
+  },
+  "node/5043001423": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8710955",
+        "name": "Sunset Hotel",
+        "geo": {
+          "latitude": 25.271172,
+          "longitude": 55.306072
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.02
+    }
+  },
+  "way/246257202": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d23612826",
+        "name": "Dunes Hotel Apartments",
+        "geo": {
+          "latitude": 25.284958,
+          "longitude": 55.4049
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 32.65
+    }
+  },
+  "node/5126408541": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3819774",
+        "name": "Season Hotel",
+        "geo": {
+          "latitude": 25.270824,
+          "longitude": 55.30598
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.61
+    }
+  },
+  "node/6442957340": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34609310",
+        "name": "Beach Hotel Apartment",
+        "geo": {
+          "latitude": 25.232906,
+          "longitude": 55.26534
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.47
+    }
+  },
+  "node/4940839032": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3825709",
+        "name": "Riga Hotel",
+        "geo": {
+          "latitude": 25.270437,
+          "longitude": 55.31045
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 40.36
+    }
+  },
+  "way/396277266": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1053361",
+        "name": "Premier Inn Dubai Investments Park Hotel",
+        "geo": {
+          "latitude": 25.00816,
+          "longitude": 55.156555
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.0
+    }
+  },
+  "way/125848284": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d7705803",
+        "name": "Emirates Grand Hotel",
+        "geo": {
+          "latitude": 25.211153,
+          "longitude": 55.27412
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.85
+    }
+  },
+  "node/12085340669": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25418887",
+        "name": "Terra Solis Dubai",
+        "geo": {
+          "latitude": 24.99097,
+          "longitude": 55.418068
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 63.01
+    }
+  },
+  "way/196177272": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3297630",
+        "name": "JA OCEAN VIEW HOTEL",
+        "geo": {
+          "latitude": 25.073154,
+          "longitude": 55.130142
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.91
+    }
+  },
+  "way/196657176": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d602352",
+        "name": "Blue Beach Tower",
+        "geo": {
+          "latitude": 25.07972,
+          "longitude": 55.13652
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.95
+    }
+  },
+  "way/98551756": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d446842",
+        "name": "Carlton Tower Hotel",
+        "geo": {
+          "latitude": 25.267075,
+          "longitude": 55.307106
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 33.21
+    }
+  },
+  "way/436233481": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d27181537",
+        "name": "Best Western Premier M Four Hotel",
+        "geo": {
+          "latitude": 25.262745,
+          "longitude": 55.31944
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 12.29
+    }
+  },
+  "node/2084941779": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d673920",
+        "name": "Arabian Dreams Hotel Apartments",
+        "geo": {
+          "latitude": 25.249622,
+          "longitude": 55.286148
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 32.55
+    }
+  },
+  "node/4931453570": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3830586",
+        "name": "Emirates Hotel",
+        "geo": {
+          "latitude": 25.270721,
+          "longitude": 55.30308
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.91
+    }
+  },
+  "way/110403162": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d28010272",
+        "name": "Oaks Ibn Battuta Gate Dubai",
+        "geo": {
+          "latitude": 25.04141,
+          "longitude": 55.114914
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 54.66
+    }
+  },
+  "way/437721173": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8055869",
+        "name": "Hyatt Place Dubai Baniyas Square",
+        "geo": {
+          "latitude": 25.268719,
+          "longitude": 55.30523
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 10.66
+    }
+  },
+  "way/196657158": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8773419",
+        "name": "La Verda Suites and Villas Dubai Marina",
+        "geo": {
+          "latitude": 25.0803,
+          "longitude": 55.143253
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.88
+    }
+  },
+  "way/436231400": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d304696",
+        "name": "Jood Palace Hotel Dubai",
+        "geo": {
+          "latitude": 25.263123,
+          "longitude": 55.32251
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 104.48
+    }
+  },
+  "node/5166895521": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d506232",
+        "name": "Emirates Concorde Hotel & Residence",
+        "geo": {
+          "latitude": 25.2599,
+          "longitude": 55.32069
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 28.31
+    }
+  },
+  "way/723551986": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d21510150",
+        "name": "Residence Inn by Marriott Al Jaddaf",
+        "geo": {
+          "latitude": 25.21089,
+          "longitude": 55.31465
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 24.9
+    }
+  },
+  "node/4325259489": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1464289",
+        "name": "Fortune Classic Hotel Apartments",
+        "geo": {
+          "latitude": 25.268879,
+          "longitude": 55.379124
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.6
+    }
+  },
+  "way/91402247": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1801645",
+        "name": "Akas-Inn Hotel Apartment",
+        "geo": {
+          "latitude": 25.115088,
+          "longitude": 55.19472
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 14.13
+    }
+  },
+  "way/89701628": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8147320",
+        "name": "The View Al Barsha Hotel Apartments",
+        "geo": {
+          "latitude": 25.116623,
+          "longitude": 55.194065
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 30.25
+    }
+  },
+  "node/4931144561": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d9984011",
+        "name": "Naif View Hotel",
+        "geo": {
+          "latitude": 25.27236,
+          "longitude": 55.30454
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 5.32
+    }
+  },
+  "node/2175023842": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d308190",
+        "name": "Claridge Hotel - Dubai",
+        "geo": {
+          "latitude": 25.270807,
+          "longitude": 55.316605
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.34
+    }
+  },
+  "node/2760985752": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1523711",
+        "name": "Grand Midwest Tower Hotel & Hotel Apartments",
+        "geo": {
+          "latitude": 25.101694,
+          "longitude": 55.170963
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 50.57
+    }
+  },
+  "way/244768981": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d27154051",
+        "name": "West Zone Plaza Hotel Apartments",
+        "geo": {
+          "latitude": 25.24916,
+          "longitude": 55.294903
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 90.1
+    }
+  },
+  "node/4800360121": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26250944",
+        "name": "City Seasons Hotel Dubai",
+        "geo": {
+          "latitude": 25.256462,
+          "longitude": 55.335003
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 23.38
+    }
+  },
+  "way/385743735": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d25810858",
+        "name": "Roda Metha Suites",
+        "geo": {
+          "latitude": 25.231,
+          "longitude": 55.3147
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 48.79
+    }
+  },
+  "node/4927394314": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8710959",
+        "name": "Al Amana Hotel",
+        "geo": {
+          "latitude": 25.2748,
+          "longitude": 55.30207
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 3.99
+    }
+  },
+  "node/4919366167": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d2626310",
+        "name": "Al Zahabiya Hotel Apartments",
+        "geo": {
+          "latitude": 25.263853,
+          "longitude": 55.316505
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.78
+    }
+  },
+  "node/4932479310": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3825487",
+        "name": "Juba Hotel",
+        "geo": {
+          "latitude": 25.272772,
+          "longitude": 55.29899
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 16.55
+    }
+  },
+  "node/4129815089": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8375649",
+        "name": "Al Buraq Hotel",
+        "geo": {
+          "latitude": 25.268816,
+          "longitude": 55.297318
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.68
+    }
+  },
+  "node/4169956293": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d547382",
+        "name": "Dream Palace Hotel",
+        "geo": {
+          "latitude": 25.2678,
+          "longitude": 55.3218
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 21.59
+    }
+  },
+  "node/4919505291": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d6536759",
+        "name": "Aureate Hotel Apartment",
+        "geo": {
+          "latitude": 25.259495,
+          "longitude": 55.32644
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 12.63
+    }
+  },
+  "node/4939200443": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3819768",
+        "name": "Central Paris Hotel",
+        "geo": {
+          "latitude": 25.269472,
+          "longitude": 55.307735
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 54.55
+    }
+  },
+  "way/503878818": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8710977",
+        "name": "Ewan Hotel",
+        "geo": {
+          "latitude": 25.280884,
+          "longitude": 55.31814
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 15.82
+    }
+  },
+  "node/4931443357": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3810382",
+        "name": "New Avon Hotel",
+        "geo": {
+          "latitude": 25.268858,
+          "longitude": 55.303356
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 31.07
+    }
+  },
+  "way/1239507976": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d33246226",
+        "name": "Azizi Mina",
+        "geo": {
+          "latitude": 25.127186,
+          "longitude": 55.153584
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 9.47
+    }
+  },
+  "node/4932466523": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3823250",
+        "name": "Royal Garden Hotel",
+        "geo": {
+          "latitude": 25.2745,
+          "longitude": 55.301
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 4.05
+    }
+  },
+  "node/4931366486": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d8177988",
+        "name": "White Sand Hotel",
+        "geo": {
+          "latitude": 25.271517,
+          "longitude": 55.304207
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.16
+    }
+  },
+  "way/304344621": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d582702",
+        "name": "Dubai Palm Hotel",
+        "geo": {
+          "latitude": 25.27329,
+          "longitude": 55.31979
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 19.69
+    }
+  },
+  "way/436231402": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d671967",
+        "name": "Sun and Sands Hotel",
+        "geo": {
+          "latitude": 25.26102,
+          "longitude": 55.323746
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 1.24
+    }
+  },
+  "node/3464842720": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d1123012",
+        "name": "Rafee Hotel",
+        "geo": {
+          "latitude": 25.269918,
+          "longitude": 55.30481
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 12.93
+    }
+  },
+  "node/4940881856": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d5445142",
+        "name": "Africana Hotel",
+        "geo": {
+          "latitude": 25.2721,
+          "longitude": 55.311428
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 8.1
+    }
+  },
+  "way/498599068": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26800315",
+        "name": "Monaco Hotel",
+        "geo": {
+          "latitude": 25.260489,
+          "longitude": 55.32741
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 29.57
+    }
+  },
+  "way/263380129": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d3886781",
+        "name": "Golden Square Hotel Apartments",
+        "geo": {
+          "latitude": 25.272835,
+          "longitude": 55.30928
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.64
+    }
+  },
+  "way/445113458": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34610697",
+        "name": "ibis Al Barsha",
+        "geo": {
+          "latitude": 25.108849,
+          "longitude": 55.183285
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 35.07
+    }
+  },
+  "node/12620635201": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34772634",
+        "name": "Four Stars Residence",
+        "geo": {
+          "latitude": 25.271416,
+          "longitude": 55.370155
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 35.6
+    }
+  },
+  "way/1133365086": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34258453",
+        "name": "Wyndham Dubai Deira",
+        "geo": {
+          "latitude": 25.277004,
+          "longitude": 55.300346
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 6.97
+    }
+  },
+  "way/385761097": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d27161481",
+        "name": "Park Hotel Apartments",
+        "geo": {
+          "latitude": 25.221218,
+          "longitude": 55.328403
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 77.98
+    }
+  },
+  "way/116828756": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d34447773",
+        "name": "Holiday Inn Express - Internet City",
+        "geo": {
+          "latitude": 25.10457,
+          "longitude": 55.16613
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 27.88
+    }
+  },
+  "node/4931294144": {
+    "Booking sites via TripAdvisor (Xotelo)": {
+      "property": {
+        "key": "g295424-d26818774",
+        "name": "Sandras Inn",
+        "geo": {
+          "latitude": 25.26912,
+          "longitude": 55.30659
+        }
+      },
+      "match_score": 1.0,
+      "distance_m": 29.69
+    }
+  }
+}

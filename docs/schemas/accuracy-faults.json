@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Difference": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "feed": {
+          "anyOf": [
+            {
+              "pattern": "^-?\\d+\\.\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Feed"
+        },
+        "landing": {
+          "anyOf": [
+            {
+              "pattern": "^-?\\d+\\.\\d{2}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Landing"
+        }
+      },
+      "required": [
+        "label",
+        "feed",
+        "landing"
+      ],
+      "title": "Difference",
+      "type": "object"
+    },
+    "Folio": {
+      "properties": {
+        "rate_id": {
+          "title": "Rate Id",
+          "type": "string"
+        },
+        "computed_at": {
+          "format": "date-time",
+          "title": "Computed At",
+          "type": "string"
+        },
+        "hotel_id": {
+          "title": "Hotel Id",
+          "type": "string"
+        },
+        "hotel_name": {
+          "title": "Hotel Name",
+          "type": "string"
+        },
+        "checkin": {
+          "format": "date",
+          "title": "Checkin",
+          "type": "string"
+        },
+        "nights": {
+          "maximum": 30,
+          "minimum": 1,
+          "title": "Nights",
+          "type": "integer"
+        },
+        "guests": {
+          "maximum": 8,
+          "minimum": 1,
+          "title": "Guests",
+          "type": "integer"
+        },
+        "room": {
+          "title": "Room",
+          "type": "string"
+        },
+        "plan": {
+          "title": "Plan",
+          "type": "string"
+        },
+        "refundable": {
+          "title": "Refundable",
+          "type": "boolean"
+        },
+        "breakfast": {
+          "title": "Breakfast",
+          "type": "boolean"
+        },
+        "lines": {
+          "items": {
+            "$ref": "#/$defs/Line"
+          },
+          "title": "Lines",
+          "type": "array"
+        },
+        "total": {
+          "pattern": "^-?\\d+\\.\\d{2}$",
+          "title": "Total",
+          "type": "string"
+        },
+        "currency": {
+          "const": "AED",
+          "title": "Currency",
+          "type": "string"
+        },
+        "tax_rules_as_of": {
+          "format": "date",
+          "title": "Tax Rules As Of",
+          "type": "string"
+        },
+        "synthetic": {
+          "const": true,
+          "title": "Synthetic",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "rate_id",
+        "computed_at",
+        "hotel_id",
+        "hotel_name",
+        "checkin",
+        "nights",
+        "guests",
+        "room",
+        "plan",
+        "refundable",
+        "breakfast",
+        "lines",
+        "total",
+        "currency",
+        "tax_rules_as_of",
+        "synthetic"
+      ],
+      "title": "Folio",
+      "type": "object"
+    },
+    "Line": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "amount": {
+          "pattern": "^-?\\d+\\.\\d{2}$",
+          "title": "Amount",
+          "type": "string"
+        },
+        "rule_id": {
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "base",
+            "tax",
+            "fee",
+            "discount"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "basis": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Basis"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "enum": [
+                "official",
+                "secondary",
+                "uncertain"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "label",
+        "amount",
+        "rule_id",
+        "kind"
+      ],
+      "title": "Line",
+      "type": "object"
+    },
+    "Sample": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "hotel_id": {
+          "title": "Hotel Id",
+          "type": "string"
+        },
+        "hotel_name": {
+          "title": "Hotel Name",
+          "type": "string"
+        },
+        "checkin": {
+          "format": "date",
+          "title": "Checkin",
+          "type": "string"
+        },
+        "nights": {
+          "minimum": 0,
+          "title": "Nights",
+          "type": "integer"
+        },
+        "feed": {
+          "$ref": "#/$defs/Folio"
+        },
+        "landing": {
+          "$ref": "#/$defs/Folio"
+        },
+        "match": {
+          "title": "Match",
+          "type": "boolean"
+        },
+        "diff": {
+          "items": {
+            "$ref": "#/$defs/Difference"
+          },
+          "title": "Diff",
+          "type": "array"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reason"
+        },
+        "reason_label": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Reason Label"
+        },
+        "injected": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Injected"
+        },
+        "detected_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Detected Reason"
+        }
+      },
+      "required": [
+        "id",
+        "hotel_id",
+        "hotel_name",
+        "checkin",
+        "nights",
+        "feed",
+        "landing",
+        "match",
+        "diff",
+        "reason",
+        "reason_label",
+        "injected",
+        "detected_reason"
+      ],
+      "title": "Sample",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "score": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Score",
+      "type": "number"
+    },
+    "definition": {
+      "title": "Definition",
+      "type": "string"
+    },
+    "samples": {
+      "items": {
+        "$ref": "#/$defs/Sample"
+      },
+      "title": "Samples",
+      "type": "array"
+    },
+    "by_reason": {
+      "additionalProperties": {
+        "minimum": 0,
+        "type": "integer"
+      },
+      "title": "By Reason",
+      "type": "object"
+    },
+    "faults": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Faults",
+      "type": "array"
+    }
+  },
+  "required": [
+    "score",
+    "definition",
+    "samples",
+    "by_reason",
+    "faults"
+  ],
+  "title": "Accuracy",
+  "type": "object"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="common_types.xsd" />
+  <xs:complexType name="propertyListType">
+    <xs:sequence>
+      <xs:element name="Property" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="pointQueryGroup">
+    <xs:sequence>
+      <xs:element name="Checkin" type="xs:date" />
+      <xs:element name="Nights" type="xs:positiveInteger" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="rangeQueryGroup">
+    <xs:sequence>
+      <xs:element name="FirstDate" type="xs:date" />
+      <xs:element name="LastDate" type="xs:date" />
+      <xs:choice>
+        <xs:element name="Nights" type="xs:positiveInteger" />
+        <xs:element name="AffectedNights" type="xs:positiveInteger" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:group>
+  <xs:simpleType name="countryType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z][A-Z]" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="deviceType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="desktop" />
+      <xs:enumeration value="mobile" />
+      <xs:enumeration value="tablet" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="queryContextType">
+    <xs:sequence>
+      <xs:element name="Occupancy" type="xs:positiveInteger" minOccurs="0" />
+      <xs:element name="OccupancyDetails" type="occupancyDetailsType" minOccurs="0" />
+      <xs:element name="UserCountry" type="countryType" minOccurs="0" />
+      <xs:element name="UserDevice" type="deviceType" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="propertyContextGroup">
+    <xs:sequence>
+      <xs:element name="Property" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+      <xs:element name="Context" type="queryContextType" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:group>
+  <xs:complexType name="propertyContextType">
+    <xs:group ref="propertyContextGroup" />
+  </xs:complexType>
+  <xs:complexType name="propertyContextListType">
+    <xs:sequence>
+      <xs:element name="PropertyContext" type="propertyContextType" minOccurs="1" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="cacheQueryContext">
+    <xs:sequence>
+      <xs:element name="PropertyContextList" type="propertyContextListType" minOccurs="1" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="liveQueryContext">
+    <xs:sequence>
+      <xs:element name="PropertyList" type="propertyListType" minOccurs="1" />
+      <xs:element name="Context" type="queryContextType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="combinedQueryGroup">
+    <xs:sequence>
+      <xs:choice>
+        <xs:group ref="pointQueryGroup" />
+        <xs:group ref="rangeQueryGroup" />
+      </xs:choice>
+      <xs:element name="DeadlineMs" type="xs:unsignedLong" minOccurs="0" maxOccurs="1" />
+      <xs:choice>
+        <xs:group ref="liveQueryContext"/>
+        <xs:group ref="cacheQueryContext"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="Query">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element name="HotelInfoProperties" type="propertyListType" />
+        <xs:group ref="combinedQueryGroup" />
+      </xs:choice>
+      <xs:attribute name="latencySensitive" type="xs:boolean" />
+      <xs:attribute name="hintId" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

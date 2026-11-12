@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "kind": "hotel_list",
+      "filename": "hotel_list.xml",
+      "bytes": 2048,
+      "schema_url": "https://www.gstatic.com/localfeed/local_feed.xsd",
+      "xsd_fetched_at": "2026-11-11T21:04:12+04:00",
+      "valid": true,
+      "check": "xsd",
+      "errors": []
+    },
+    {
+      "kind": "property_data",
+      "filename": "property_data.xml",
+      "bytes": 2049,
+      "schema_url": "https://www.gstatic.com/localfeed/local_feed.xsd",
+      "xsd_fetched_at": "2026-11-11T21:04:12+04:00",
+      "valid": true,
+      "check": "xsd",
+      "errors": []
+    },
+    {
+      "kind": "transaction",
+      "filename": "transaction.xml",
+      "bytes": 2050,
+      "schema_url": "https://www.gstatic.com/localfeed/local_feed.xsd",
+      "xsd_fetched_at": "2026-11-11T21:04:12+04:00",
+      "valid": true,
+      "check": "xsd",
+      "errors": []
+    },
+    {
+      "kind": "ari_rate",
+      "filename": "ari_rate.xml",
+      "bytes": 2051,
+      "schema_url": null,
+      "xsd_fetched_at": null,
+      "valid": true,
+      "check": "structural",
+      "errors": []
+    },
+    {
+      "kind": "ari_avail",
+      "filename": "ari_avail.xml",
+      "bytes": 2052,
+      "schema_url": null,
+      "xsd_fetched_at": null,
+      "valid": true,
+      "check": "structural",
+      "errors": []
+    },
+    {
+      "kind": "ari_inv",
+      "filename": "ari_inv.xml",
+      "bytes": 2053,
+      "schema_url": null,
+      "xsd_fetched_at": null,
+      "valid": true,
+      "check": "structural",
+      "errors": []
+    }
+  ]
+}

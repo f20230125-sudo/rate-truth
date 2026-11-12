@@ -1,0 +1,1387 @@
+{
+  "provenance": "live_llm_recording",
+  "today": "2026-11-12",
+  "message": "Find a refundable stay near a metro for two nights.",
+  "responses": [
+    "{\"action\": \"call\", \"tool\": \"search_hotels\", \"args\": {\"q\": \"refundable stay metro\", \"nights\": 2, \"checkin\": \"2026-11-15\", \"near_metro\": 1000}}",
+    "{\"action\": \"call\", \"tool\": \"search_hotels\", \"args\": {\"nights\": 2, \"checkin\": \"2026-11-15\", \"near_metro\": 1000}}",
+    "{\"action\": \"answer\", \"text\": \"For a two-night refundable stay checking in on 2026-11-15 for two guests near a metro station, I found several options including ibis One Central (node/10150949586) priced at AED 1,562.58 total (rate ID rt_3f83129776338c26e002f2a823c59cc24207b54b6df384b737c168e3ecafca8c) and The George Hotel (node/11272994367) priced at AED 1,501.35 total (rate ID rt_5a5b370b1457e85a8a3573db4e7e02106013f9ce0361235738744155a951d61c).\", \"cited_cards\": [\"node/10150949586\", \"node/11272994367\"], \"hold_rate_id\": \"rt_3f83129776338c26e002f2a823c59cc24207b54b6df384b737c168e3ecafca8c\"}"
+  ],
+  "events": [
+    {
+      "event": "trace",
+      "data": {
+        "step": 1,
+        "tool": "search_hotels",
+        "args": {
+          "q": "refundable stay metro",
+          "nights": 2,
+          "checkin": "2026-11-15",
+          "near_metro": 1000
+        },
+        "started_ms": 1669,
+        "duration_ms": 66,
+        "ok": true,
+        "summary": "MCP result; 0 synthetic folios",
+        "rate_ids": []
+      }
+    },
+    {
+      "event": "trace",
+      "data": {
+        "step": 2,
+        "tool": "search_hotels",
+        "args": {
+          "nights": 2,
+          "checkin": "2026-11-15",
+          "near_metro": 1000
+        },
+        "started_ms": 2617,
+        "duration_ms": 1919,
+        "ok": true,
+        "summary": "MCP result; 20 synthetic folios",
+        "rate_ids": [
+          "rt_0ad160c27e9e499322fff72a79c1d52ad8698064b4e1de82518672d97e99eecb",
+          "rt_790605ab64be24e483f135f17c51fce212bf579a709c69e5c179584eac696bb6",
+          "rt_579c868d45717fec2b587b6ba80a2ab13fca2902b6249a1c434579fb84dc0202",
+          "rt_504a22e0d4ecb817a51ba60adcd2532f6426b0314bbfe3ad4126b4c004dd73e5",
+          "rt_f6354c5e77296a9bce53890b3138983c0356ea55b0e64d110c3cb74d495df157",
+          "rt_b723ad3b7c7f8d58929d58d2aef5e8e59ddd8906abeb6371b875ea4dca98c9e9",
+          "rt_ba89db7b9897f5a2e446b1633540a7797f5022dab863dcf365b1aab33f551fd8",
+          "rt_3f83129776338c26e002f2a823c59cc24207b54b6df384b737c168e3ecafca8c",
+          "rt_3b2a2659f55dc94fc00317b2ce3fb0e598c974d29672c65a3353b67771cf31d7",
+          "rt_2e748c0562b53152996b2df8286b46eaece084b0e1bd8df7eb3f7d3be2705eed",
+          "rt_3998b42ecae08aad0c41a6e4ca4bed0cc636b6d71c1bcff74d2d304826e47148",
+          "rt_15314b14710ed4f0e4e00495ac961c23a9f5a2b07d8144e148b9d8ce4ebc59c7",
+          "rt_19017150724949338d908ddb6289b9dead65a40b1d6d0d2ad141b8a8a31f82ea",
+          "rt_3c71edc85acc7dcbeef571d8e728edd63c7d0d48cd1b4da4ae8ab97c051c27b8",
+          "rt_324700e6755df5c4aa9bba6c32dc2af445d312621ad9513139d9a647a2e2c283",
+          "rt_0c5b28b1ca19ee1bc998846ca90685858ad198733faef0b0b64228893bc8d80c",
+          "rt_95bc79c3c507d5dec9cd737c9e919b103dfc5279684e88704a19cad8ae4e938a",
+          "rt_5a5b370b1457e85a8a3573db4e7e02106013f9ce0361235738744155a951d61c",
+          "rt_1e3a1620b999c3449e5195b9cc2c326bd5f2da2361d481f8e1984dd73af53f02",
+          "rt_dac646d051dc9a50d7a5865c03817e7459804fe6b866b0bdd840312d2336fa3d"
+        ]
+      }
+    },
+    {
+      "event": "answer",
+      "data": {
+        "text": "For a two-night refundable stay checking in on 2026-11-15 for two guests near a metro station, I found several options including ibis One Central (node/10150949586) priced at AED 1,562.58 total (rate ID rt_3f83129776338c26e002f2a823c59cc24207b54b6df384b737c168e3ecafca8c) and The George Hotel (node/11272994367) priced at AED 1,501.35 total (rate ID rt_5a5b370b1457e85a8a3573db4e7e02106013f9ce0361235738744155a951d61c).",
+        "prices": [
+          {
+            "amount": "1562.58",
+            "rate_id": "rt_3f83129776338c26e002f2a823c59cc24207b54b6df384b737c168e3ecafca8c",
+            "traced": true
+          },
+          {
+            "amount": "1501.35",
+            "rate_id": "rt_5a5b370b1457e85a8a3573db4e7e02106013f9ce0361235738744155a951d61c",
+            "traced": true
+          }
+        ],
+        "folios": [
+          {
+            "rate_id": "rt_0ad160c27e9e499322fff72a79c1d52ad8698064b4e1de82518672d97e99eecb",
+            "computed_at": "2026-11-12T09:57:01.192454+04:00",
+            "hotel_id": "node/10003024118",
+            "hotel_name": "فندق دورس",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1243.32",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "124.34",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "87.03",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "68.38",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1543.07",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_790605ab64be24e483f135f17c51fce212bf579a709c69e5c179584eac696bb6",
+            "computed_at": "2026-11-12T09:57:01.193962+04:00",
+            "hotel_id": "node/10003024119",
+            "hotel_name": "Dorus hotel",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1223.44",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "122.34",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "85.64",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "67.29",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1518.71",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_579c868d45717fec2b587b6ba80a2ab13fca2902b6249a1c434579fb84dc0202",
+            "computed_at": "2026-11-12T09:57:01.195300+04:00",
+            "hotel_id": "node/10003024319",
+            "hotel_name": "My hotel dorus",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1277.24",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "127.73",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "89.41",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "70.24",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1584.62",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_504a22e0d4ecb817a51ba60adcd2532f6426b0314bbfe3ad4126b4c004dd73e5",
+            "computed_at": "2026-11-12T09:57:01.196590+04:00",
+            "hotel_id": "node/10003024320",
+            "hotel_name": "My hotel dorus",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1299.51",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "129.95",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "90.97",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "71.48",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1611.91",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_f6354c5e77296a9bce53890b3138983c0356ea55b0e64d110c3cb74d495df157",
+            "computed_at": "2026-11-12T09:57:01.201933+04:00",
+            "hotel_id": "node/10003024321",
+            "hotel_name": "My hotel dorus",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1262.45",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "126.24",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "88.37",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "69.44",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1566.50",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_b723ad3b7c7f8d58929d58d2aef5e8e59ddd8906abeb6371b875ea4dca98c9e9",
+            "computed_at": "2026-11-12T09:57:01.203555+04:00",
+            "hotel_id": "node/10003024417",
+            "hotel_name": "My hotel dorus",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1166.60",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "116.66",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "81.66",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "64.16",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1449.08",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_ba89db7b9897f5a2e446b1633540a7797f5022dab863dcf365b1aab33f551fd8",
+            "computed_at": "2026-11-12T09:57:01.205341+04:00",
+            "hotel_id": "node/10129600818",
+            "hotel_name": "Grand Cosmopolitan Hotel",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1326.49",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "132.65",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "92.86",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "72.95",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1644.95",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_3f83129776338c26e002f2a823c59cc24207b54b6df384b737c168e3ecafca8c",
+            "computed_at": "2026-11-12T09:57:01.206698+04:00",
+            "hotel_id": "node/10150949586",
+            "hotel_name": "ibis One Central",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1259.25",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "125.93",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "88.15",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "69.25",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "official"
+              }
+            ],
+            "total": "1562.58",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_3b2a2659f55dc94fc00317b2ce3fb0e598c974d29672c65a3353b67771cf31d7",
+            "computed_at": "2026-11-12T09:57:01.208621+04:00",
+            "hotel_id": "node/10154825332",
+            "hotel_name": "Metropolitan",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1273.79",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "127.38",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "89.16",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "70.05",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1580.38",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_2e748c0562b53152996b2df8286b46eaece084b0e1bd8df7eb3f7d3be2705eed",
+            "computed_at": "2026-11-12T09:57:01.210098+04:00",
+            "hotel_id": "node/10180688574",
+            "hotel_name": "RED Radisson",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1312.06",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "131.21",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "91.84",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "72.17",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1627.28",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_3998b42ecae08aad0c41a6e4ca4bed0cc636b6d71c1bcff74d2d304826e47148",
+            "computed_at": "2026-11-12T09:57:01.211105+04:00",
+            "hotel_id": "node/10223096317",
+            "hotel_name": "Al Barsha Premium Hotel Apartments",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1237.05",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "123.71",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "86.60",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "68.04",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1535.40",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_15314b14710ed4f0e4e00495ac961c23a9f5a2b07d8144e148b9d8ce4ebc59c7",
+            "computed_at": "2026-11-12T09:57:01.212259+04:00",
+            "hotel_id": "node/10280768409",
+            "hotel_name": "فندق جارن سيتي",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1245.97",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "124.60",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "87.22",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "68.53",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1546.32",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_19017150724949338d908ddb6289b9dead65a40b1d6d0d2ad141b8a8a31f82ea",
+            "computed_at": "2026-11-12T09:57:01.213003+04:00",
+            "hotel_id": "node/1061786473",
+            "hotel_name": "Seven Sands",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1258.00",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "125.81",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "88.06",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "69.19",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1561.06",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_3c71edc85acc7dcbeef571d8e728edd63c7d0d48cd1b4da4ae8ab97c051c27b8",
+            "computed_at": "2026-11-12T09:57:01.213609+04:00",
+            "hotel_id": "node/1061786730",
+            "hotel_name": "AURIS",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1278.84",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "127.88",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "89.52",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "70.34",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1586.58",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_324700e6755df5c4aa9bba6c32dc2af445d312621ad9513139d9a647a2e2c283",
+            "computed_at": "2026-11-12T09:57:01.214758+04:00",
+            "hotel_id": "node/10752563005",
+            "hotel_name": "Ibis Styles Dubai Deira",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1298.05",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "129.80",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "90.86",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "71.39",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1610.10",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_0c5b28b1ca19ee1bc998846ca90685858ad198733faef0b0b64228893bc8d80c",
+            "computed_at": "2026-11-12T09:57:01.215989+04:00",
+            "hotel_id": "node/10769935505",
+            "hotel_name": "LEVA Hotel , Mazaya Centre",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1367.23",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "136.73",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "95.71",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "75.20",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1694.87",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_95bc79c3c507d5dec9cd737c9e919b103dfc5279684e88704a19cad8ae4e938a",
+            "computed_at": "2026-11-12T09:57:01.217296+04:00",
+            "hotel_id": "node/11064740105",
+            "hotel_name": "تاور پلازار",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1269.98",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "127.00",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "88.90",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "69.85",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1575.73",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_5a5b370b1457e85a8a3573db4e7e02106013f9ce0361235738744155a951d61c",
+            "computed_at": "2026-11-12T09:57:01.220102+04:00",
+            "hotel_id": "node/11272994367",
+            "hotel_name": "The George Hotel",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1209.27",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "120.92",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "84.65",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "66.51",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1501.35",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_1e3a1620b999c3449e5195b9cc2c326bd5f2da2361d481f8e1984dd73af53f02",
+            "computed_at": "2026-11-12T09:57:01.221638+04:00",
+            "hotel_id": "node/11335525869",
+            "hotel_name": "Hotel wescott",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1211.74",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "121.18",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "84.82",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "66.64",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1504.38",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          },
+          {
+            "rate_id": "rt_dac646d051dc9a50d7a5865c03817e7459804fe6b866b0bdd840312d2336fa3d",
+            "computed_at": "2026-11-12T09:57:01.223115+04:00",
+            "hotel_id": "node/11341456693",
+            "hotel_name": "MRA Grand Hotel",
+            "checkin": "2026-11-15",
+            "nights": 2,
+            "guests": 2,
+            "room": "standard",
+            "plan": "refundable",
+            "refundable": true,
+            "breakfast": false,
+            "lines": [
+              {
+                "label": "Room rate (2 nights)",
+                "amount": "1209.00",
+                "rule_id": "synthetic-v2-det-2025-calibrated",
+                "kind": "base",
+                "basis": "Discounted room rate; base from published Dubai ADR calibration; stars not tagged in OSM; priced as 3-star",
+                "source_url": "http://127.0.0.1:8170/docs/supplier-model.md",
+                "confidence": "uncertain"
+              },
+              {
+                "label": "Service charge",
+                "amount": "120.90",
+                "rule_id": "service_charge_10_model_v1",
+                "kind": "fee",
+                "basis": "10% of room rate",
+                "source_url": "https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Municipality fee",
+                "amount": "84.63",
+                "rule_id": "municipality_7_model_v1",
+                "kind": "tax",
+                "basis": "7% of room rate",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html",
+                "confidence": "secondary"
+              },
+              {
+                "label": "VAT",
+                "amount": "66.50",
+                "rule_id": "vat_5_service_included_model_v1",
+                "kind": "tax",
+                "basis": "5% of room rate + service charge",
+                "source_url": "https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf",
+                "confidence": "secondary"
+              },
+              {
+                "label": "Tourism Dirham",
+                "amount": "20.00",
+                "rule_id": "tourism_dirham_schedule_2014",
+                "kind": "tax",
+                "basis": "2 × AED 10; stars not tagged in OSM; priced as 3-star",
+                "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf",
+                "confidence": "uncertain"
+              }
+            ],
+            "total": "1501.03",
+            "currency": "AED",
+            "tax_rules_as_of": "2026-11-11",
+            "synthetic": true
+          }
+        ],
+        "cited_cards": []
+      }
+    },
+    {
+      "event": "grounding",
+      "data": {
+        "traced": 2,
+        "total": 2,
+        "ok": false,
+        "untraced": []
+      }
+    },
+    {
+      "event": "done",
+      "data": {
+        "mode": "live",
+        "model": "gemini-3.5-flash-lite",
+        "steps": 3,
+        "total_ms": 6495
+      }
+    }
+  ]
+}

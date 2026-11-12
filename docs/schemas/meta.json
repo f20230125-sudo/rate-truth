@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "hotels": {
+      "minimum": 0,
+      "title": "Hotels",
+      "type": "integer"
+    },
+    "pois": {
+      "minimum": 0,
+      "title": "Pois",
+      "type": "integer"
+    },
+    "osm_fetched_at": {
+      "format": "date-time",
+      "title": "Osm Fetched At",
+      "type": "string"
+    },
+    "tax_rules_version": {
+      "title": "Tax Rules Version",
+      "type": "string"
+    },
+    "xsd_fetched_at": {
+      "format": "date-time",
+      "title": "Xsd Fetched At",
+      "type": "string"
+    },
+    "eval_run_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Eval Run At"
+    },
+    "llm_mode": {
+      "enum": [
+        "live",
+        "replay"
+      ],
+      "title": "Llm Mode",
+      "type": "string"
+    },
+    "retrieval_mode": {
+      "enum": [
+        "bm25",
+        "hybrid"
+      ],
+      "title": "Retrieval Mode",
+      "type": "string"
+    },
+    "mcp_url": {
+      "title": "Mcp Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "hotels",
+    "pois",
+    "osm_fetched_at",
+    "tax_rules_version",
+    "xsd_fetched_at",
+    "eval_run_at",
+    "llm_mode",
+    "retrieval_mode",
+    "mcp_url"
+  ],
+  "title": "Meta",
+  "type": "object"
+}

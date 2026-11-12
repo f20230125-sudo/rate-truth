@@ -1,0 +1,60 @@
+[
+  {
+    "id": "taxes_fees_omitted",
+    "sources": [],
+    "label": "Omit taxes and fees",
+    "description": "Remove a fee from the feed folio.",
+    "google_reason": "TAXES_AND_FEES"
+  },
+  {
+    "id": "stale_cache",
+    "sources": [],
+    "label": "Stale cache",
+    "description": "Serve an older feed computation.",
+    "google_reason": "PRICE_MISMATCH"
+  },
+  {
+    "sources": [],
+    "id": "missing_discount",
+    "label": "Missing discount",
+    "description": "Omit the length-of-stay discount from the feed while the landing page applies it.",
+    "google_reason": "PRICE_MISMATCH"
+  },
+  {
+    "sources": [],
+    "id": "currency_rounding",
+    "label": "Currency rounding",
+    "description": "Round the feed total differently from the landing page's AED fils calculation.",
+    "google_reason": "PRICE_MISMATCH"
+  },
+  {
+    "sources": [],
+    "id": "los_mismatch",
+    "label": "Length-of-stay mismatch",
+    "description": "Price a different number of nights in the feed than in the landing-page stay.",
+    "google_reason": "PRICE_MISMATCH"
+  },
+  {
+    "sources": [],
+    "id": "hotel_not_listed",
+    "label": "Hotel not listed",
+    "description": "Include a feed rate for a hotel absent from the hotel list.",
+    "google_reason": "PRICE_MISMATCH"
+  },
+  {
+    "sources": [
+      {
+        "label": "The National, 21 May 2026",
+        "url": "https://www.thenationalnews.com/business/economy/2026/05/21/dubai-approves-dh15-billion-relief-package-including-halting-hotel-and-restaurant-tax/"
+      },
+      {
+        "label": "Resolution 40/2026 (official, Arabic)",
+        "url": "https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2026/قرار%20المجلس%20التنفيذي%20رقم%20(40)%20لسنة%202026%20باعتماد%20التسهيلات%20للقطاع%20الاقتصادي%20والاجتماعي.html"
+      }
+    ],
+    "id": "tax_rule_change_missed",
+    "label": "Tax rule change missed",
+    "description": "Feed mistakes hotel remittance relief for a guest fee exemption.",
+    "google_reason": "PRICE_MISMATCH"
+  }
+]

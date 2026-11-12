@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Scenario": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "description"
+      ],
+      "title": "Scenario",
+      "type": "object"
+    },
+    "TaxRule": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "percent",
+            "per_room_night"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "base": {
+          "title": "Base",
+          "type": "string"
+        },
+        "applies_from": {
+          "format": "date",
+          "title": "Applies From",
+          "type": "string"
+        },
+        "applies_to": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Applies To"
+        },
+        "status": {
+          "enum": [
+            "in_force",
+            "suspended",
+            "uncertain",
+            "ended"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "source_url": {
+          "title": "Source Url",
+          "type": "string"
+        },
+        "accessed": {
+          "title": "Accessed",
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "official",
+            "secondary",
+            "uncertain"
+          ],
+          "title": "Confidence",
+          "type": "string"
+        },
+        "note": {
+          "title": "Note",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "kind",
+        "value",
+        "base",
+        "applies_from",
+        "applies_to",
+        "status",
+        "source_url",
+        "accessed",
+        "confidence",
+        "note"
+      ],
+      "title": "TaxRule",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "rules": {
+      "items": {
+        "$ref": "#/$defs/TaxRule"
+      },
+      "title": "Rules",
+      "type": "array"
+    },
+    "scenarios": {
+      "items": {
+        "$ref": "#/$defs/Scenario"
+      },
+      "title": "Scenarios",
+      "type": "array"
+    }
+  },
+  "required": [
+    "rules",
+    "scenarios"
+  ],
+  "title": "Taxes",
+  "type": "object"
+}

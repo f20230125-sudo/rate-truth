@@ -1,0 +1,14 @@
+{
+  "provenance": "scripted_offline_demo_not_live_recording",
+  "message": "Show me the tax breakdown for 2 nights at a 5-star hotel near Burj Khalifa from 10 March 2027.",
+  "plan": [
+    {
+      "tool": "get_rates",
+      "args": {
+        "checkin": "2027-03-10",
+        "nights": 2,
+        "hotel_id": "$first"
+      }
+    }
+  ]
+}

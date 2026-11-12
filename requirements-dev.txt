@@ -1,0 +1,5 @@
+# Runtime + offline CI checks. Optional local embedding packages are not required.
+-r requirements.txt
+pytest==9.2.0
+ruff==0.17.4
+jsonschema==4.26.0

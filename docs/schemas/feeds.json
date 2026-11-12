@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Feed": {
+      "properties": {
+        "kind": {
+          "enum": [
+            "hotel_list",
+            "property_data",
+            "transaction",
+            "ari_rate",
+            "ari_avail",
+            "ari_inv"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "filename": {
+          "title": "Filename",
+          "type": "string"
+        },
+        "bytes": {
+          "minimum": 0,
+          "title": "Bytes",
+          "type": "integer"
+        },
+        "schema_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Schema Url"
+        },
+        "xsd_fetched_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Xsd Fetched At"
+        },
+        "valid": {
+          "title": "Valid",
+          "type": "boolean"
+        },
+        "check": {
+          "enum": [
+            "xsd",
+            "structural"
+          ],
+          "title": "Check",
+          "type": "string"
+        },
+        "errors": {
+          "items": {
+            "$ref": "#/$defs/FeedError"
+          },
+          "title": "Errors",
+          "type": "array"
+        }
+      },
+      "required": [
+        "kind",
+        "filename",
+        "bytes",
+        "schema_url",
+        "xsd_fetched_at",
+        "valid",
+        "check",
+        "errors"
+      ],
+      "title": "Feed",
+      "type": "object"
+    },
+    "FeedError": {
+      "properties": {
+        "line": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Line"
+        },
+        "message": {
+          "title": "Message",
+          "type": "string"
+        }
+      },
+      "required": [
+        "line",
+        "message"
+      ],
+      "title": "FeedError",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/Feed"
+      },
+      "title": "Items",
+      "type": "array"
+    }
+  },
+  "required": [
+    "items"
+  ],
+  "title": "Feeds",
+  "type": "object"
+}

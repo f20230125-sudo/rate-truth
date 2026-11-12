@@ -1,0 +1,10 @@
+{
+  "framework": "fastapi",
+  "functions": {
+    "app.py": {
+      "maxDuration": 30,
+      "includeFiles": "{rate_truth/**,data/**,eval/results.json,docs/supplier-model.md}",
+      "excludeFiles": "{site/**,.local/**,.venv/**,tests/**,codex_runs/**,data/market/cache/**}"
+    }
+  }
+}

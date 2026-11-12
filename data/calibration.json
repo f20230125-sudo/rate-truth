@@ -1,0 +1,16 @@
+{
+  "calibration": {
+    "source_url": "https://www.dubaidet.gov.ae/en/newsroom/press-releases/dubais-tourism-industry-achieves-third-successive-record-breaking-year",
+    "report_url": "https://www.dubaidet.gov.ae/en/research-and-insights/tourism-performance-report-december-2025",
+    "accessed": "2026-11-11",
+    "year": 2025,
+    "adr_aed": "579.00",
+    "scope": "Overall DET ADR. No verifiable class-level ADR numbers retrieved from the official 2025 report; use overall benchmark for every class. These are not observed class ADRs.",
+    "tolerance": "0.15",
+    "dates": ["2027-04-14", "2027-05-12", "2027-10-13"],
+    "stay": "1 night, standard room, refundable, 2 guests, no breakfast",
+    "base_by_stars": {"1": "520.00", "2": "540.00", "3": "560.00", "4": "590.00", "5": "620.00"},
+    "max_peak_to_trough": "1.60",
+    "note": "Calibration of a snapshot property median to a citywide annual room-revenue ADR is approximate; not a room-weighted statistical replication or live pricing. Deliberately compressed class differences until class benchmarks are verified."
+  }
+}

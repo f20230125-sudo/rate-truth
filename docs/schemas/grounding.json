@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "traced": {
+      "minimum": 0,
+      "title": "Traced",
+      "type": "integer"
+    },
+    "total": {
+      "minimum": 0,
+      "title": "Total",
+      "type": "integer"
+    },
+    "ok": {
+      "title": "Ok",
+      "type": "boolean"
+    },
+    "cards_ok": {
+      "title": "Cards Ok",
+      "type": "boolean"
+    },
+    "untraced": {
+      "items": {
+        "pattern": "^-?\\d+\\.\\d{2}$",
+        "type": "string"
+      },
+      "title": "Untraced",
+      "type": "array"
+    }
+  },
+  "required": [
+    "traced",
+    "total",
+    "ok",
+    "cards_ok",
+    "untraced"
+  ],
+  "title": "Grounding",
+  "type": "object"
+}

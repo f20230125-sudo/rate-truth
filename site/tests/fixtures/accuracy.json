@@ -1,0 +1,4118 @@
+{
+  "score": 1,
+  "definition": "Our score: the share of sampled all-in totals within 1% or AED 1 of the landing page total, inspired by Google’s published description.",
+  "samples": [
+    {
+      "id": "sample-1",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-0",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-0",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-2",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-1",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-1",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-3",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-2",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-2",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-4",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-3",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-3",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-5",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-4",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-4",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-6",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-5",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-5",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-7",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-6",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-6",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-8",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-7",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-7",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-9",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-8",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-8",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-10",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-9",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-9",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-11",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-10",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-10",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-12",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-11",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-11",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-13",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-12",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-12",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-14",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-13",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-13",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-15",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-14",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-14",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-16",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-15",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-15",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-17",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-16",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-16",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-18",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-17",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-17",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-19",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-18",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-18",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-20",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-19",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-19",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-21",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-20",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-20",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-22",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-21",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-21",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-23",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-22",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-22",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-24",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-23",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-23",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-25",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-24",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-24",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-26",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-25",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-25",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-27",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-26",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-26",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-28",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-27",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-27",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-29",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-28",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-28",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    },
+    {
+      "id": "sample-30",
+      "hotel_id": "osm-way-123456",
+      "hotel_name": "Rove Downtown",
+      "checkin": "2026-11-14",
+      "nights": 2,
+      "feed": {
+        "rate_id": "test-feed-29",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "landing": {
+        "rate_id": "test-landing-29",
+        "computed_at": "2026-11-11T21:04:12+04:00",
+        "hotel_id": "osm-way-123456",
+        "hotel_name": "Rove Downtown",
+        "checkin": "2026-11-14",
+        "nights": 2,
+        "guests": 2,
+        "room": "Standard King",
+        "plan": "refundable",
+        "refundable": true,
+        "breakfast": false,
+        "lines": [
+          {
+            "label": "Room rate",
+            "amount": "824.00",
+            "rule_id": "rate_engine/base",
+            "kind": "base",
+            "basis": "2 nights"
+          },
+          {
+            "label": "Service charge",
+            "amount": "82.40",
+            "rule_id": "tax/dxb-service-2019",
+            "kind": "fee",
+            "basis": "10% of room rate",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "Municipality fee",
+            "amount": "57.68",
+            "rule_id": "tax/dxb-municipality",
+            "kind": "tax",
+            "basis": "7% of room rate",
+            "source_url": "https://www.dm.gov.ae/",
+            "confidence": "secondary"
+          },
+          {
+            "label": "VAT",
+            "amount": "48.20",
+            "rule_id": "tax/uae-vat-2018",
+            "kind": "tax",
+            "basis": "5% of taxable subtotal",
+            "source_url": "https://tax.gov.ae/",
+            "confidence": "official"
+          },
+          {
+            "label": "Tourism Dirham",
+            "amount": "20.00",
+            "rule_id": "tax/dxb-tdirham-3star",
+            "kind": "fee",
+            "basis": "2 room-nights",
+            "source_url": "https://www.dubaitourism.gov.ae/",
+            "confidence": "secondary"
+          }
+        ],
+        "total": "1032.28",
+        "currency": "AED",
+        "tax_rules_as_of": "2026-11-11",
+        "synthetic": true
+      },
+      "match": true,
+      "diff": [],
+      "reason": null,
+      "reason_label": null,
+      "injected": null,
+      "detected_reason": null
+    }
+  ],
+  "by_reason": {},
+  "faults": []
+}

@@ -1,0 +1,14 @@
+{
+  "provenance": "scripted_offline_demo_not_live_recording",
+  "message": "Which hotels near Expo City have availability for 5 nights from 1 April 2027?",
+  "plan": [
+    {
+      "tool": "check_availability",
+      "args": {
+        "checkin": "2027-04-01",
+        "nights": 5,
+        "hotel_id": "$first"
+      }
+    }
+  ]
+}

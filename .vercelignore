@@ -1,0 +1,14 @@
+.local
+.venv
+codex_runs
+site
+tests
+.env*
+STATUS.md
+*.log
+data/market/cache
+data/market/live.json
+data/market/budget.json
+data/market/*.lock
+data/market/*pacing*.json
+data/market/*budget*.json

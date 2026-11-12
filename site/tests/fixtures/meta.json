@@ -1,0 +1,11 @@
+{
+  "hotels": 2,
+  "pois": 27,
+  "osm_fetched_at": "2026-11-11T21:04:12+04:00",
+  "tax_rules_version": "fixture-2026-11",
+  "xsd_fetched_at": "2026-11-11T21:04:12+04:00",
+  "eval_run_at": null,
+  "llm_mode": "replay",
+  "retrieval_mode": "bm25",
+  "mcp_url": "/mcp"
+}

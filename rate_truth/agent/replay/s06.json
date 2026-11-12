@@ -1,0 +1,14 @@
+{
+  "provenance": "scripted_offline_demo_not_live_recording",
+  "message": "Book the cheapest hotel in Deira for tonight.",
+  "plan": [
+    {
+      "tool": "search_hotels",
+      "args": {
+        "checkin": "2026-11-12",
+        "nights": 1,
+        "limit": 2
+      }
+    }
+  ]
+}

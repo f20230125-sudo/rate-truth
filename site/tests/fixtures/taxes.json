@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "id": "tax/uae-vat-2018",
+      "label": "VAT",
+      "kind": "percent",
+      "value": "5",
+      "base": "taxable subtotal",
+      "applies_from": "2018-01-01",
+      "applies_to": null,
+      "status": "in_force",
+      "source_url": "https://tax.gov.ae/",
+      "accessed": "2026-11-11",
+      "confidence": "official",
+      "note": "Illustrative fixture; consult the real API rule evidence."
+    },
+    {
+      "id": "tax/dxb-relief-2026",
+      "label": "2026 relief review",
+      "kind": "percent",
+      "value": "0",
+      "base": "fixture scenario only",
+      "applies_from": "2026-03-01",
+      "applies_to": "2026-12-31",
+      "status": "uncertain",
+      "source_url": "https://www.dubaitourism.gov.ae/",
+      "accessed": "2026-11-11",
+      "confidence": "uncertain",
+      "note": "Test-only relief scenario. Dates and scope are not a factual claim."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "relief",
+      "label": "2026 relief",
+      "description": "Test an effective-date change; the API supplies actual scope and sources."
+    }
+  ]
+}

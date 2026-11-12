@@ -1,0 +1,23 @@
+{
+  "run_at": "2026-11-11T21:04:12+04:00",
+  "shopper": {
+    "tasks": 40,
+    "tool_selection_accuracy": 0.85,
+    "grounded_price_rate": 0.95
+  },
+  "ops": {
+    "tasks": 15,
+    "task_success": 0.8
+  },
+  "faults": [
+    {
+      "fault": "stale_cache",
+      "precision": 1,
+      "recall": 0.75
+    }
+  ],
+  "load": {
+    "p50_ms": 32,
+    "p95_ms": 95
+  }
+}

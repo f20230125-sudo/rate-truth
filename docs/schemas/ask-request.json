@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Turn": {
+      "properties": {
+        "role": {
+          "enum": [
+            "user",
+            "assistant"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "content": {
+          "maxLength": 6000,
+          "title": "Content",
+          "type": "string"
+        }
+      },
+      "required": [
+        "role",
+        "content"
+      ],
+      "title": "Turn",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "message": {
+      "maxLength": 600,
+      "minLength": 1,
+      "title": "Message",
+      "type": "string"
+    },
+    "history": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Turn"
+      },
+      "maxItems": 8,
+      "title": "History",
+      "type": "array"
+    }
+  },
+  "required": [
+    "message"
+  ],
+  "title": "AskRequest",
+  "type": "object"
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="common_types.xsd" />
+  <xs:include schemaLocation="rate_types.xsd" />
+  <xs:include schemaLocation="room_features.xsd" />
+  <xs:complexType name="roomDataType">
+    <xs:sequence>
+      <xs:element name="RoomID" type="xs:string" />
+      <xs:element name="Name" type="localizedText" />
+      <xs:element name="Description" type="localizedText" minOccurs="0" />
+      <xs:element name="AllowablePackageIDs" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AllowablePackageID" type="xs:string" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Capacity" type="occupancyType" minOccurs="0" />
+      <xs:element name="AdultCapacity" type="occupancyType" minOccurs="0" />
+      <xs:element name="ChildCapacity" type="occupancyType" minOccurs="0" />
+      <xs:element name="OccupancySettings" type="occupancySettingsType" minOccurs="0" />
+      <xs:element name="PhotoURL" type="photoUrlType" minOccurs="0" maxOccurs="unbounded" />
+      <xs:element name="RoomFeatures" type="roomFeaturesType" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="packageDataType">
+    <xs:sequence>
+      <xs:element name="PackageID" type="xs:string" />
+      <xs:element name="Name" type="localizedText" />
+      <xs:element name="Description" type="localizedText" minOccurs="0" />
+      <xs:element name="AllowableRoomIDs" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="AllowableRoomID" type="xs:string" maxOccurs="unbounded" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PhotoURL" type="photoUrlType" minOccurs="0" maxOccurs="unbounded" />
+      <xs:group ref="packageInfoGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transaction">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="PropertyDataSet" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Property" type="xs:string" />
+              <xs:element name="RoomData" type="roomDataType" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element name="PackageData" type="packageDataType" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="action">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="overlay" />
+                  <xs:enumeration value="delta" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="timestamp" type="xs:dateTime" use="required" />
+      <xs:attribute name="id" type="xs:string" use="required" />
+      <xs:attribute name="partner" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

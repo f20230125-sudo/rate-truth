@@ -1,0 +1,257 @@
+{
+  "hotel": {
+    "id": "osm-way-123456",
+    "osm_id": "123456",
+    "osm_type": "way",
+    "name": "Rove Downtown",
+    "name_en": null,
+    "mapped_osm_ids": ["osm-way-123456"],
+    "lat": 25.2036,
+    "lon": 55.2796,
+    "area": "Downtown Dubai",
+    "stars": 3,
+    "stars_estimated": null,
+    "stars_method": null,
+    "website": "https://www.rovehotels.com/",
+    "nearest_metro": {
+      "name": "Burj Khalifa / Dubai Mall",
+      "metres": 950
+    },
+    "nearest_beach": {
+      "name": "Jumeirah Open Beach",
+      "metres": 5700
+    },
+    "landmarks": [
+      {
+        "name": "Dubai Mall",
+        "metres": 600
+      }
+    ]
+  },
+  "card": {
+    "facts": [
+      {
+        "text": "3 stars, from the OSM stars tag",
+        "source": "https://www.openstreetmap.org/way/123456"
+      },
+      {
+        "text": "Nearest metro: Burj Khalifa / Dubai Mall, 950 m (computed distance)",
+        "source": "https://www.openstreetmap.org/way/123456"
+      }
+    ]
+  },
+  "tonight": {
+    "rate_id": "test-rate-7f3ac2",
+    "computed_at": "2026-11-11T21:04:12+04:00",
+    "hotel_id": "osm-way-123456",
+    "hotel_name": "Rove Downtown",
+    "checkin": "2026-11-14",
+    "nights": 2,
+    "guests": 2,
+    "room": "Standard King",
+    "plan": "refundable",
+    "refundable": true,
+    "breakfast": false,
+    "lines": [
+      {
+        "label": "Room rate",
+        "amount": "824.00",
+        "rule_id": "rate_engine/base",
+        "kind": "base",
+        "basis": "2 nights"
+      },
+      {
+        "label": "Service charge",
+        "amount": "82.40",
+        "rule_id": "tax/dxb-service-2019",
+        "kind": "fee",
+        "basis": "10% of room rate",
+        "source_url": "https://www.dubaitourism.gov.ae/",
+        "confidence": "secondary"
+      },
+      {
+        "label": "Municipality fee",
+        "amount": "57.68",
+        "rule_id": "tax/dxb-municipality",
+        "kind": "tax",
+        "basis": "7% of room rate",
+        "source_url": "https://www.dm.gov.ae/",
+        "confidence": "secondary"
+      },
+      {
+        "label": "VAT",
+        "amount": "48.20",
+        "rule_id": "tax/uae-vat-2018",
+        "kind": "tax",
+        "basis": "5% of taxable subtotal",
+        "source_url": "https://tax.gov.ae/",
+        "confidence": "official"
+      },
+      {
+        "label": "Tourism Dirham",
+        "amount": "20.00",
+        "rule_id": "tax/dxb-tdirham-3star",
+        "kind": "fee",
+        "basis": "2 room-nights",
+        "source_url": "https://www.dubaitourism.gov.ae/",
+        "confidence": "secondary"
+      }
+    ],
+    "total": "1032.28",
+    "currency": "AED",
+    "tax_rules_as_of": "2026-11-11",
+    "synthetic": true
+  },
+  "availability": [
+    {
+      "date": "2026-11-11",
+      "rooms_left": 0,
+      "from_total": null
+    },
+    {
+      "date": "2026-11-12",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-13",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-14",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-15",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-16",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-17",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-18",
+      "rooms_left": 0,
+      "from_total": null
+    },
+    {
+      "date": "2026-11-19",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-20",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-21",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-22",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-23",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-24",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-25",
+      "rooms_left": 0,
+      "from_total": null
+    },
+    {
+      "date": "2026-11-26",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-27",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-28",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-29",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-11-30",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-01",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-02",
+      "rooms_left": 0,
+      "from_total": null
+    },
+    {
+      "date": "2026-12-03",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-04",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-05",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-06",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-07",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-08",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    },
+    {
+      "date": "2026-12-09",
+      "rooms_left": 0,
+      "from_total": null
+    },
+    {
+      "date": "2026-12-10",
+      "rooms_left": 8,
+      "from_total": "1032.28"
+    }
+  ]
+}

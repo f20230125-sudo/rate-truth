@@ -1,0 +1,14 @@
+{
+  "provenance": "scripted_offline_demo_not_live_recording",
+  "message": "Is a non-refundable rate cheaper than a refundable one at a Downtown hotel for 3 nights from 7 January 2027?",
+  "plan": [
+    {
+      "tool": "get_rates",
+      "args": {
+        "checkin": "2027-01-07",
+        "nights": 3,
+        "hotel_id": "$first"
+      }
+    }
+  ]
+}

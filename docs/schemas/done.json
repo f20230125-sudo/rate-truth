@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "mode": {
+      "enum": [
+        "live",
+        "replay"
+      ],
+      "title": "Mode",
+      "type": "string"
+    },
+    "model": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Model"
+    },
+    "steps": {
+      "minimum": 0,
+      "title": "Steps",
+      "type": "integer"
+    },
+    "total_ms": {
+      "minimum": 0,
+      "title": "Total Ms",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "mode",
+    "model",
+    "steps",
+    "total_ms"
+  ],
+  "title": "Done",
+  "type": "object"
+}

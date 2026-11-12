@@ -1,0 +1,45 @@
+{
+  "fetched_at": "2026-11-11T10:50:23.580087+00:00",
+  "osm_base": "2026-11-11T10:47:05Z",
+  "source": "https://overpass-api.de/api/interpreter",
+  "area": "Dubai emirate (ISO3166-2=AE-DU)",
+  "licence": "ODbL-1.0",
+  "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "query_sha256": "939e2330e608c30f66896e04140e1631cd9dd8e0a5dbdae042f258349fffcaf9",
+  "counts": {
+    "hotels_kept": 737,
+    "hotels_with_stars_tag": 122,
+    "hotels_with_valid_stars": 120,
+    "hotels_without_name_dropped": 54,
+    "elements_without_valid_coords": 0,
+    "pois_by_type": {
+      "beach": 168,
+      "burj_khalifa": 2,
+      "dubai_mall": 1,
+      "dubai_marina": 3,
+      "dwc": 1,
+      "dxb": 1,
+      "expo_city": 1,
+      "metro": 68,
+      "old_dubai": 14
+    }
+  },
+  "response_sha256": "282189e60234c37f95f4681e190a79d5af601682ace86e05d494eee84bfcd748",
+  "poi_counts_before_dedupe": {
+    "beach": 168,
+    "burj_khalifa": 2,
+    "dubai_mall": 1,
+    "dubai_marina": 3,
+    "dwc": 1,
+    "dxb": 1,
+    "expo_city": 1,
+    "metro": 69,
+    "old_dubai": 16
+  },
+  "normalization": {
+    "poi_dedupe": "NFKC casefold compact word names (name or name_en), same types, <=400m; prefer node, then stable OSM ID; compare to canonical point",
+    "area": "Nearest selected landmark <=2000m; fixed AREA_NAMES mapping in rate_truth/geo.py; otherwise null. DWC is not mapped to Airport."
+  }
+}

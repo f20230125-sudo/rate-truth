@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="roomFeaturesType">
+    <xs:sequence>
+      <xs:element name="JapaneseHotelRoomStyle" type="japaneseHotelRoomStyleType" minOccurs="0" />
+      <xs:element name="Beds" type="bedsType" minOccurs="0" />
+      <xs:element name="Suite" type="emptyType" minOccurs="0" />
+      <xs:element name="Capsule" type="emptyType" minOccurs="0" />
+      <xs:element name="Roomsharing" type="roomsharingType" minOccurs="0" />
+      <xs:element name="Outdoor" type="emptyType" minOccurs="0" />
+      <xs:element name="MobilityAccessible" type="emptyType" minOccurs="0" />
+      <xs:element name="Smoking" type="smokingType" minOccurs="0" />
+      <xs:element name="BathAndToilet" type="bathAndToiletType" minOccurs="0" />
+      <xs:element name="OpenAirBath" type="emptyType" minOccurs="0" />
+      <xs:element name="AirConditioning" type="emptyType" minOccurs="0" />
+      <xs:element name="Balcony" type="emptyType" minOccurs="0" />
+      <xs:element name="Views" type="viewsType" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="emptyType" />
+  <xs:simpleType name="japaneseHotelRoomStyleType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="western" />
+      <xs:enumeration value="japanese" />
+      <xs:enumeration value="japanese_western" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="bedsType">
+    <xs:sequence>
+      <xs:element name="Bed" type="bedType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="bedType">
+    <xs:sequence>
+      <xs:element name="Width" type="measurementType" minOccurs="0" />
+      <xs:element name="Length" type="measurementType" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute name="size">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="single" />
+          <xs:enumeration value="semi_double" />
+          <xs:enumeration value="double" />
+          <xs:enumeration value="queen" />
+          <xs:enumeration value="king" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="measurementType">
+    <xs:attribute name="unit" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="cm" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="number" type="xs:positiveInteger" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="roomsharingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="shared" />
+      <xs:enumeration value="private" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="smokingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="non_smoking" />
+      <xs:enumeration value="smoking" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="bathAndToiletType">
+    <xs:sequence>
+      <xs:element name="Bath" type="bathType" minOccurs="0" />
+      <xs:element name="Toilet" type="toiletType" minOccurs="0" />
+    </xs:sequence>
+    <xs:attribute name="relation">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="together" />
+          <xs:enumeration value="separate" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="bathType">
+    <xs:attribute name="bathtub" type="xs:boolean" />
+    <xs:attribute name="shower" type="xs:boolean" />
+  </xs:complexType>
+  <xs:complexType name="toiletType">
+    <xs:attribute name="electronic_bidet" type="xs:boolean" />
+    <xs:attribute name="mobility_accessible" type="xs:boolean" />
+  </xs:complexType>
+  <xs:complexType name="viewsType">
+    <xs:all>
+      <xs:element name="OceanView" type="emptyType" minOccurs="0" />
+      <xs:element name="PartialOceanView" type="emptyType" minOccurs="0" />
+      <xs:element name="BayView" type="emptyType" minOccurs="0" />
+      <xs:element name="CastleView" type="emptyType" minOccurs="0" />
+      <xs:element name="CityView" type="emptyType" minOccurs="0" />
+      <xs:element name="CourtyardView" type="emptyType" minOccurs="0" />
+      <xs:element name="DuneView" type="emptyType" minOccurs="0" />
+      <xs:element name="GardenView" type="emptyType" minOccurs="0" />
+      <xs:element name="GolfCourseView" type="emptyType" minOccurs="0" />
+      <xs:element name="HarborView" type="emptyType" minOccurs="0" />
+      <xs:element name="LagoonView" type="emptyType" minOccurs="0" />
+      <xs:element name="CountrysideView" type="emptyType" minOccurs="0" />
+      <xs:element name="LakeView" type="emptyType" minOccurs="0" />
+      <xs:element name="ParkView" type="emptyType" minOccurs="0" />
+      <xs:element name="MountainView" type="emptyType" minOccurs="0" />
+      <xs:element name="PisteView" type="emptyType" minOccurs="0" />
+      <xs:element name="PoolView" type="emptyType" minOccurs="0" />
+      <xs:element name="RiverView" type="emptyType" minOccurs="0" />
+      <xs:element name="PyramidView" type="emptyType" minOccurs="0" />
+      <xs:element name="AirportView" type="emptyType" minOccurs="0" />
+      <xs:element name="StreetView" type="emptyType" minOccurs="0" />
+      <xs:element name="MarinaView" type="emptyType" minOccurs="0" />
+      <xs:element name="BeachView" type="emptyType" minOccurs="0" />
+      <xs:element name="ForestView" type="emptyType" minOccurs="0" />
+      <xs:element name="NatureView" type="emptyType" minOccurs="0" />
+    </xs:all>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="common_types.xsd" />
+  <xs:include schemaLocation="rate_features.xsd" />
+  <xs:simpleType name="chargeCurrencyType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="web" />
+      <xs:enumeration value="hotel" />
+      <xs:enumeration value="deposit" />
+      <xs:enumeration value="installment" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="allowablePointsOfSaleType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="PointOfSale">
+        <xs:complexType>
+          <xs:attribute name="id" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="basicRateInfoGroup">
+    <xs:sequence>
+      <xs:element name="Baserate" type="baseRateType" minOccurs="0" />
+      <xs:element name="Tax" type="priceCurrencyType" minOccurs="0" />
+      <xs:element name="OtherFees" type="priceCurrencyType" minOccurs="0" />
+      <xs:element name="ExpirationTime" type="xs:dateTime" minOccurs="0" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="packageInfoGroup">
+    <xs:sequence>
+      <xs:element name="ChargeCurrency" type="chargeCurrencyType" minOccurs="0" />
+      <xs:element name="Refundable" type="refundableType" minOccurs="0" />
+      <xs:element name="Meals" type="mealsType" minOccurs="0" />
+      <xs:element name="BreakfastIncluded" type="breakfastType" minOccurs="0" />
+      <xs:element name="InternetIncluded" type="internetType" minOccurs="0" />
+      <xs:element name="ParkingIncluded" type="parkingType" minOccurs="0" />
+      <xs:element name="RoomUpgradeIncluded" type="roomUpgradeType" minOccurs="0" />
+      <xs:element name="MembershipBenefitsIncluded" type="membershipBenefitsType" minOccurs="0" />
+      <xs:element name="CarRentalIncluded" type="carRentalType" minOccurs="0" />
+      <xs:element name="MilesIncluded" type="milesType" minOccurs="0" />
+      <xs:element name="OnPropertyCredit" type="onPropertyCreditType" minOccurs="0" />
+      <xs:element name="CheckinTime" type="time" minOccurs="0" />
+      <xs:element name="CheckoutTime" type="time" minOccurs="0" />
+      <xs:element name="EarlyCheckin" type="earlyCheckinType" minOccurs="0" />
+      <xs:element name="LateCheckout" type="lateCheckoutType" minOccurs="0" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="customFieldsGroup">
+    <xs:sequence>
+      <xs:element name="Custom1" type="xs:string" minOccurs="0" />
+      <xs:element name="Custom2" type="xs:string" minOccurs="0" />
+      <xs:element name="Custom3" type="xs:string" minOccurs="0" />
+      <xs:element name="Custom4" type="xs:string" minOccurs="0" />
+      <xs:element name="Custom5" type="xs:string" minOccurs="0" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="hotelRateGroup">
+    <xs:sequence>
+      <xs:group ref="basicRateInfoGroup" />
+      <xs:group ref="packageInfoGroup" />
+      <xs:group ref="customFieldsGroup" />
+      <xs:element name="AllowablePointsOfSale" type="allowablePointsOfSaleType" minOccurs="0" />
+      <xs:element name="Occupancy" type="occupancyType" minOccurs="0" />
+      <xs:element name="OccupancyDetails" type="occupancyDetailsType" minOccurs="0" />
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="roomRateGroup">
+    <xs:sequence>
+      <xs:group ref="packageInfoGroup" />
+      <xs:group ref="basicRateInfoGroup" />
+      <xs:group ref="customFieldsGroup" />
+      <xs:element name="AllowablePointsOfSale" type="allowablePointsOfSaleType" minOccurs="0" />
+      <xs:element name="Occupancy" type="occupancyType" minOccurs="0" />
+      <xs:element name="OccupancyDetails" type="occupancyDetailsType" minOccurs="0" />
+    </xs:sequence>
+  </xs:group>
+  <xs:complexType name="multipleRatesType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="Rate">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:group ref="roomRateGroup" />
+          </xs:sequence>
+          <xs:attribute name="rate_rule_id" type="xs:string" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

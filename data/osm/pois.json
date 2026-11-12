@@ -1,0 +1,3910 @@
+{
+  "fetched_at": "2026-11-11T10:50:23.580087+00:00",
+  "osm_base": "2026-11-11T10:47:05Z",
+  "source": "https://overpass-api.de/api/interpreter",
+  "area": "Dubai emirate (ISO3166-2=AE-DU)",
+  "licence": "ODbL-1.0",
+  "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "attribution_url": "https://www.openstreetmap.org/copyright",
+  "query_sha256": "939e2330e608c30f66896e04140e1631cd9dd8e0a5dbdae042f258349fffcaf9",
+  "pois": [
+    {
+      "id": "node/11419884972",
+      "osm_type": "node",
+      "osm_id": 11419884972,
+      "name": "Pet's Beach",
+      "name_en": null,
+      "lat": 25.3001819,
+      "lon": 55.2940615,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/11516678203",
+      "osm_type": "node",
+      "osm_id": 11516678203,
+      "name": "Dubai Marina",
+      "name_en": null,
+      "lat": 25.0836371,
+      "lon": 55.1477164,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "dubai_marina"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/11546599369",
+      "osm_type": "node",
+      "osm_id": 11546599369,
+      "name": "Dubai Spice Souq",
+      "name_en": "Dubai Spice Souq",
+      "lat": 25.267845,
+      "lon": 55.2966954,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/11927748577",
+      "osm_type": "node",
+      "osm_id": 11927748577,
+      "name": "Al Shindagha Museum",
+      "name_en": null,
+      "lat": 25.2664738,
+      "lon": 55.2889645,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null,
+      "merged_osm_ids": [
+        "node/11927748577",
+        "node/11928312466"
+      ]
+    },
+    {
+      "id": "node/12154642732",
+      "osm_type": "node",
+      "osm_id": 12154642732,
+      "name": "Yacht Rental Dubai Marina",
+      "name_en": null,
+      "lat": 25.0726364,
+      "lon": 55.1243894,
+      "coordinate_method": "node",
+      "website": "https://yachtrentalsdubaimarina.com/",
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790686",
+      "osm_type": "node",
+      "osm_id": 12470790686,
+      "name": "سيتي سنتر مردف",
+      "name_en": "City Centre Mirdif",
+      "lat": 25.2134155,
+      "lon": 55.409708,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790687",
+      "osm_type": "node",
+      "osm_id": 12470790687,
+      "name": "الورقاء",
+      "name_en": "Al Warqa'a",
+      "lat": 25.1890575,
+      "lon": 55.4094189,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790688",
+      "osm_type": "node",
+      "osm_id": 12470790688,
+      "name": "سوق التنبن",
+      "name_en": "Dragon Mart",
+      "lat": 25.1756849,
+      "lon": 55.4108238,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790689",
+      "osm_type": "node",
+      "osm_id": 12470790689,
+      "name": "مدينة العالمية 1",
+      "name_en": "International City 1",
+      "lat": 25.1619409,
+      "lon": 55.4108605,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790690",
+      "osm_type": "node",
+      "osm_id": 12470790690,
+      "name": "مدينة العالمية 2",
+      "name_en": null,
+      "lat": 25.1384426,
+      "lon": 55.400315,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790691",
+      "osm_type": "node",
+      "osm_id": 12470790691,
+      "name": "واحة دبي السيليكون",
+      "name_en": null,
+      "lat": 25.1202857,
+      "lon": 55.3887768,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790692",
+      "osm_type": "node",
+      "osm_id": 12470790692,
+      "name": "مدينة الأكاديمية",
+      "name_en": null,
+      "lat": 25.1089588,
+      "lon": 55.4007515,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790693",
+      "osm_type": "node",
+      "osm_id": 12470790693,
+      "name": "سوق السيارات",
+      "name_en": null,
+      "lat": 25.1759435,
+      "lon": 55.3697044,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790695",
+      "osm_type": "node",
+      "osm_id": 12470790695,
+      "name": "إعمار العقارية",
+      "name_en": null,
+      "lat": 25.1909908,
+      "lon": 55.3593284,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12470790697",
+      "osm_type": "node",
+      "osm_id": 12470790697,
+      "name": "دبي فيستيفال سيتي",
+      "name_en": null,
+      "lat": 25.2090063,
+      "lon": 55.3534339,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/12710626157",
+      "osm_type": "node",
+      "osm_id": 12710626157,
+      "name": "Al-Mamzar Park - Flamingo Beach",
+      "name_en": null,
+      "lat": 25.3264071,
+      "lon": 55.3513711,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/13707693371",
+      "osm_type": "node",
+      "osm_id": 13707693371,
+      "name": "برج خليفة",
+      "name_en": "Burj Khalifa",
+      "lat": 25.1918214,
+      "lon": 55.272338,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "burj_khalifa"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/2017967833",
+      "osm_type": "node",
+      "osm_id": 2017967833,
+      "name": "المطار - مبنى رقم 3",
+      "name_en": "Airport Terminal 3",
+      "lat": 25.245027,
+      "lon": 55.3594972,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/2418678459",
+      "osm_type": "node",
+      "osm_id": 2418678459,
+      "name": "الخليج التجاري",
+      "name_en": "Business Bay",
+      "lat": 25.1913122,
+      "lon": 55.2603981,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/265405305",
+      "osm_type": "node",
+      "osm_id": 265405305,
+      "name": "Spice Souk",
+      "name_en": "Spice Souk",
+      "lat": 25.2675627,
+      "lon": 55.2970588,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null,
+      "merged_osm_ids": [
+        "node/265405305",
+        "way/542042596"
+      ]
+    },
+    {
+      "id": "node/3717446089",
+      "osm_type": "node",
+      "osm_id": 3717446089,
+      "name": "متحف دبي",
+      "name_en": "Dubai Museum",
+      "lat": 25.2635211,
+      "lon": 55.2971826,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/4417703990",
+      "osm_type": "node",
+      "osm_id": 4417703990,
+      "name": "New Gold souq",
+      "name_en": "New Gold souq",
+      "lat": 25.25142,
+      "lon": 55.2826297,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/4916625639",
+      "osm_type": "node",
+      "osm_id": 4916625639,
+      "name": "Jebel Ali Open Beach",
+      "name_en": "Jebel Ali Open Beach",
+      "lat": 24.984574,
+      "lon": 55.0182706,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/5312499190",
+      "osm_type": "node",
+      "osm_id": 5312499190,
+      "name": "الفرجان",
+      "name_en": "Al Furjan",
+      "lat": 25.0304736,
+      "lon": 55.1522307,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/5312499192",
+      "osm_type": "node",
+      "osm_id": 5312499192,
+      "name": "ديسكفدي جاردنز",
+      "name_en": "Discovery Gardens",
+      "lat": 25.0352571,
+      "lon": 55.1454134,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/604304348",
+      "osm_type": "node",
+      "osm_id": 604304348,
+      "name": "دبي مول / برج خليفة",
+      "name_en": "Burj Khalifa / Dubai Mall",
+      "lat": 25.2014367,
+      "lon": 55.2695451,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/605500214",
+      "osm_type": "node",
+      "osm_id": 605500214,
+      "name": "أبراج الإمارات",
+      "name_en": "Emirates Towers",
+      "lat": 25.217231,
+      "lon": 55.279881,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6273704585",
+      "osm_type": "node",
+      "osm_id": 6273704585,
+      "name": "Gold Souk Parking",
+      "name_en": "Gold Souk Parking",
+      "lat": 25.2678513,
+      "lon": 55.2984199,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6472748545",
+      "osm_type": "node",
+      "osm_id": 6472748545,
+      "name": "اي اند",
+      "name_en": "e&",
+      "lat": 25.2547338,
+      "lon": 55.4012781,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6581397376",
+      "osm_type": "node",
+      "osm_id": 6581397376,
+      "name": "النهدة",
+      "name_en": "Al Nahda",
+      "lat": 25.2732083,
+      "lon": 55.3694757,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6581397379",
+      "osm_type": "node",
+      "osm_id": 6581397379,
+      "name": "الاستاد",
+      "name_en": "Stadium",
+      "lat": 25.27791,
+      "lon": 55.361466,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6581397380",
+      "osm_type": "node",
+      "osm_id": 6581397380,
+      "name": "أبو هيل",
+      "name_en": "Abu Hail",
+      "lat": 25.2754161,
+      "lon": 55.3464499,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6581397381",
+      "osm_type": "node",
+      "osm_id": 6581397381,
+      "name": "القيادة",
+      "name_en": "Al Qiyadah",
+      "lat": 25.2775853,
+      "lon": 55.3526309,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833621",
+      "osm_type": "node",
+      "osm_id": 6584833621,
+      "name": "أبو بكر الصديق",
+      "name_en": "Abu Baker Al Siddique",
+      "lat": 25.2708929,
+      "lon": 55.3327545,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833623",
+      "osm_type": "node",
+      "osm_id": 6584833623,
+      "name": "الاتحاد",
+      "name_en": "Union",
+      "lat": 25.2661816,
+      "lon": 55.3137508,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833624",
+      "osm_type": "node",
+      "osm_id": 6584833624,
+      "name": "صلاح الدين",
+      "name_en": "Salah Al Din",
+      "lat": 25.2703152,
+      "lon": 55.3208284,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833626",
+      "osm_type": "node",
+      "osm_id": 6584833626,
+      "name": "بني ياس",
+      "name_en": "Baniyas Square",
+      "lat": 25.2691743,
+      "lon": 55.3076094,
+      "coordinate_method": "node",
+      "website": "http://damohi101@gmail.com",
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833627",
+      "osm_type": "node",
+      "osm_id": 6584833627,
+      "name": "سوق الذهب",
+      "name_en": "Gold Souq",
+      "lat": 25.2761408,
+      "lon": 55.3016752,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833628",
+      "osm_type": "node",
+      "osm_id": 6584833628,
+      "name": "الرأس",
+      "name_en": "Al Ras",
+      "lat": 25.2687742,
+      "lon": 55.2936231,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833629",
+      "osm_type": "node",
+      "osm_id": 6584833629,
+      "name": "الغبيبة",
+      "name_en": "Al Ghubaiba",
+      "lat": 25.2650351,
+      "lon": 55.2889404,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833631",
+      "osm_type": "node",
+      "osm_id": 6584833631,
+      "name": "شرف دي جي",
+      "name_en": "Sharaf DG",
+      "lat": 25.2582139,
+      "lon": 55.2974781,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833632",
+      "osm_type": "node",
+      "osm_id": 6584833632,
+      "name": "برجمان",
+      "name_en": "BurJuman",
+      "lat": 25.25499,
+      "lon": 55.303941,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null,
+      "merged_osm_ids": [
+        "node/6584833632",
+        "node/6588569795"
+      ]
+    },
+    {
+      "id": "node/6584833633",
+      "osm_type": "node",
+      "osm_id": 6584833633,
+      "name": "عود ميثاء",
+      "name_en": "Oud Metha",
+      "lat": 25.2439301,
+      "lon": 55.3158939,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833635",
+      "osm_type": "node",
+      "osm_id": 6584833635,
+      "name": "مدينة دبي الطبية",
+      "name_en": "Dubai Healthcare City",
+      "lat": 25.2309528,
+      "lon": 55.322619,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833637",
+      "osm_type": "node",
+      "osm_id": 6584833637,
+      "name": "الجداف",
+      "name_en": "Al Jadaf",
+      "lat": 25.2249103,
+      "lon": 55.3337479,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833640",
+      "osm_type": "node",
+      "osm_id": 6584833640,
+      "name": "الخور",
+      "name_en": "Creek",
+      "lat": 25.2188806,
+      "lon": 55.3390384,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833641",
+      "osm_type": "node",
+      "osm_id": 6584833641,
+      "name": "القصيص",
+      "name_en": "Al Qusais",
+      "lat": 25.2627427,
+      "lon": 55.3872735,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6584833643",
+      "osm_type": "node",
+      "osm_id": 6584833643,
+      "name": "المنطقة الحرة بمطار دبي",
+      "name_en": "Dubai Airport Free Zone",
+      "lat": 25.2698284,
+      "lon": 55.3751502,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588381691",
+      "osm_type": "node",
+      "osm_id": 6588381691,
+      "name": "دانوب",
+      "name_en": "Danube",
+      "lat": 25.0012905,
+      "lon": 55.0957087,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588381694",
+      "osm_type": "node",
+      "osm_id": 6588381694,
+      "name": "صيدلية لايف",
+      "name_en": "Life Pharmacy",
+      "lat": 24.9775987,
+      "lon": 55.0910742,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588516078",
+      "osm_type": "node",
+      "osm_id": 6588516078,
+      "name": "سنتربوينت",
+      "name_en": "Centrepoint",
+      "lat": 25.2303111,
+      "lon": 55.3911232,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588516079",
+      "osm_type": "node",
+      "osm_id": 6588516079,
+      "name": "الطاقة",
+      "name_en": "Energy",
+      "lat": 25.0263116,
+      "lon": 55.1012953,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588516080",
+      "osm_type": "node",
+      "osm_id": 6588516080,
+      "name": "ابن بطوطة",
+      "name_en": "Ibn Battuta",
+      "lat": 25.0466788,
+      "lon": 55.1174939,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588516083",
+      "osm_type": "node",
+      "osm_id": 6588516083,
+      "name": "شوبا العقارية",
+      "name_en": "Sobha Realty",
+      "lat": 25.0799429,
+      "lon": 55.1475417,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588516084",
+      "osm_type": "node",
+      "osm_id": 6588516084,
+      "name": "الفردان للصرافة",
+      "name_en": "Al Fardan Exchange",
+      "lat": 25.0889162,
+      "lon": 55.1581735,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569785",
+      "osm_type": "node",
+      "osm_id": 6588569785,
+      "name": "مدينة دبي للإنترنت",
+      "name_en": "Dubai Internet City",
+      "lat": 25.1021654,
+      "lon": 55.1739012,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569786",
+      "osm_type": "node",
+      "osm_id": 6588569786,
+      "name": "سوق التأمين",
+      "name_en": "InsuranceMarket",
+      "lat": 25.1147739,
+      "lon": 55.1908862,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569787",
+      "osm_type": "node",
+      "osm_id": 6588569787,
+      "name": "مول الإمارات",
+      "name_en": "Mall of the Emirates",
+      "lat": 25.1212029,
+      "lon": 55.2004469,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569788",
+      "osm_type": "node",
+      "osm_id": 6588569788,
+      "name": "إكويتي",
+      "name_en": "Equiti",
+      "lat": 25.1266839,
+      "lon": 55.2079196,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569789",
+      "osm_type": "node",
+      "osm_id": 6588569789,
+      "name": "جارمن",
+      "name_en": "Garmin",
+      "lat": 25.15563,
+      "lon": 55.2285156,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569790",
+      "osm_type": "node",
+      "osm_id": 6588569790,
+      "name": "المركز المالي",
+      "name_en": "Financial Centre",
+      "lat": 25.2108215,
+      "lon": 55.2755321,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569791",
+      "osm_type": "node",
+      "osm_id": 6588569791,
+      "name": "طيران الإمارات",
+      "name_en": "Emirates",
+      "lat": 25.2410612,
+      "lon": 55.36568,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569792",
+      "osm_type": "node",
+      "osm_id": 6588569792,
+      "name": "المطار - مبنى رقم 1",
+      "name_en": "Airport Terminal 1",
+      "lat": 25.2484769,
+      "lon": 55.3523558,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569793",
+      "osm_type": "node",
+      "osm_id": 6588569793,
+      "name": "القرهود",
+      "name_en": "Al Garhoud",
+      "lat": 25.2494824,
+      "lon": 55.3399801,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569794",
+      "osm_type": "node",
+      "osm_id": 6588569794,
+      "name": "الرقة",
+      "name_en": "Al Rigga",
+      "lat": 25.2633466,
+      "lon": 55.3238862,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569796",
+      "osm_type": "node",
+      "osm_id": 6588569796,
+      "name": "بنك أبو ظبي التجاري",
+      "name_en": "ADCB",
+      "lat": 25.2445099,
+      "lon": 55.2981834,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569797",
+      "osm_type": "node",
+      "osm_id": 6588569797,
+      "name": "ماكس",
+      "name_en": "max",
+      "lat": 25.2335944,
+      "lon": 55.2921844,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569798",
+      "osm_type": "node",
+      "osm_id": 6588569798,
+      "name": "المركز التجاري العالمي",
+      "name_en": "World Trade Centre",
+      "lat": 25.2248353,
+      "lon": 55.2851186,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/6588569799",
+      "osm_type": "node",
+      "osm_id": 6588569799,
+      "name": "ديرة سيتي سنتر",
+      "name_en": "Deira City Centre",
+      "lat": 25.2546811,
+      "lon": 55.3302605,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/7826894571",
+      "osm_type": "node",
+      "osm_id": 7826894571,
+      "name": "الفهيدي",
+      "name_en": "Al Fahidi",
+      "lat": 25.2641373,
+      "lon": 55.2889513,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8143204801",
+      "osm_type": "node",
+      "osm_id": 8143204801,
+      "name": "الشندغة",
+      "name_en": "Al Shindagha",
+      "lat": 25.2661597,
+      "lon": 55.2888679,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8143204856",
+      "osm_type": "node",
+      "osm_id": 8143204856,
+      "name": "مرسى دبي",
+      "name_en": "Dubai Marina",
+      "lat": 25.0786415,
+      "lon": 55.1352524,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "dubai_marina"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8625117828",
+      "osm_type": "node",
+      "osm_id": 8625117828,
+      "name": "دهانات ناشونال",
+      "name_en": "National Paints",
+      "lat": 25.0578769,
+      "lon": 55.1273617,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8641061625",
+      "osm_type": "node",
+      "osm_id": 8641061625,
+      "name": "الحدائق",
+      "name_en": "The Gardens",
+      "lat": 25.0435023,
+      "lon": 55.1350461,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8641335749",
+      "osm_type": "node",
+      "osm_id": 8641335749,
+      "name": "مركز دبي للسلع المتعددة",
+      "name_en": "DMCC",
+      "lat": 25.0708766,
+      "lon": 55.1387113,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8660753516",
+      "osm_type": "node",
+      "osm_id": 8660753516,
+      "name": "عقارات جميرا للجولف",
+      "name_en": "Jumeirah Golf Estates",
+      "lat": 25.0177925,
+      "lon": 55.1633352,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8660767717",
+      "osm_type": "node",
+      "osm_id": 8660767717,
+      "name": "مجمع دبي للاستثمار",
+      "name_en": "Dubai Investment Park",
+      "lat": 25.0052466,
+      "lon": 55.1556654,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8882647591",
+      "osm_type": "node",
+      "osm_id": 8882647591,
+      "name": "مدينة اكسبو دبي",
+      "name_en": "Expo City Dubai",
+      "lat": 24.9634934,
+      "lon": 55.1460846,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "node/8928205061",
+      "osm_type": "node",
+      "osm_id": 8928205061,
+      "name": "Adult Beach",
+      "name_en": "Adult Beach",
+      "lat": 25.2427598,
+      "lon": 55.3322755,
+      "coordinate_method": "node",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/10487083",
+      "osm_type": "relation",
+      "osm_id": 10487083,
+      "name": "",
+      "name_en": null,
+      "lat": 25.167186,
+      "lon": 55.2783104,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/10490903",
+      "osm_type": "relation",
+      "osm_id": 10490903,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1706935,
+      "lon": 55.2778014,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/10490904",
+      "osm_type": "relation",
+      "osm_id": 10490904,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1715408,
+      "lon": 55.2799284,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/10490905",
+      "osm_type": "relation",
+      "osm_id": 10490905,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1688867,
+      "lon": 55.2767814,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/10490906",
+      "osm_type": "relation",
+      "osm_id": 10490906,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1687548,
+      "lon": 55.2773026,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11042330",
+      "osm_type": "relation",
+      "osm_id": 11042330,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1695542,
+      "lon": 55.2796353,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11130622",
+      "osm_type": "relation",
+      "osm_id": 11130622,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1007437,
+      "lon": 55.1411684,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11130634",
+      "osm_type": "relation",
+      "osm_id": 11130634,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0984152,
+      "lon": 55.1421217,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11161963",
+      "osm_type": "relation",
+      "osm_id": 11161963,
+      "name": "",
+      "name_en": null,
+      "lat": 25.088796,
+      "lon": 55.1369858,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11179549",
+      "osm_type": "relation",
+      "osm_id": 11179549,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2406115,
+      "lon": 55.2498099,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11196431",
+      "osm_type": "relation",
+      "osm_id": 11196431,
+      "name": "Deira Islands Beach",
+      "name_en": null,
+      "lat": 25.3012083,
+      "lon": 55.3015037,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11227932",
+      "osm_type": "relation",
+      "osm_id": 11227932,
+      "name": "",
+      "name_en": null,
+      "lat": 25.303542,
+      "lon": 55.3184314,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11227935",
+      "osm_type": "relation",
+      "osm_id": 11227935,
+      "name": "",
+      "name_en": null,
+      "lat": 25.3317103,
+      "lon": 55.3219618,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/11227936",
+      "osm_type": "relation",
+      "osm_id": 11227936,
+      "name": "",
+      "name_en": null,
+      "lat": 25.3535991,
+      "lon": 55.2972314,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/16842105",
+      "osm_type": "relation",
+      "osm_id": 16842105,
+      "name": "Deira Gold Souk",
+      "name_en": "Deira Gold Souk",
+      "lat": 25.2700478,
+      "lon": 55.2980805,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/17772381",
+      "osm_type": "relation",
+      "osm_id": 17772381,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2097541,
+      "lon": 55.1494989,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/18195959",
+      "osm_type": "relation",
+      "osm_id": 18195959,
+      "name": "دبي مول",
+      "name_en": "The Dubai Mall",
+      "lat": 25.1970073,
+      "lon": 55.2785741,
+      "coordinate_method": "osm_bbox_center",
+      "website": "https://www.thedubaimall.com/",
+      "types": [
+        "dubai_mall"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/19600477",
+      "osm_type": "relation",
+      "osm_id": 19600477,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9169228,
+      "lon": 54.9072333,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/2883617",
+      "osm_type": "relation",
+      "osm_id": 2883617,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9749632,
+      "lon": 55.4280204,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/2954564",
+      "osm_type": "relation",
+      "osm_id": 2954564,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1562396,
+      "lon": 55.3566153,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/3852853",
+      "osm_type": "relation",
+      "osm_id": 3852853,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2214546,
+      "lon": 55.1393933,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/5573487",
+      "osm_type": "relation",
+      "osm_id": 5573487,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1278054,
+      "lon": 55.1273777,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/6193588",
+      "osm_type": "relation",
+      "osm_id": 6193588,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1524743,
+      "lon": 55.3558629,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/6193589",
+      "osm_type": "relation",
+      "osm_id": 6193589,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1627435,
+      "lon": 55.3671456,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/6290012",
+      "osm_type": "relation",
+      "osm_id": 6290012,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1951146,
+      "lon": 55.3222395,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7214772",
+      "osm_type": "relation",
+      "osm_id": 7214772,
+      "name": "حصن الفهيدي",
+      "name_en": "Al Fahidi Fort",
+      "lat": 25.2635448,
+      "lon": 55.297196,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7601363",
+      "osm_type": "relation",
+      "osm_id": 7601363,
+      "name": "شاطئ الممزر",
+      "name_en": "Al Mamzar Beach",
+      "lat": 25.305331,
+      "lon": 55.3526935,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7778655",
+      "osm_type": "relation",
+      "osm_id": 7778655,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2955366,
+      "lon": 55.2891075,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7778965",
+      "osm_type": "relation",
+      "osm_id": 7778965,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9947243,
+      "lon": 55.0411314,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7787152",
+      "osm_type": "relation",
+      "osm_id": 7787152,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9881663,
+      "lon": 55.0240479,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7787202",
+      "osm_type": "relation",
+      "osm_id": 7787202,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9923766,
+      "lon": 55.0310849,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7787217",
+      "osm_type": "relation",
+      "osm_id": 7787217,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9927701,
+      "lon": 55.0352762,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7848889",
+      "osm_type": "relation",
+      "osm_id": 7848889,
+      "name": "",
+      "name_en": null,
+      "lat": 25.197918,
+      "lon": 55.2240534,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7848890",
+      "osm_type": "relation",
+      "osm_id": 7848890,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1989549,
+      "lon": 55.2254994,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/7848893",
+      "osm_type": "relation",
+      "osm_id": 7848893,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1979147,
+      "lon": 55.2272985,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9136714",
+      "osm_type": "relation",
+      "osm_id": 9136714,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1129844,
+      "lon": 55.1471753,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9136795",
+      "osm_type": "relation",
+      "osm_id": 9136795,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1091442,
+      "lon": 55.1499652,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9139782",
+      "osm_type": "relation",
+      "osm_id": 9139782,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1058581,
+      "lon": 55.143757,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9234964",
+      "osm_type": "relation",
+      "osm_id": 9234964,
+      "name": "",
+      "name_en": null,
+      "lat": 24.922207,
+      "lon": 54.9152097,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9243080",
+      "osm_type": "relation",
+      "osm_id": 9243080,
+      "name": "",
+      "name_en": null,
+      "lat": 24.984727,
+      "lon": 54.9611803,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9243171",
+      "osm_type": "relation",
+      "osm_id": 9243171,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9807291,
+      "lon": 54.9666594,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9278532",
+      "osm_type": "relation",
+      "osm_id": 9278532,
+      "name": "",
+      "name_en": null,
+      "lat": 24.977988,
+      "lon": 54.9710197,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9290763",
+      "osm_type": "relation",
+      "osm_id": 9290763,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1271631,
+      "lon": 55.1515708,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9691197",
+      "osm_type": "relation",
+      "osm_id": 9691197,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2265629,
+      "lon": 55.1636937,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9770487",
+      "osm_type": "relation",
+      "osm_id": 9770487,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1981433,
+      "lon": 55.3328041,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9797198",
+      "osm_type": "relation",
+      "osm_id": 9797198,
+      "name": "",
+      "name_en": null,
+      "lat": 25.3173504,
+      "lon": 55.3172504,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9851124",
+      "osm_type": "relation",
+      "osm_id": 9851124,
+      "name": "",
+      "name_en": null,
+      "lat": 25.3245249,
+      "lon": 55.3298823,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9852286",
+      "osm_type": "relation",
+      "osm_id": 9852286,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2368319,
+      "lon": 55.2632166,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9856807",
+      "osm_type": "relation",
+      "osm_id": 9856807,
+      "name": "",
+      "name_en": null,
+      "lat": 25.3142657,
+      "lon": 55.337986,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9856809",
+      "osm_type": "relation",
+      "osm_id": 9856809,
+      "name": "",
+      "name_en": null,
+      "lat": 25.3177486,
+      "lon": 55.339642,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9858415",
+      "osm_type": "relation",
+      "osm_id": 9858415,
+      "name": "الممزر",
+      "name_en": "Al Mamzar",
+      "lat": 25.3136777,
+      "lon": 55.3412668,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "relation/9859101",
+      "osm_type": "relation",
+      "osm_id": 9859101,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1924042,
+      "lon": 55.1610939,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/10573404",
+      "osm_type": "way",
+      "osm_id": 10573404,
+      "name": "Al-Mamzar Park - Sadaf Beach (5)",
+      "name_en": "Al-Mamzar Park - Sadaf Beach (5)",
+      "lat": 25.3186837,
+      "lon": 55.3507063,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1264100526",
+      "osm_type": "way",
+      "osm_id": 1264100526,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2370976,
+      "lon": 55.3295993,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1287038425",
+      "osm_type": "way",
+      "osm_id": 1287038425,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1368698,
+      "lon": 55.1284182,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1348189416",
+      "osm_type": "way",
+      "osm_id": 1348189416,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2174533,
+      "lon": 55.3403282,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1348189419",
+      "osm_type": "way",
+      "osm_id": 1348189419,
+      "name": "",
+      "name_en": null,
+      "lat": 25.209327,
+      "lon": 55.3536521,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1348189425",
+      "osm_type": "way",
+      "osm_id": 1348189425,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1908832,
+      "lon": 55.3593333,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1348189431",
+      "osm_type": "way",
+      "osm_id": 1348189431,
+      "name": "Auto Market",
+      "name_en": null,
+      "lat": 25.1759809,
+      "lon": 55.3697519,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1348269219",
+      "osm_type": "way",
+      "osm_id": 1348269219,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1752849,
+      "lon": 55.4106192,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "metro"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1367603427",
+      "osm_type": "way",
+      "osm_id": 1367603427,
+      "name": "",
+      "name_en": null,
+      "lat": 25.220619,
+      "lon": 55.2306208,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1429712446",
+      "osm_type": "way",
+      "osm_id": 1429712446,
+      "name": "مطار دبي الدولي",
+      "name_en": "Dubai International Airport",
+      "lat": 25.251561,
+      "lon": 55.3702009,
+      "coordinate_method": "osm_bbox_center",
+      "website": "https://www.dubaiairports.ae/",
+      "types": [
+        "dxb"
+      ],
+      "iata": "DXB"
+    },
+    {
+      "id": "way/1429727919",
+      "osm_type": "way",
+      "osm_id": 1429727919,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9102894,
+      "lon": 54.8935819,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1429727922",
+      "osm_type": "way",
+      "osm_id": 1429727922,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9108706,
+      "lon": 54.8924199,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1484836689",
+      "osm_type": "way",
+      "osm_id": 1484836689,
+      "name": "Mandarin Oriental",
+      "name_en": null,
+      "lat": 25.2173771,
+      "lon": 55.2497978,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/1555871419",
+      "osm_type": "way",
+      "osm_id": 1555871419,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0968851,
+      "lon": 55.1373744,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/169322113",
+      "osm_type": "way",
+      "osm_id": 169322113,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1169463,
+      "lon": 55.1427779,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/169337858",
+      "osm_type": "way",
+      "osm_id": 169337858,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1098813,
+      "lon": 55.1363725,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/169345398",
+      "osm_type": "way",
+      "osm_id": 169345398,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1139529,
+      "lon": 55.1437389,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/169356184",
+      "osm_type": "way",
+      "osm_id": 169356184,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1005543,
+      "lon": 55.1259275,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/169357643",
+      "osm_type": "way",
+      "osm_id": 169357643,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1156111,
+      "lon": 55.1124717,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/175192793",
+      "osm_type": "way",
+      "osm_id": 175192793,
+      "name": "مسجد البستكية",
+      "name_en": "Al Bastakiya Mosque",
+      "lat": 25.2648368,
+      "lon": 55.299554,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/199825820",
+      "osm_type": "way",
+      "osm_id": 199825820,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2349817,
+      "lon": 55.3321163,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/199825892",
+      "osm_type": "way",
+      "osm_id": 199825892,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2389335,
+      "lon": 55.3280784,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/200668260",
+      "osm_type": "way",
+      "osm_id": 200668260,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1095212,
+      "lon": 55.1583617,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/200668271",
+      "osm_type": "way",
+      "osm_id": 200668271,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1135351,
+      "lon": 55.1553822,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/200668275",
+      "osm_type": "way",
+      "osm_id": 200668275,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1169665,
+      "lon": 55.1573137,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/200668290",
+      "osm_type": "way",
+      "osm_id": 200668290,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1150656,
+      "lon": 55.156828,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/200668296",
+      "osm_type": "way",
+      "osm_id": 200668296,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1162036,
+      "lon": 55.1558814,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/203031469",
+      "osm_type": "way",
+      "osm_id": 203031469,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1260468,
+      "lon": 55.1754303,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/210558634",
+      "osm_type": "way",
+      "osm_id": 210558634,
+      "name": "Al-Mamzar Park - Danah Beach (3)",
+      "name_en": "Al-Mamzar Park - Danah Beach (3)",
+      "lat": 25.3227099,
+      "lon": 55.3486204,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/214188740",
+      "osm_type": "way",
+      "osm_id": 214188740,
+      "name": "مطار آل مكتوم الدولي",
+      "name_en": "Al Maktoum International Airport",
+      "lat": 24.9092898,
+      "lon": 55.1714328,
+      "coordinate_method": "osm_bbox_center",
+      "website": "https://www.dubaiairports.ae/",
+      "types": [
+        "dwc"
+      ],
+      "iata": "DWC"
+    },
+    {
+      "id": "way/215315472",
+      "osm_type": "way",
+      "osm_id": 215315472,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1077459,
+      "lon": 55.1591464,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/215315494",
+      "osm_type": "way",
+      "osm_id": 215315494,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1039504,
+      "lon": 55.1556956,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/215563781",
+      "osm_type": "way",
+      "osm_id": 215563781,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1205533,
+      "lon": 55.1699568,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/215563782",
+      "osm_type": "way",
+      "osm_id": 215563782,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1217602,
+      "lon": 55.1714147,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/215563783",
+      "osm_type": "way",
+      "osm_id": 215563783,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1308607,
+      "lon": 55.1797904,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/217646391",
+      "osm_type": "way",
+      "osm_id": 217646391,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9938365,
+      "lon": 55.4725662,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/217934213",
+      "osm_type": "way",
+      "osm_id": 217934213,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2344289,
+      "lon": 55.2622154,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/224326346",
+      "osm_type": "way",
+      "osm_id": 224326346,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1454859,
+      "lon": 55.3768101,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/246355080",
+      "osm_type": "way",
+      "osm_id": 246355080,
+      "name": "City Centre Al Shindagha",
+      "name_en": "City Centre Al Shindagha",
+      "lat": 25.2640025,
+      "lon": 55.2870633,
+      "coordinate_method": "osm_bbox_center",
+      "website": "https://www.citycentreshindagha.com/",
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/259908773",
+      "osm_type": "way",
+      "osm_id": 259908773,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0235873,
+      "lon": 54.9924016,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/320162564",
+      "osm_type": "way",
+      "osm_id": 320162564,
+      "name": "شاطئ مرسى دبي",
+      "name_en": "Marina Beach Dubai",
+      "lat": 25.0807835,
+      "lon": 55.1320971,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/337780860",
+      "osm_type": "way",
+      "osm_id": 337780860,
+      "name": "شاطئ الصفوح",
+      "name_en": "Al Sufouh",
+      "lat": 25.1173341,
+      "lon": 55.1671394,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360052304",
+      "osm_type": "way",
+      "osm_id": 360052304,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0433503,
+      "lon": 55.0969908,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360052320",
+      "osm_type": "way",
+      "osm_id": 360052320,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0527461,
+      "lon": 55.1058953,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360052324",
+      "osm_type": "way",
+      "osm_id": 360052324,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0550639,
+      "lon": 55.1087863,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360052327",
+      "osm_type": "way",
+      "osm_id": 360052327,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0575172,
+      "lon": 55.1109661,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360055711",
+      "osm_type": "way",
+      "osm_id": 360055711,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0608455,
+      "lon": 55.1139366,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360055714",
+      "osm_type": "way",
+      "osm_id": 360055714,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0632003,
+      "lon": 55.1154792,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360055718",
+      "osm_type": "way",
+      "osm_id": 360055718,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0700809,
+      "lon": 55.1229963,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360055719",
+      "osm_type": "way",
+      "osm_id": 360055719,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0678452,
+      "lon": 55.1204634,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360058461",
+      "osm_type": "way",
+      "osm_id": 360058461,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0653645,
+      "lon": 55.118184,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/360064766",
+      "osm_type": "way",
+      "osm_id": 360064766,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0479073,
+      "lon": 55.101134,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/446646206",
+      "osm_type": "way",
+      "osm_id": 446646206,
+      "name": "برج خليفة",
+      "name_en": "Burj Khalifa",
+      "lat": 25.1970352,
+      "lon": 55.2742132,
+      "coordinate_method": "osm_bbox_center",
+      "website": "https://www.burjkhalifa.ae/",
+      "types": [
+        "burj_khalifa"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/486200767",
+      "osm_type": "way",
+      "osm_id": 486200767,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1388817,
+      "lon": 55.1338039,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/488091459",
+      "osm_type": "way",
+      "osm_id": 488091459,
+      "name": "Al Fahidi Stationery Centre",
+      "name_en": "Al Fahidi Stationery Centre",
+      "lat": 25.1145177,
+      "lon": 55.2305395,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/490548860",
+      "osm_type": "way",
+      "osm_id": 490548860,
+      "name": "دبي مارينا",
+      "name_en": "Dubai Marina",
+      "lat": 25.0756653,
+      "lon": 55.1380598,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "dubai_marina"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/500669591",
+      "osm_type": "way",
+      "osm_id": 500669591,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9867565,
+      "lon": 55.0194874,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/500669596",
+      "osm_type": "way",
+      "osm_id": 500669596,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9902,
+      "lon": 55.0279708,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509437906",
+      "osm_type": "way",
+      "osm_id": 509437906,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2437405,
+      "lon": 55.2662636,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577639",
+      "osm_type": "way",
+      "osm_id": 509577639,
+      "name": "Nikki Beach",
+      "name_en": null,
+      "lat": 25.2475089,
+      "lon": 55.2555365,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577640",
+      "osm_type": "way",
+      "osm_id": 509577640,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2414508,
+      "lon": 55.2624856,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577641",
+      "osm_type": "way",
+      "osm_id": 509577641,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2398426,
+      "lon": 55.2658183,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577645",
+      "osm_type": "way",
+      "osm_id": 509577645,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2387106,
+      "lon": 55.2651766,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577646",
+      "osm_type": "way",
+      "osm_id": 509577646,
+      "name": "",
+      "name_en": null,
+      "lat": 25.229567,
+      "lon": 55.2483426,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577647",
+      "osm_type": "way",
+      "osm_id": 509577647,
+      "name": "",
+      "name_en": null,
+      "lat": 25.224752,
+      "lon": 55.2505088,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577648",
+      "osm_type": "way",
+      "osm_id": 509577648,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2239677,
+      "lon": 55.2518699,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577649",
+      "osm_type": "way",
+      "osm_id": 509577649,
+      "name": "La Mer Beach",
+      "name_en": "La Mer Beach",
+      "lat": 25.2316946,
+      "lon": 55.2586812,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577650",
+      "osm_type": "way",
+      "osm_id": 509577650,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2119399,
+      "lon": 55.2357952,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577651",
+      "osm_type": "way",
+      "osm_id": 509577651,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2120156,
+      "lon": 55.2390218,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577653",
+      "osm_type": "way",
+      "osm_id": 509577653,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2035604,
+      "lon": 55.2381626,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509577656",
+      "osm_type": "way",
+      "osm_id": 509577656,
+      "name": "La Mer",
+      "name_en": null,
+      "lat": 25.2271428,
+      "lon": 55.2557496,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/509583821",
+      "osm_type": "way",
+      "osm_id": 509583821,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2407633,
+      "lon": 55.2662984,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/517913688",
+      "osm_type": "way",
+      "osm_id": 517913688,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2101979,
+      "lon": 55.2429708,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/525404347",
+      "osm_type": "way",
+      "osm_id": 525404347,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0818783,
+      "lon": 55.1199266,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532165343",
+      "osm_type": "way",
+      "osm_id": 532165343,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9113173,
+      "lon": 54.8923902,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532165345",
+      "osm_type": "way",
+      "osm_id": 532165345,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9112072,
+      "lon": 54.8912104,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532165353",
+      "osm_type": "way",
+      "osm_id": 532165353,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9104034,
+      "lon": 54.8953964,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532165360",
+      "osm_type": "way",
+      "osm_id": 532165360,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9117784,
+      "lon": 54.8993981,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532676046",
+      "osm_type": "way",
+      "osm_id": 532676046,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0271263,
+      "lon": 55.0805282,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532678086",
+      "osm_type": "way",
+      "osm_id": 532678086,
+      "name": "",
+      "name_en": null,
+      "lat": 25.023896,
+      "lon": 55.0758296,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532776533",
+      "osm_type": "way",
+      "osm_id": 532776533,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0301874,
+      "lon": 55.0840451,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532776536",
+      "osm_type": "way",
+      "osm_id": 532776536,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0332391,
+      "lon": 55.0875519,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532782490",
+      "osm_type": "way",
+      "osm_id": 532782490,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0446024,
+      "lon": 55.0981836,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/532788520",
+      "osm_type": "way",
+      "osm_id": 532788520,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0511913,
+      "lon": 55.103636,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/542042595",
+      "osm_type": "way",
+      "osm_id": 542042595,
+      "name": "حي الفهيدي التاريخي",
+      "name_en": "Al Fahidi Historical Neighbourhood",
+      "lat": 25.264182,
+      "lon": 55.3002047,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "old_dubai"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/544339717",
+      "osm_type": "way",
+      "osm_id": 544339717,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2302512,
+      "lon": 55.3457268,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/551996664",
+      "osm_type": "way",
+      "osm_id": 551996664,
+      "name": "",
+      "name_en": null,
+      "lat": 25.217031,
+      "lon": 55.2310025,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/570496096",
+      "osm_type": "way",
+      "osm_id": 570496096,
+      "name": "",
+      "name_en": null,
+      "lat": 25.127186,
+      "lon": 55.1248997,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/570496097",
+      "osm_type": "way",
+      "osm_id": 570496097,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1241716,
+      "lon": 55.1216965,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/660798343",
+      "osm_type": "way",
+      "osm_id": 660798343,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2258783,
+      "lon": 55.1691151,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/660798344",
+      "osm_type": "way",
+      "osm_id": 660798344,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2258002,
+      "lon": 55.1696412,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/660803664",
+      "osm_type": "way",
+      "osm_id": 660803664,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1057054,
+      "lon": 55.1578799,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/660803670",
+      "osm_type": "way",
+      "osm_id": 660803670,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1057618,
+      "lon": 55.156673,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/660898590",
+      "osm_type": "way",
+      "osm_id": 660898590,
+      "name": "Pearl Jumeirah Public Beach",
+      "name_en": null,
+      "lat": 25.2456289,
+      "lon": 55.2539425,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/664641017",
+      "osm_type": "way",
+      "osm_id": 664641017,
+      "name": "",
+      "name_en": null,
+      "lat": 24.9840041,
+      "lon": 55.0137508,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/679125083",
+      "osm_type": "way",
+      "osm_id": 679125083,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1951129,
+      "lon": 55.3222395,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/682854626",
+      "osm_type": "way",
+      "osm_id": 682854626,
+      "name": "DOSC private beach",
+      "name_en": null,
+      "lat": 25.1754933,
+      "lon": 55.2168135,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87182924",
+      "osm_type": "way",
+      "osm_id": 87182924,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1214548,
+      "lon": 55.1410312,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87183162",
+      "osm_type": "way",
+      "osm_id": 87183162,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1106245,
+      "lon": 55.1311159,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87183867",
+      "osm_type": "way",
+      "osm_id": 87183867,
+      "name": "",
+      "name_en": null,
+      "lat": 25.126033,
+      "lon": 55.1387377,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87184075",
+      "osm_type": "way",
+      "osm_id": 87184075,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1175983,
+      "lon": 55.1218459,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87184436",
+      "osm_type": "way",
+      "osm_id": 87184436,
+      "name": "",
+      "name_en": null,
+      "lat": 25.110935,
+      "lon": 55.1283964,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87184834",
+      "osm_type": "way",
+      "osm_id": 87184834,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1285124,
+      "lon": 55.1317247,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87185359",
+      "osm_type": "way",
+      "osm_id": 87185359,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1108281,
+      "lon": 55.1333578,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87185591",
+      "osm_type": "way",
+      "osm_id": 87185591,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1239076,
+      "lon": 55.140097,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87185637",
+      "osm_type": "way",
+      "osm_id": 87185637,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1118537,
+      "lon": 55.1256574,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87185975",
+      "osm_type": "way",
+      "osm_id": 87185975,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1213682,
+      "lon": 55.1217757,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87186436",
+      "osm_type": "way",
+      "osm_id": 87186436,
+      "name": "",
+      "name_en": null,
+      "lat": 25.128036,
+      "lon": 55.1354474,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87186647",
+      "osm_type": "way",
+      "osm_id": 87186647,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1143175,
+      "lon": 55.1229208,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87186668",
+      "osm_type": "way",
+      "osm_id": 87186668,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1191111,
+      "lon": 55.1413284,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87287172",
+      "osm_type": "way",
+      "osm_id": 87287172,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2014457,
+      "lon": 55.2369584,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/87287187",
+      "osm_type": "way",
+      "osm_id": 87287187,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1369814,
+      "lon": 55.1851311,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/89560399",
+      "osm_type": "way",
+      "osm_id": 89560399,
+      "name": "شاطئ جميرا المفتوح",
+      "name_en": "Mercato Beach",
+      "lat": 25.2170251,
+      "lon": 55.2493548,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/89562340",
+      "osm_type": "way",
+      "osm_id": 89562340,
+      "name": "",
+      "name_en": null,
+      "lat": 25.2069597,
+      "lon": 55.241524,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/89654734",
+      "osm_type": "way",
+      "osm_id": 89654734,
+      "name": "شاطئ الجميرة",
+      "name_en": "Jumeirah Beach",
+      "lat": 25.1847978,
+      "lon": 55.2241746,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/89658654",
+      "osm_type": "way",
+      "osm_id": 89658654,
+      "name": "كايت بيتش",
+      "name_en": "Kite Beach",
+      "lat": 25.1629944,
+      "lon": 55.2063507,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/89659245",
+      "osm_type": "way",
+      "osm_id": 89659245,
+      "name": "الشاطئ المفتوح",
+      "name_en": "Jumeirah Public Beach",
+      "lat": 25.1482054,
+      "lon": 55.1942791,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/919778000",
+      "osm_type": "way",
+      "osm_id": 919778000,
+      "name": "مدينة اكسبو دبي",
+      "name_en": "Expo City Dubai",
+      "lat": 24.9634264,
+      "lon": 55.1462083,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "expo_city"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94404632",
+      "osm_type": "way",
+      "osm_id": 94404632,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1332343,
+      "lon": 55.1202539,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94404635",
+      "osm_type": "way",
+      "osm_id": 94404635,
+      "name": "Lagoons Beach",
+      "name_en": "Lagoons Beach",
+      "lat": 25.1332801,
+      "lon": 55.1194998,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94404694",
+      "osm_type": "way",
+      "osm_id": 94404694,
+      "name": "Rapids Beach",
+      "name_en": "Rapids Beach",
+      "lat": 25.1348563,
+      "lon": 55.1216663,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94405226",
+      "osm_type": "way",
+      "osm_id": 94405226,
+      "name": "شاطئ أكوافنتشر",
+      "name_en": "Aquaventure Beach",
+      "lat": 25.1336073,
+      "lon": 55.1227856,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94406814",
+      "osm_type": "way",
+      "osm_id": 94406814,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1357294,
+      "lon": 55.1225207,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94406815",
+      "osm_type": "way",
+      "osm_id": 94406815,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1360972,
+      "lon": 55.1236643,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94406816",
+      "osm_type": "way",
+      "osm_id": 94406816,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1356852,
+      "lon": 55.1232144,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/94408337",
+      "osm_type": "way",
+      "osm_id": 94408337,
+      "name": "Nasimi Beach",
+      "name_en": "Nasimi Beach",
+      "lat": 25.1295623,
+      "lon": 55.1179588,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/95773973",
+      "osm_type": "way",
+      "osm_id": 95773973,
+      "name": "",
+      "name_en": null,
+      "lat": 25.1129822,
+      "lon": 55.163696,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    },
+    {
+      "id": "way/95774236",
+      "osm_type": "way",
+      "osm_id": 95774236,
+      "name": "",
+      "name_en": null,
+      "lat": 25.0969942,
+      "lon": 55.1476478,
+      "coordinate_method": "osm_bbox_center",
+      "website": null,
+      "types": [
+        "beach"
+      ],
+      "iata": null
+    }
+  ]
+}

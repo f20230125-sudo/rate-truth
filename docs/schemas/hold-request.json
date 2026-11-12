@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "rate_id": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Rate Id",
+      "type": "string"
+    },
+    "hold_token": {
+      "maxLength": 4096,
+      "minLength": 32,
+      "title": "Hold Token",
+      "type": "string"
+    },
+    "confirm": {
+      "const": true,
+      "title": "Confirm",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "rate_id",
+    "hold_token",
+    "confirm"
+  ],
+  "title": "HoldBody",
+  "type": "object"
+}

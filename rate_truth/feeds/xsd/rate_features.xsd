@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="common_types.xsd" />
+  <xs:complexType name="mealsType">
+    <xs:sequence>
+      <xs:element name="Breakfast" type="mealType" minOccurs="0" />
+      <xs:element name="Dinner" type="mealType" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mealType">
+    <xs:attribute name="included" type="xs:boolean" use="required" />
+    <xs:attribute name="in_room" type="xs:boolean" />
+    <xs:attribute name="in_private_space" type="xs:boolean" />
+    <xs:attribute name="buffet" type="xs:boolean" />
+  </xs:complexType>
+  <xs:simpleType name="breakfastType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="" />
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1" />
+      <xs:enumeration value="true" />
+      <xs:enumeration value="false" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="parkingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="" />
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1" />
+      <xs:enumeration value="true" />
+      <xs:enumeration value="false" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="internetType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="" />
+      <xs:enumeration value="0" />
+      <xs:enumeration value="1" />
+      <xs:enumeration value="true" />
+      <xs:enumeration value="false" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="campaignIdType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z0-9_\-.]{1,50}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="onPropertyCreditType">
+    <xs:sequence>
+      <xs:element name="Amount" type="priceCurrencyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="earlyCheckinType" />
+  <xs:complexType name="lateCheckoutType" />
+  <xs:complexType name="roomUpgradeType">
+    <xs:sequence>
+      <xs:element name="UpgradedRoomPrice" type="priceCurrencyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="membershipBenefitsType">
+    <xs:sequence>
+      <xs:element name="ProgramName" type="localizedText" />
+      <xs:element name="ProgramLevel" type="localizedText" />
+      <xs:element name="NightlyValue" type="priceCurrencyType" minOccurs="0" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="carRentalType" />
+  <xs:complexType name="milesType">
+    <xs:sequence>
+      <xs:element name="NumberOfMiles" type="xs:integer" />
+      <xs:element name="Provider" type="localizedText" />
+      <xs:element name="LoyaltyCampaignID" type="campaignIdType" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

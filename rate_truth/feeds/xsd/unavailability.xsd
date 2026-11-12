@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="unavailabilityType">
+    <xs:sequence minOccurs="0">
+      <xs:element name="NoVacancy" />
+      <xs:element name="MinNightStay">
+        <xs:complexType>
+          <xs:attribute name="value" type="xs:integer"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="MaxNightStay">
+        <xs:complexType>
+          <xs:attribute name="value" type="xs:integer"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="MinAdvancePurchase">
+        <xs:complexType>
+          <xs:attribute name="value" type="xs:integer"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="MaxAdvancePurchase">
+        <xs:complexType>
+          <xs:attribute name="value" type="xs:integer"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="ClosedToArrival" />
+      <xs:element name="ClosedToDeparture" />
+      <xs:element name="PropertyClosed">
+        <xs:complexType>
+          <xs:attribute name="first_open" type="xs:date"/>
+          <xs:attribute name="first_closed" type="xs:date"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="InternalError">
+        <xs:complexType>
+          <xs:attribute name="reason" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="NotFetched" />
+      <xs:element name="InvalidProperty" />
+      <xs:element name="InvalidOccupancy" />
+      <xs:element name="PriceIssue" />
+      <xs:element name="OtherRestriction">
+        <xs:complexType>
+          <xs:attribute name="restriction" type="xs:string"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

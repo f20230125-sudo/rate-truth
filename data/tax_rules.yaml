@@ -1,0 +1,165 @@
+# Research cut-off, not an assertion that future law cannot change.
+schema_version: 1
+as_of: '2026-11-11'
+currency: AED
+model_period:
+  effective_from: '2025-01-01'
+  effective_to: '2028-12-31'
+  note: Synthetic model coverage, not the legal commencement/expiry of these charges.
+rounding: ROUND_HALF_UP per charge per room-night to AED 0.01; add rounded amounts.
+
+# YAML merges copy source/accessed/confidence into every individual value below.
+evidence:
+  service: &service
+    source: https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/
+    accessed: '2026-11-11'
+    confidence: secondary
+    note: Hotel-published terms confirm 10%; no government mandate or itemised bill found. Model assumption across properties.
+  municipality: &municipality
+    source: https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html
+    accessed: '2026-11-11'
+    confidence: official
+    note: Article 1(b) confirms 7%; Article 1(d) delegates implementation periods. Hotel terms corroborate the baseline.
+  vat: &vat
+    source: https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf
+    accessed: '2026-11-11'
+    confidence: official
+    note: VATG001 standard rate and section 5.5; compulsory service charges follow the principal supply.
+  td: &td
+    source: https://dlp.dubai.gov.ae/Legislation%20Reference/2014/Executive%20Council%20Resolution%20No.%20(2)%20of%202014.pdf
+    accessed: '2026-11-11'
+    confidence: official
+    note: Schedule 1. Category is the licensed classification, which OSM does not certify.
+  relief: &relief
+    source: https://dlp.dubai.gov.ae/Legislation%20Ar%20Reference/2026/قرار%20المجلس%20التنفيذي%20رقم%20(40)%20لسنة%202026%20باعتماد%20التسهيلات%20للقطاع%20الاقتصادي%20والاجتماعي.html
+    accessed: '2026-11-11'
+    confidence: official
+
+rules:
+  - <<: *service
+    id: service_charge_10_model_v1
+    kind: service_charge
+    effective_from: '2025-01-01'
+    effective_to: null
+    rate: '0.10'
+    base_components: [base]
+    base: Discounted room accommodation and breakfast price before fees.
+    base_source: https://www.ibisonecentral-dubai-world-trade-centre.com/offers/e-and-l-deal/
+    base_accessed: '2026-11-11'
+    base_confidence: secondary
+    base_note: Terms do not explicitly resolve all compounding; this base is a synthetic supplier convention.
+  - <<: *municipality
+    id: municipality_7_model_v1
+    kind: municipality
+    effective_from: '2025-01-01'
+    effective_to: null
+    rate: '0.07'
+    base_components: [base]
+    base: Discounted room accommodation and breakfast price, excluding service charge, VAT and Tourism Dirham.
+    base_source: https://dlp.dubai.gov.ae/Legislation%20Reference/2019/Decree%20No.%20(27)%20of%202019%20Concerning%20Reduction%20of%20and%20Exemption%20from%20Fees%20and%20Fines%20in%20the%20Emirate%20of%20Dubai.html
+    base_accessed: '2026-11-11'
+    base_confidence: secondary
+    base_note: Official rate found; precise service-charge inclusion in sales base not confirmed. Model convention, not verified billing advice.
+  - <<: *vat
+    id: vat_5_service_included_model_v1
+    kind: vat
+    effective_from: '2025-01-01'
+    effective_to: null
+    rate: '0.05'
+    base_components: [base, service_charge]
+    base: Discounted accommodation and breakfast plus rounded service charge; municipality and Tourism Dirham excluded.
+    base_source: https://tax.gov.ae/DataFolder/Files/Pdf/Taxable-Person-Guide-June-2018.pdf
+    base_accessed: '2026-11-11'
+    base_confidence: secondary
+    base_note: Service inclusion is official (5.5). Hotel-specific exclusion of municipality and Tourism Dirham is unconfirmed; use as an explicit synthetic assumption. FTA VATP013 is conditional, not a hotel-specific ruling.
+    supporting_source: https://tax.gov.ae/DataFolder/Files/Pdf/VATP013%20-%20Disbursements%20and%20Reimbursements.pdf
+    supporting_accessed: '2026-11-11'
+    supporting_confidence: official
+  - <<: *td
+    id: tourism_dirham_schedule_2014
+    kind: tourism_dirham
+    effective_from: '2014-03-31'
+    effective_to: null
+    base_components: []
+    base: One occupied bedroom-night, not guests; maximum first 30 consecutive nights.
+    base_source: https://www.dubaidet.gov.ae/en/legislative-news/executive-council-resolution-no10-of-2014
+    base_accessed: '2026-11-11'
+    base_confidence: official
+    calculation_source: https://dlp.dubai.gov.ae/Legislation%20Reference/2020/Administrative%20Resolution%20No.%20(2)%20of%202020%20Prescribing%20the%20Rules%20for%20Calculating,%20Collecting,%20and%20Paying%20the%20Tourism%20Dirham%20Fee%20in%20the%20Emirate%20of%20Dubai.html
+    calculation_accessed: '2026-11-11'
+    calculation_confidence: official
+    max_consecutive_nights: 30
+    hotel_categories:
+      '1': {<<: *td, category: One-star or budget hotel, amount: '7.00'}
+      '2': {<<: *td, category: Two-star hotel, amount: '10.00'}
+      '3': {<<: *td, category: Three-star hotel or resort, amount: '10.00'}
+      '4': {<<: *td, category: Four-star hotel or resort, amount: '15.00'}
+      '5': {<<: *td, category: Five-star or higher hotel or resort, amount: '20.00'}
+    other_categories:
+      luxury_hotel_apartment: {<<: *td, amount: '20.00'}
+      deluxe_hotel_apartment: {<<: *td, amount: '15.00'}
+      standard_hotel_apartment: {<<: *td, amount: '10.00'}
+      guest_house: {<<: *td, amount: '7.00'}
+      luxury_holiday_home: {<<: *td, amount: '15.00'}
+      standard_holiday_home: {<<: *td, amount: '10.00'}
+    category_note: M1 prices tourism=hotel only. Unknown or invalid OSM stars use the disclosed estimate, not a claim of official classification. Other accommodation categories are research only.
+
+relief:
+  - id: resolution_68_2025_new_hotel_refund
+    source: https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Executive%20Council%20Resolution%20No.%20(68)%20of%202025%20Financial%20Support%20Initiative%20for%20Hotel%20Establishments.pdf
+    accessed: '2026-11-11'
+    confidence: official
+    effective_from: '2025-09-15'
+    effective_to: null
+    affects: [municipality, tourism_dirham]
+    effect: Refund of 100% of collected municipality room-sales fee and Tourism Dirham to eligible newly licensed establishments in designated areas, normally for two years subject to conditions and extension.
+    designated_areas: [Dubai South, Palm Jebel Ali, Dubai Parks and Resorts, Dubai Islands]
+    traveller_charge_effect: Article 5(3) requires collection from guests and remittance; no guest discount.
+    engine_active: false
+    note: Research only; OSM cannot establish licensing date, application approval or official area boundaries.
+  - id: april_2026_announced_deferral
+    source: https://www.mediaoffice.ae/en/news/2026/april/02-04/dubai-economic-measures-boost-hospitality-and-business-growth
+    accessed: '2026-11-11'
+    confidence: official
+    effective_from: '2026-04-01'
+    effective_to: '2026-06-30'
+    end_date_basis: Three months from 1 April; inclusive calendar end inferred.
+    affects: [municipality, tourism_dirham]
+    effect: Initially announced postponement of 100% of hotel room/F&B sales fees and Tourism Dirham payments; hotels, hotel apartments and holiday homes.
+    traveller_charge_effect: No guest waiver established by this announcement.
+    status_as_of: ended; later Resolution 40 supplies operative remittance exemption windows.
+    engine_active: false
+  - <<: *relief
+    id: resolution_40_2026_initial_remittance_exemption
+    effective_from: '2026-04-01'
+    effective_to: '2026-06-30'
+    affects: [municipality, tourism_dirham]
+    effect: Schedule rows 2(1) and 3(1) exempt remittance of 100% of collected proceeds. Row 3 includes hotel and external restaurants.
+    traveller_charge_effect: Collected guest charges retained in this model; remittance relief is not a guest-charge suspension.
+    status_as_of: expired; no extension beyond the later phase found as of 2026-11-11.
+    engine_active: true
+  - <<: *relief
+    id: resolution_40_2026_extended_remittance_exemption
+    effective_from: '2026-07-01'
+    effective_to: '2026-09-30'
+    affects: [municipality, tourism_dirham]
+    excludes_coastal: true
+    effect: Schedule rows 2(2) and 3(2) extend relief excluding coastal hotel establishments; row 3 also excludes their restaurants and all nightclubs.
+    traveller_charge_effect: Unchanged. Unknown coastal eligibility is reported as unknown, never invented from OSM.
+    status_as_of: expired; no further official extension found as of 2026-11-11. Service charge and federal VAT were not suspended by these rows.
+    engine_active: true
+  - <<: *relief
+    id: resolution_40_2026_holiday_home_permits
+    effective_from: '2026-05-01'
+    effective_to: '2027-04-30'
+    affects: []
+    effect: Schedule row 8 exempts holiday-home permit fees; this is not a room-night charge.
+    status_as_of: Within published window on 2026-11-11. Not applied to hotel quotes.
+    engine_active: false
+
+research_limits:
+  - Official resolution 40 Arabic text was reached via web research; Arabic controls. English descriptions here are our reading.
+  - No official extension of hotel remittance relief after 30 September was found. This is a bounded research result, not proof that no unindexed circular exists.
+  - DET advisory search index was accessible but opening the advisory returned navigation only; not used to establish operative dates.
+  - No government source or hotel-published itemised bill confirming the complete percentage compounding was reached. All uncertain bases are secondary.
+  - Future dates repeat the documented baseline as a synthetic model assumption, with no guarantee of future law.

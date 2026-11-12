@@ -1,0 +1,75 @@
+{
+  "provenance": "Reviewer-preloaded published schemas; fetch timestamp supplied by reviewer. Adopted offline; source URLs follow Google schema catalog. No network fetch performed in this session. xml.xsd imports rewritten locally.",
+  "files": [
+    {
+      "filename": "common_types.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/common_types.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "b8e5e694dca4946064ebfd55568af87795e529f3d2d8af9bd80f88f158c04198",
+      "local_sha256": "b8e5e694dca4946064ebfd55568af87795e529f3d2d8af9bd80f88f158c04198"
+    },
+    {
+      "filename": "local_feed.xsd",
+      "url": "https://www.gstatic.com/localfeed/local_feed.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "011e8baa5711be3f5d55f35b2edcc998a1719091542be8e0d9c3d4aea70556d7",
+      "local_sha256": "c49964ab4e44c8d4f848e6b9fa9946bb32a9e964c1446cace6486f6928a69ea0"
+    },
+    {
+      "filename": "query.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/query.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "884a977e2cd928641527fb48e70381cb5915ac704b59f0bccb50d79d1983e013",
+      "local_sha256": "884a977e2cd928641527fb48e70381cb5915ac704b59f0bccb50d79d1983e013"
+    },
+    {
+      "filename": "rate_features.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/rate_features.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "e18e14bf3558793ab7e36fe042f640202a1b33695b89c847032c2b5c92cd987a",
+      "local_sha256": "e18e14bf3558793ab7e36fe042f640202a1b33695b89c847032c2b5c92cd987a"
+    },
+    {
+      "filename": "rate_types.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/rate_types.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "0ed778c53668e1e4fd2fee2e9b312969d388b34aefc8cf7defc425e77e7e8041",
+      "local_sha256": "0ed778c53668e1e4fd2fee2e9b312969d388b34aefc8cf7defc425e77e7e8041"
+    },
+    {
+      "filename": "room_features.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/room_features.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "2d4bb6e0498d2455c676a381710d9d20118eb47b6cbc4a34833246605de7f6b5",
+      "local_sha256": "2d4bb6e0498d2455c676a381710d9d20118eb47b6cbc4a34833246605de7f6b5"
+    },
+    {
+      "filename": "transaction.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/transaction.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "f9601e9c67cd9af469d74b422756d693a6976fc8508baeba97edc4f54c866ae8",
+      "local_sha256": "f9601e9c67cd9af469d74b422756d693a6976fc8508baeba97edc4f54c866ae8"
+    },
+    {
+      "filename": "transaction_property_data.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/transaction_property_data.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "108c213427647a469a4730e5ebcbd0c0ba958c7cf44f26c88a1e629b5541a681",
+      "local_sha256": "108c213427647a469a4730e5ebcbd0c0ba958c7cf44f26c88a1e629b5541a681"
+    },
+    {
+      "filename": "unavailability.xsd",
+      "url": "https://www.gstatic.com/ads-travel/hotels/api/unavailability.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "ec6de5e0f77c071f9030059c20ad7c618abc93647787a1bec8b38a80b053378f",
+      "local_sha256": "ec6de5e0f77c071f9030059c20ad7c618abc93647787a1bec8b38a80b053378f"
+    },
+    {
+      "filename": "xml.xsd",
+      "url": "https://www.w3.org/2001/03/xml.xsd",
+      "fetched_at": "2026-11-11T10:59:34Z",
+      "provided_sha256": "0ed94db44402526e7a683424d0bd4b65e5bc50e65d9b9a762b11b30bae06d0c8",
+      "local_sha256": "0ed94db44402526e7a683424d0bd4b65e5bc50e65d9b9a762b11b30bae06d0c8"
+    }
+  ]
+}

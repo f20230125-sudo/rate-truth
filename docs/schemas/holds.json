@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "Folio": {
+      "properties": {
+        "rate_id": {
+          "title": "Rate Id",
+          "type": "string"
+        },
+        "computed_at": {
+          "format": "date-time",
+          "title": "Computed At",
+          "type": "string"
+        },
+        "hotel_id": {
+          "title": "Hotel Id",
+          "type": "string"
+        },
+        "hotel_name": {
+          "title": "Hotel Name",
+          "type": "string"
+        },
+        "checkin": {
+          "format": "date",
+          "title": "Checkin",
+          "type": "string"
+        },
+        "nights": {
+          "maximum": 30,
+          "minimum": 1,
+          "title": "Nights",
+          "type": "integer"
+        },
+        "guests": {
+          "maximum": 8,
+          "minimum": 1,
+          "title": "Guests",
+          "type": "integer"
+        },
+        "room": {
+          "title": "Room",
+          "type": "string"
+        },
+        "plan": {
+          "title": "Plan",
+          "type": "string"
+        },
+        "refundable": {
+          "title": "Refundable",
+          "type": "boolean"
+        },
+        "breakfast": {
+          "title": "Breakfast",
+          "type": "boolean"
+        },
+        "lines": {
+          "items": {
+            "$ref": "#/$defs/Line"
+          },
+          "title": "Lines",
+          "type": "array"
+        },
+        "total": {
+          "pattern": "^-?\\d+\\.\\d{2}$",
+          "title": "Total",
+          "type": "string"
+        },
+        "currency": {
+          "const": "AED",
+          "title": "Currency",
+          "type": "string"
+        },
+        "tax_rules_as_of": {
+          "format": "date",
+          "title": "Tax Rules As Of",
+          "type": "string"
+        },
+        "synthetic": {
+          "const": true,
+          "title": "Synthetic",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "rate_id",
+        "computed_at",
+        "hotel_id",
+        "hotel_name",
+        "checkin",
+        "nights",
+        "guests",
+        "room",
+        "plan",
+        "refundable",
+        "breakfast",
+        "lines",
+        "total",
+        "currency",
+        "tax_rules_as_of",
+        "synthetic"
+      ],
+      "title": "Folio",
+      "type": "object"
+    },
+    "Line": {
+      "properties": {
+        "label": {
+          "title": "Label",
+          "type": "string"
+        },
+        "amount": {
+          "pattern": "^-?\\d+\\.\\d{2}$",
+          "title": "Amount",
+          "type": "string"
+        },
+        "rule_id": {
+          "title": "Rule Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "base",
+            "tax",
+            "fee",
+            "discount"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "basis": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Basis"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        },
+        "confidence": {
+          "anyOf": [
+            {
+              "enum": [
+                "official",
+                "secondary",
+                "uncertain"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confidence"
+        }
+      },
+      "required": [
+        "label",
+        "amount",
+        "rule_id",
+        "kind"
+      ],
+      "title": "Line",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "folio": {
+      "$ref": "#/$defs/Folio"
+    },
+    "hold_id": {
+      "title": "Hold Id",
+      "type": "string"
+    },
+    "expires_at": {
+      "format": "date-time",
+      "title": "Expires At",
+      "type": "string"
+    },
+    "mock": {
+      "const": true,
+      "title": "Mock",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "folio",
+    "hold_id",
+    "expires_at",
+    "mock"
+  ],
+  "title": "Hold",
+  "type": "object"
+}

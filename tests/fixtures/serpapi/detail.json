@@ -1,0 +1,9 @@
+{
+  "name": "Example Marina Hotel",
+  "gps_coordinates": {"latitude": 25.2, "longitude": 55.28},
+  "total_rate": {"extracted_lowest": 1020, "extracted_before_taxes_fees": 800,
+                 "extracted_after_taxes_fees": 1020},
+  "property_token": "FIXTURE_PROPERTY_TOKEN",
+  "prices": [],
+  "extracted_hotel_class": 5
+}

@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "rate_limited",
+    "message": "The request limit was reached.",
+    "retry_after_s": 42
+  }
+}
